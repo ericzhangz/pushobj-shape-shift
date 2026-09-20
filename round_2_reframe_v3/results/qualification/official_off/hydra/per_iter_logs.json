@@ -1,0 +1,2 @@
+{"sample_idx": 0, "step": 1, "success": false, "t_plan_s": 3.950139599999999, "t_adajepa_s": 0.12111420000000095, "adajepa/pred_loss": 0.006578671745955944}
+{"sample_idx": 0, "step": 2, "success": false, "t_plan_s": 3.616814100000001, "t_adajepa_s": 0.07542429999999989, "adajepa/pred_loss": 0.006151755806058645}

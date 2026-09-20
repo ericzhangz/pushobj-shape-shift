@@ -1,0 +1,25 @@
+{
+  "anchors": [
+    2,
+    4
+  ],
+  "checkpoint_dir": "checkpoints\\pushobj_shape_shift",
+  "donors": [
+    [
+      "val_T",
+      "artifacts\\development\\val_T_frozen_n3"
+    ],
+    [
+      "val_L",
+      "artifacts\\development\\val_L_frozen_n3"
+    ]
+  ],
+  "encoder_lr": 1e-05,
+  "epsilon": 1e-06,
+  "frameskip": 5,
+  "include_full_adaptation": true,
+  "model_action_dim": 10,
+  "model_action_horizon": 5,
+  "predictor_lr": 0.0005,
+  "seed": 260920
+}

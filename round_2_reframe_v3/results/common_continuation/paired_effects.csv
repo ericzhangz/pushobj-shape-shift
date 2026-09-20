@@ -1,0 +1,13 @@
+anchor_id,split,shape,sample_id,mpc_iter,before_candidate_id,after_candidate_id,same_physical_intervention,comparison,before_label,after_label,delta_first_chunk_state_dist,delta_first_chunk_reference_terminal_cost,delta_final_state_dist,delta_final_reference_terminal_cost,delta_final_success
+val_L|L|s0|m4,val_L,L,0,4,g99_after,g74_before,False,adapted_minus_frozen,frozen,adapted,-0.5091781616210938,-0.005625203251838684,0.8627243041992188,0.0008296770974993706,0
+val_L|L|s0|m4,val_L,L,0,4,g99_after,g24_before,False,oracle_minus_frozen,frozen,oracle,-1.7292938232421875,-0.005407162010669708,0.9596099853515625,0.0006145434454083443,0
+val_L|L|s1|m4,val_L,L,1,4,g99_after,g99_before,False,adapted_minus_frozen,frozen,adapted,-8.392333984375e-05,-1.1920928955078125e-07,-3.814697265625e-05,-2.2351741790771484e-08,0
+val_L|L|s1|m4,val_L,L,1,4,g99_after,g24_after,False,oracle_minus_frozen,frozen,oracle,-5.194877624511719,-0.023133069276809692,-8.470314025878906,-0.0023525990545749664,0
+val_L|L|s2|m4,val_L,L,2,4,g99_after,g99_before,False,adapted_minus_frozen,frozen,adapted,-2.288818359375e-05,-2.9802322387695312e-08,7.62939453125e-06,-7.450580596923828e-09,0
+val_L|L|s2|m4,val_L,L,2,4,g99_after,g24_after,False,oracle_minus_frozen,frozen,oracle,-4.106178283691406,-0.005758076906204224,12.983013153076172,0.0009596161544322968,0
+val_T|T|s0|m4,val_T,T,0,4,g99_after,g49_before,False,adapted_minus_frozen,frozen,adapted,-5.648719787597656,-0.005465060472488403,-2.0531692504882812,0.00031011179089546204,0
+val_T|T|s0|m4,val_T,T,0,4,g99_after,g24_before,False,oracle_minus_frozen,frozen,oracle,-14.722572326660156,-0.014408797025680542,0.3101310729980469,0.0014456063508987427,0
+val_T|T|s1|m4,val_T,T,1,4,g99_after,g74_before,False,adapted_minus_frozen,frozen,adapted,-0.01123809814453125,-1.8283724784851074e-05,0.005474090576171875,-3.604218363761902e-07,0
+val_T|T|s1|m4,val_T,T,1,4,g99_after,g99_after,True,oracle_minus_frozen,frozen,oracle,0.0,0.0,0.0,0.0,0
+val_T|T|s2|m4,val_T,T,2,4,g99_after,g74_after,False,adapted_minus_frozen,frozen,adapted,-0.1077880859375,-0.003676682710647583,3.062389373779297,0.0006402879953384399,0
+val_T|T|s2|m4,val_T,T,2,4,g99_after,g0_before,False,oracle_minus_frozen,frozen,oracle,-8.323257446289062,-0.007192842662334442,-10.075992584228516,-0.004057515412569046,0

@@ -1,0 +1,18 @@
+{
+  "algebra": {
+    "final_bound_min_slack": 0.00023989100009202957,
+    "gain_identity_max_abs_residual": 0.0,
+    "passed": true,
+    "selected_bound_min_slack": 0.00023989100009202957,
+    "tolerance": 1e-10
+  },
+  "expected_gd_steps": [
+    0,
+    24,
+    49,
+    74,
+    99
+  ],
+  "input_rows": 4000,
+  "replans": 800
+}

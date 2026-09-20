@@ -1,0 +1,13 @@
+anchor_id,split,shape,sample_id,mpc_iter,donor_dir,rng_seed,available,missing_reason
+val_T|T|s0|m2,val_T,T,0,2,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_T_frozen_n3,260920,True,
+val_T|T|s0|m4,val_T,T,0,4,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_T_frozen_n3,260921,True,
+val_T|T|s1|m2,val_T,T,1,2,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_T_frozen_n3,260922,True,
+val_T|T|s1|m4,val_T,T,1,4,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_T_frozen_n3,260923,True,
+val_T|T|s2|m2,val_T,T,2,2,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_T_frozen_n3,260924,True,
+val_T|T|s2|m4,val_T,T,2,4,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_T_frozen_n3,260925,True,
+val_L|L|s0|m2,val_L,L,0,2,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_L_frozen_n3,260926,True,
+val_L|L|s0|m4,val_L,L,0,4,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_L_frozen_n3,260927,True,
+val_L|L|s1|m2,val_L,L,1,2,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_L_frozen_n3,260928,True,
+val_L|L|s1|m4,val_L,L,1,4,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_L_frozen_n3,260929,True,
+val_L|L|s2|m2,val_L,L,2,2,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_L_frozen_n3,260930,True,
+val_L|L|s2|m4,val_L,L,2,4,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_L_frozen_n3,260931,True,

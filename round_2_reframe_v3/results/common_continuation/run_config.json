@@ -1,0 +1,14 @@
+{
+  "base_seed": 270920,
+  "checkpoint_dir": "D:\\EV-TTT\\pushobj_shape_shift",
+  "common_continuation_model": "unchanged_frozen_checkpoint",
+  "donors": {
+    "val_L": "D:\\EV-TTT\\adajepa_official_51d8665\\artifacts\\development\\val_L_frozen_n3",
+    "val_T": "D:\\EV-TTT\\adajepa_official_51d8665\\artifacts\\development\\val_T_frozen_n3"
+  },
+  "logical_branches": 18,
+  "physical_branches": 17,
+  "selection_metrics": "D:\\EV-TTT\\adajepa_official_51d8665\\artifacts\\reframe_v3\\common_anchors_v2\\selection_metrics.csv",
+  "tail_chunks": 4,
+  "warmstart_rule": "zero_environment_action_normalized_by_preprocessor"
+}

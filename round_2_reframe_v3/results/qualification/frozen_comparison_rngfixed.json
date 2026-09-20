@@ -1,0 +1,14 @@
+{
+  "action_lengths_exact": true,
+  "actions_exact": true,
+  "baseline": "D:\\EV-TTT\\adajepa_official_51d8665\\artifacts\\reframe_v3\\qualification\\frozen_off_attempt3",
+  "candidate": "D:\\EV-TTT\\adajepa_official_51d8665\\artifacts\\reframe_v3\\qualification\\frozen_on_rngfixed",
+  "differences": [],
+  "experience_buffers_exact": true,
+  "parameters_and_buffers_exact": true,
+  "passed": true,
+  "rng_exact": true,
+  "snapshot_metadata_exact": true,
+  "snapshot_names_exact": true,
+  "snapshots_compared": 2
+}

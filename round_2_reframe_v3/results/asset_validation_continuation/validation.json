@@ -1,0 +1,11 @@
+{
+  "case_mapping_failures": 0,
+  "case_mappings_checked": 21,
+  "continuation_failures": 0,
+  "continuations_checked": 800,
+  "duplicate_cost_consistency_failures": 0,
+  "passed": true,
+  "replan_pools_checked": 800,
+  "returned_prefix_failures": 0,
+  "returned_prefixes_checked": 800
+}

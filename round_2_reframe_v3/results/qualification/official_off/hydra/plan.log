@@ -1,0 +1,26 @@
+[2026-09-20 14:21:24,187][plan][INFO] - Planning result saved dir: D:\EV-TTT\adajepa_official_51d8665\artifacts\reframe_v3\qualification\official_off\hydra
+[2026-09-20 14:21:25,147][dinov2][INFO] - using MLP layer as FFN
+[2026-09-20 14:21:25,486][models.dino][WARNING] - Unknown projector 'none' for patch tokens; proceeding without projector.
+[2026-09-20 14:21:25,856][models.visual_world_model][INFO] - num_action_repeat: 1
+[2026-09-20 14:21:25,856][models.visual_world_model][INFO] - num_proprio_repeat: 1
+[2026-09-20 14:21:25,856][models.visual_world_model][INFO] - proprio encoder: ProprioceptiveEmbedding(
+  (patch_embed): Conv1d(4, 10, kernel_size=(1,), stride=(1,))
+  (norm): LayerNorm((10,), eps=1e-05, elementwise_affine=True)
+)
+[2026-09-20 14:21:25,857][models.visual_world_model][INFO] - action encoder: ProprioceptiveEmbedding(
+  (patch_embed): Conv1d(10, 10, kernel_size=(1,), stride=(1,))
+  (norm): LayerNorm((10,), eps=1e-05, elementwise_affine=True)
+)
+[2026-09-20 14:21:25,857][models.visual_world_model][INFO] - proprio_dim: 10, after repeat: 10
+[2026-09-20 14:21:25,857][models.visual_world_model][INFO] - action_dim: 10, after repeat: 10
+[2026-09-20 14:21:25,857][models.visual_world_model][INFO] - emb_dim: 404
+[2026-09-20 14:21:25,857][models.visual_world_model][INFO] - Straightening disabled
+[2026-09-20 14:21:25,857][models.visual_world_model][INFO] - Stop-grad enabled: True
+[2026-09-20 14:21:25,857][models.visual_world_model][INFO] - VCReg enabled: False, apply_to=enc, std_coeff=0.0, cov_coeff=0.0
+[2026-09-20 14:21:25,857][models.visual_world_model][INFO] - Model emb_dim: 404
+[2026-09-20 14:21:27,946][planning.adajepa][INFO] - AdaJEPA predictor adaptation restricted to last transformer layer (13 tensors).
+[2026-09-20 14:21:27,946][planning.adajepa][INFO] - AdaJEPA encoder adaptation restricted to last submodule 'projection' (6 tensors).
+[2026-09-20 14:21:31,966][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-20 14:21:32,085][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006579
+[2026-09-20 14:21:35,789][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-20 14:21:35,861][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006152

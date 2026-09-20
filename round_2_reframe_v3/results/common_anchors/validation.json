@@ -1,0 +1,16 @@
+{
+  "adaptation_steps": 108,
+  "available_anchors": 12,
+  "base_cost_reproduction_failures": 0,
+  "base_cost_reproduction_max_abs_error": 0.0,
+  "base_cost_reproduction_tolerance": 1e-06,
+  "base_reset_failures": [],
+  "candidate_pools_scored": 66,
+  "candidate_rollouts": 600,
+  "desired_anchors": 12,
+  "fixed_encoder_failures": [],
+  "missing_anchors": 0,
+  "new_environment_calls": 0,
+  "objective_stage_mismatches": [],
+  "passed": true
+}

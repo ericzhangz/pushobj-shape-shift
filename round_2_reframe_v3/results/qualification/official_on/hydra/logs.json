@@ -1,0 +1,5 @@
+{"mpc/success_rate": 0.0, "mpc/mean_state_dist": 151.54226684570312, "mpc/mean_visual_dist": 7.445073341836735, "mpc/mean_proprio_dist": 49.96141052246094, "mpc/mean_div_visual_emb": 1.3340427875518799, "mpc/mean_div_proprio_emb": 0.04166277498006821, "step": 1, "adajepa/pred_loss": 0.006578671745955944}
+{"mpc/success_rate": 0.0, "mpc/mean_state_dist": 131.66517639160156, "mpc/mean_visual_dist": 6.5375677614795915, "mpc/mean_proprio_dist": 49.36528778076172, "mpc/mean_div_visual_emb": 1.7964023351669312, "mpc/mean_div_proprio_emb": 0.06353048235177994, "step": 2, "adajepa/pred_loss": 0.006151755806058645}
+{"mpc/success_rate": 0.0, "step": 1}
+{"mpc/success_rate": 0.0, "step": 2}
+{"final_eval/success_rate": 0.0, "final_eval/mean_state_dist": 131.66517639160156, "final_eval/mean_visual_dist": 6.5375677614795915, "final_eval/mean_proprio_dist": 49.36528778076172, "final_eval/mean_div_visual_emb": 1.7479201555252075, "final_eval/mean_div_proprio_emb": 0.041071824729442596}

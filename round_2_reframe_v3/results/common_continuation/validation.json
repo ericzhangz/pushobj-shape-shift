@@ -1,0 +1,17 @@
+{
+  "deduplicated_branches": 1,
+  "environment_rollouts": 17,
+  "first_decision_environment_steps": 85,
+  "fixed_frozen_model_exact": true,
+  "late_anchors": 6,
+  "logical_branches": 18,
+  "nonfinite_metrics": [],
+  "passed": true,
+  "physical_branches": 17,
+  "prefix_or_rng_failures": [],
+  "prefix_replay_environment_steps": 340,
+  "tail_environment_steps": 340,
+  "tail_replans": 68,
+  "total_environment_steps": 765,
+  "world_model_rollout_and_backward_steps": 6800
+}

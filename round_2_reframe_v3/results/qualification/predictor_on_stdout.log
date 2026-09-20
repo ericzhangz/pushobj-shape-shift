@@ -1,0 +1,188 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\util.py:118: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  sentry_hub = sentry_sdk.Hub(sentry_client)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\sdk\internal\internal_api.py:30: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+D:\EV-TTT\adajepa_official_51d8665\env\__init__.py:7: UserWarning: point_maze envs unavailable (mujoco_py missing): No module named 'mujoco_py'. (HINT: you need to install mujoco_py, and also perform the setup instructions here: https://github.com/openai/mujoco-py/.)
+  warnings.warn(f"point_maze envs unavailable (mujoco_py missing): {_e}")
+D:\EV-TTT\adajepa_official_51d8665\custom_resolvers.py:4: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path=None)
+[2026-09-20 14:22:58,376][plan][INFO] - Planning result saved dir: D:\EV-TTT\adajepa_official_51d8665\artifacts\reframe_v3\qualification\predictor_on\hydra
+Using cache found in D:\EV-TTT\adajepa_runtime\torch\hub\facebookresearch_dinov2_main
+[2026-09-20 14:22:58,974][dinov2][INFO] - using MLP layer as FFN
+[2026-09-20 14:22:59,283][models.dino][WARNING] - Unknown projector 'none' for patch tokens; proceeding without projector.
+Resuming from epoch 3: D:\EV-TTT\adajepa_official_51d8665\checkpoints\pushobj_shape_shift\checkpoints\model_latest.pth
+[2026-09-20 14:22:59,638][models.visual_world_model][INFO] - num_action_repeat: 1
+[2026-09-20 14:22:59,639][models.visual_world_model][INFO] - num_proprio_repeat: 1
+[2026-09-20 14:22:59,639][models.visual_world_model][INFO] - proprio encoder: ProprioceptiveEmbedding(
+  (patch_embed): Conv1d(4, 10, kernel_size=(1,), stride=(1,))
+  (norm): LayerNorm((10,), eps=1e-05, elementwise_affine=True)
+)
+[2026-09-20 14:22:59,639][models.visual_world_model][INFO] - action encoder: ProprioceptiveEmbedding(
+  (patch_embed): Conv1d(10, 10, kernel_size=(1,), stride=(1,))
+  (norm): LayerNorm((10,), eps=1e-05, elementwise_affine=True)
+)
+[2026-09-20 14:22:59,639][models.visual_world_model][INFO] - proprio_dim: 10, after repeat: 10
+[2026-09-20 14:22:59,639][models.visual_world_model][INFO] - action_dim: 10, after repeat: 10
+[2026-09-20 14:22:59,639][models.visual_world_model][INFO] - emb_dim: 404
+[2026-09-20 14:22:59,639][models.visual_world_model][INFO] - Straightening disabled
+[2026-09-20 14:22:59,639][models.visual_world_model][INFO] - Stop-grad enabled: True
+[2026-09-20 14:22:59,640][models.visual_world_model][INFO] - VCReg enabled: False, apply_to=enc, std_coeff=0.0, cov_coeff=0.0
+[2026-09-20 14:22:59,640][models.visual_world_model][INFO] - Model emb_dim: 404
+[timing] setup_model_s=1.266
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+D:\EV-TTT\adajepa_official_51d8665\env\__init__.py:7: UserWarning: point_maze envs unavailable (mujoco_py missing): No module named 'mujoco_py'. (HINT: you need to install mujoco_py, and also perform the setup instructions here: https://github.com/openai/mujoco-py/.)
+  warnings.warn(f"point_maze envs unavailable (mujoco_py missing): {_e}")
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pygame\pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\skimage\util\dtype.py:27: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\matplotlib\fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+  family = Regex(
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\matplotlib\fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  self._parser.parseString(pattern)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\matplotlib\fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  self._parser.resetCache()
+eval_seed:  [1]
+[2026-09-20 14:23:01,713][planning.adajepa][INFO] - AdaJEPA predictor adaptation restricted to last transformer layer (13 tensors).
+Dumped plan targets to D:\EV-TTT\adajepa_official_51d8665\artifacts\reframe_v3\qualification\predictor_on\hydra\plan_targets.pkl
+[timing] setup_workspace_s=2.074
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  1%|          | 1/100 [00:00<00:43,  2.26it/s]
+  3%|��         | 3/100 [00:00<00:15,  6.12it/s]
+  5%|��         | 5/100 [00:00<00:10,  9.34it/s]
+  7%|��         | 7/100 [00:00<00:07, 11.87it/s]
+  9%|��         | 9/100 [00:00<00:06, 13.68it/s]
+ 11%|��         | 11/100 [00:01<00:06, 14.79it/s]
+ 13%|����        | 13/100 [00:01<00:05, 15.79it/s]
+ 15%|����        | 15/100 [00:01<00:05, 16.50it/s]
+ 17%|����        | 17/100 [00:01<00:04, 17.20it/s]
+ 19%|����        | 19/100 [00:01<00:04, 17.81it/s]
+ 21%|����        | 21/100 [00:01<00:04, 18.13it/s]
+ 23%|������       | 23/100 [00:01<00:04, 18.15it/s]
+ 25%|������       | 25/100 [00:01<00:06, 12.40it/s]
+ 27%|������       | 27/100 [00:02<00:05, 12.55it/s]
+ 29%|������       | 29/100 [00:02<00:05, 14.03it/s]
+ 31%|������       | 31/100 [00:02<00:04, 15.15it/s]
+ 33%|��������      | 33/100 [00:02<00:04, 16.12it/s]
+ 35%|��������      | 35/100 [00:02<00:03, 16.82it/s]
+ 37%|��������      | 37/100 [00:02<00:03, 17.25it/s]
+ 39%|��������      | 39/100 [00:02<00:03, 17.73it/s]
+ 41%|��������      | 41/100 [00:02<00:03, 17.84it/s]
+ 43%|����������     | 43/100 [00:02<00:03, 18.15it/s]
+ 45%|����������     | 45/100 [00:03<00:02, 18.59it/s]
+ 47%|����������     | 47/100 [00:03<00:02, 18.80it/s]
+ 49%|����������     | 49/100 [00:03<00:02, 18.59it/s]
+ 51%|����������     | 51/100 [00:03<00:03, 12.48it/s]
+ 53%|������������    | 53/100 [00:03<00:03, 13.49it/s]
+ 55%|������������    | 55/100 [00:03<00:03, 14.80it/s]
+ 57%|������������    | 57/100 [00:03<00:02, 15.77it/s]
+ 59%|������������    | 59/100 [00:03<00:02, 16.62it/s]
+ 61%|������������    | 61/100 [00:04<00:02, 17.17it/s]
+ 63%|��������������   | 63/100 [00:04<00:02, 17.67it/s]
+ 65%|��������������   | 65/100 [00:04<00:01, 17.80it/s]
+ 67%|��������������   | 67/100 [00:04<00:01, 18.24it/s]
+ 69%|��������������   | 69/100 [00:04<00:01, 18.48it/s]
+ 71%|��������������   | 71/100 [00:04<00:01, 18.54it/s]
+ 73%|����������������  | 73/100 [00:04<00:01, 18.56it/s]
+ 75%|����������������  | 75/100 [00:04<00:01, 12.75it/s]
+ 77%|����������������  | 77/100 [00:05<00:01, 13.41it/s]
+ 79%|����������������  | 79/100 [00:05<00:01, 14.67it/s]
+ 81%|����������������  | 81/100 [00:05<00:01, 15.85it/s]
+ 83%|������������������ | 83/100 [00:05<00:01, 16.68it/s]
+ 85%|������������������ | 85/100 [00:05<00:00, 17.14it/s]
+ 87%|������������������ | 87/100 [00:05<00:00, 17.59it/s]
+ 89%|������������������ | 89/100 [00:05<00:00, 17.93it/s]
+ 91%|������������������ | 91/100 [00:05<00:00, 17.94it/s]
+ 93%|��������������������| 93/100 [00:05<00:00, 18.24it/s]
+ 95%|��������������������| 95/100 [00:06<00:00, 18.44it/s]
+ 97%|��������������������| 97/100 [00:06<00:00, 18.49it/s]
+ 99%|��������������������| 99/100 [00:06<00:00, 18.63it/s]
+100%|��������������������| 100/100 [00:06<00:00, 15.32it/s]
+MPC iter 0 Eval ------- 
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([151.54227], dtype=float32)}
+self.is_success:  [False]
+[2026-09-20 14:23:08,747][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006579
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  1%|          | 1/100 [00:00<00:27,  3.61it/s]
+  3%|��         | 3/100 [00:00<00:12,  7.92it/s]
+  5%|��         | 5/100 [00:00<00:08, 11.26it/s]
+  7%|��         | 7/100 [00:00<00:06, 13.64it/s]
+  9%|��         | 9/100 [00:00<00:06, 15.10it/s]
+ 11%|��         | 11/100 [00:00<00:05, 16.06it/s]
+ 13%|����        | 13/100 [00:00<00:05, 16.88it/s]
+ 15%|����        | 15/100 [00:01<00:04, 17.45it/s]
+ 17%|����        | 17/100 [00:01<00:04, 17.89it/s]
+ 19%|����        | 19/100 [00:01<00:04, 18.26it/s]
+ 21%|����        | 21/100 [00:01<00:04, 18.26it/s]
+ 23%|������       | 23/100 [00:01<00:04, 18.33it/s]
+ 25%|������       | 25/100 [00:01<00:06, 12.06it/s]
+ 27%|������       | 27/100 [00:01<00:05, 12.69it/s]
+ 29%|������       | 29/100 [00:02<00:05, 14.07it/s]
+ 31%|������       | 31/100 [00:02<00:04, 15.37it/s]
+ 33%|��������      | 33/100 [00:02<00:04, 15.83it/s]
+ 35%|��������      | 35/100 [00:02<00:03, 16.61it/s]
+ 37%|��������      | 37/100 [00:02<00:03, 17.01it/s]
+ 39%|��������      | 39/100 [00:02<00:03, 17.57it/s]
+ 41%|��������      | 41/100 [00:02<00:03, 17.94it/s]
+ 43%|����������     | 43/100 [00:02<00:03, 18.08it/s]
+ 45%|����������     | 45/100 [00:02<00:03, 18.09it/s]
+ 47%|����������     | 47/100 [00:03<00:02, 18.34it/s]
+ 49%|����������     | 49/100 [00:03<00:02, 18.68it/s]
+ 51%|����������     | 51/100 [00:03<00:04, 11.33it/s]
+ 53%|������������    | 53/100 [00:03<00:03, 12.81it/s]
+ 55%|������������    | 55/100 [00:03<00:03, 14.04it/s]
+ 57%|������������    | 57/100 [00:03<00:02, 15.12it/s]
+ 59%|������������    | 59/100 [00:03<00:02, 15.88it/s]
+ 61%|������������    | 61/100 [00:04<00:02, 16.27it/s]
+ 63%|��������������   | 63/100 [00:04<00:02, 16.90it/s]
+ 65%|��������������   | 65/100 [00:04<00:02, 17.23it/s]
+ 67%|��������������   | 67/100 [00:04<00:01, 17.81it/s]
+ 69%|��������������   | 69/100 [00:04<00:01, 18.09it/s]
+ 71%|��������������   | 71/100 [00:04<00:01, 18.24it/s]
+ 73%|����������������  | 73/100 [00:04<00:01, 18.39it/s]
+ 75%|����������������  | 75/100 [00:04<00:02, 12.05it/s]
+ 77%|����������������  | 77/100 [00:05<00:01, 12.42it/s]
+ 79%|����������������  | 79/100 [00:05<00:01, 13.84it/s]
+ 81%|����������������  | 81/100 [00:05<00:01, 15.10it/s]
+ 83%|������������������ | 83/100 [00:05<00:01, 14.99it/s]
+ 85%|������������������ | 85/100 [00:05<00:00, 15.96it/s]
+ 87%|������������������ | 87/100 [00:05<00:00, 16.69it/s]
+ 89%|������������������ | 89/100 [00:05<00:00, 17.18it/s]
+ 91%|������������������ | 91/100 [00:05<00:00, 17.42it/s]
+ 93%|��������������������| 93/100 [00:05<00:00, 17.85it/s]
+ 95%|��������������������| 95/100 [00:06<00:00, 18.03it/s]
+ 97%|��������������������| 97/100 [00:06<00:00, 18.36it/s]
+ 99%|��������������������| 99/100 [00:06<00:00, 18.43it/s]
+100%|��������������������| 100/100 [00:06<00:00, 15.28it/s]
+MPC iter 1 Eval ------- 
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([131.76094], dtype=float32)}
+self.is_success:  [False]
+[2026-09-20 14:23:15,532][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.005650
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([131.76094], dtype=float32)}
+[timing] perform_planning_s=13.927
+[timing] total_planning_main_s=17.268

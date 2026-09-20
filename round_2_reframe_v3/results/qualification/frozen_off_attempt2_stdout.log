@@ -1,0 +1,93 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\util.py:118: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  sentry_hub = sentry_sdk.Hub(sentry_client)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\sdk\internal\internal_api.py:30: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+D:\EV-TTT\adajepa_official_51d8665\env\__init__.py:7: UserWarning: point_maze envs unavailable (mujoco_py missing): No module named 'mujoco_py'. (HINT: you need to install mujoco_py, and also perform the setup instructions here: https://github.com/openai/mujoco-py/.)
+  warnings.warn(f"point_maze envs unavailable (mujoco_py missing): {_e}")
+D:\EV-TTT\adajepa_official_51d8665\custom_resolvers.py:4: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path=None)
+[2026-09-20 14:15:48,119][plan][INFO] - Planning result saved dir: D:\EV-TTT\adajepa_official_51d8665\artifacts\reframe_v3\qualification\frozen_off_attempt2\hydra
+Using cache found in C:\Users\ASUS/.cache\torch\hub\facebookresearch_dinov2_main
+Error executing job with overrides: ['ckpt_base_path=D:\\EV-TTT\\adajepa_official_51d8665\\checkpoints', 'model_name=pushobj_shape_shift', 'eval_data_path=D:\\EV-TTT\\adajepa_official_51d8665\\data\\pushobj_eval\\val_T\\plan_targets.pkl', 'n_evals=1', 'planner.max_iter=2', 'planner.adapt.steps=0', '+wandb_logging=false']
+
+An error occurred during Hydra's exception formatting:
+
+AssertionError()
+
+Traceback (most recent call last):
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\hydra\_internal\utils.py", line 254, in run_and_report
+    assert mdl is not None
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "D:\EV-TTT\adajepa_official_51d8665\research\run_pushobj_pilot.py", line 58, in <module>
+    main()
+  File "D:\EV-TTT\adajepa_official_51d8665\research\run_pushobj_pilot.py", line 54, in main
+    plan.main()
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\hydra\main.py", line 90, in decorated_main
+    _run_hydra(
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\hydra\_internal\utils.py", line 389, in _run_hydra
+    _run_app(
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\hydra\_internal\utils.py", line 452, in _run_app
+    run_and_report(
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\hydra\_internal\utils.py", line 296, in run_and_report
+    raise ex
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\hydra\_internal\utils.py", line 213, in run_and_report
+    return func()
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\hydra\_internal\utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\hydra\_internal\hydra.py", line 132, in run
+    _ = ret.return_value
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\hydra\core\utils.py", line 260, in return_value
+    raise self._return_value
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\hydra\core\utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "D:\EV-TTT\adajepa_official_51d8665\plan.py", line 778, in main
+    planning_main(cfg_dict)
+  File "D:\EV-TTT\adajepa_official_51d8665\plan.py", line 690, in planning_main
+    model = load_model(model_ckpt, model_cfg, num_action_repeat, device=device)
+  File "D:\EV-TTT\adajepa_official_51d8665\plan.py", line 552, in load_model
+    result = load_ckpt(model_ckpt, device)
+  File "D:\EV-TTT\adajepa_official_51d8665\plan.py", line 536, in load_ckpt
+    _ = DinoV2Encoder('dinov2_vits14', 'x_norm_patchtokens')
+  File "D:\EV-TTT\adajepa_official_51d8665\models\dino.py", line 121, in __init__
+    self.base_model = torch.hub.load("facebookresearch/dinov2", name)
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\torch\hub.py", line 568, in load
+    model = _load_local(repo_or_dir, model, *args, **kwargs)
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\torch\hub.py", line 597, in _load_local
+    model = entry(*args, **kwargs)
+  File "C:\Users\ASUS/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\hub\backbones.py", line 84, in dinov2_vits14
+    return _make_dinov2_model(arch_name="vit_small", pretrained=pretrained, weights=weights, **kwargs)
+  File "C:\Users\ASUS/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\hub\backbones.py", line 47, in _make_dinov2_model
+    from ..models import vision_transformer as vits
+  File "C:\Users\ASUS/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\models\__init__.py", line 8, in <module>
+    from . import vision_transformer as vits
+  File "C:\Users\ASUS/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\models\vision_transformer.py", line 21, in <module>
+    from dinov2.layers import Mlp, PatchEmbed, SwiGLUFFNFused, MemEffAttention, NestedTensorBlock as Block
+  File "C:\Users\ASUS/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\__init__.py", line 11, in <module>
+    from .block import NestedTensorBlock, CausalAttentionBlock
+  File "C:\Users\ASUS/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py", line 18, in <module>
+    from .attention import Attention, MemEffAttention
+  File "C:\Users\ASUS/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py", line 36, in <module>
+    class Attention(nn.Module):
+  File "C:\Users\ASUS/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py", line 58, in Attention
+    self, init_attn_std: float | None = None, init_proj_std: float | None = None, factor: float = 1.0
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
