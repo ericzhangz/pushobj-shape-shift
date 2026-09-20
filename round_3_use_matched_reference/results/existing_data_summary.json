@@ -1,0 +1,63 @@
+{
+  "A": {
+    "environment_outcome_improved": 658,
+    "environment_outcome_worsened": 142,
+    "recorded_pool_optimizer_gap": 0,
+    "replans": 800,
+    "tie_robust_selection_regret": 682
+  },
+  "B": {
+    "anchors": 12,
+    "g99_before_after_only_changes": 3,
+    "mean_delta_tie_aware_regret": 0.00015439706233640513,
+    "selection_ids_changed": 11,
+    "support_loss_decreased": 12,
+    "tie_aware_regret": {
+      "improved": 2,
+      "unchanged": 4,
+      "worsened": 6
+    }
+  },
+  "C": {
+    "anchors": 6,
+    "effects": {
+      "adapted": {
+        "cost": {
+          "improved": 0,
+          "mean": 0.0002966144432624181,
+          "median": 0.00015505217015743256,
+          "unchanged": 3,
+          "worsened": 3
+        },
+        "state": {
+          "improved": 2,
+          "mean": 0.3128980000813802,
+          "median": 0.0027408599853515625,
+          "unchanged": 0,
+          "worsened": 4
+        }
+      },
+      "oracle": {
+        "cost": {
+          "improved": 2,
+          "mean": -0.0005650580860674381,
+          "median": 0.00030727172270417213,
+          "unchanged": 1,
+          "worsened": 3
+        },
+        "state": {
+          "improved": 2,
+          "mean": -0.7155920664469401,
+          "median": 0.15506553649902344,
+          "unchanged": 1,
+          "worsened": 3
+        }
+      }
+    },
+    "final_successes_by_label": {
+      "adapted": 4,
+      "frozen": 4,
+      "oracle": 4
+    }
+  }
+}

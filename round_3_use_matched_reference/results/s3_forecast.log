@@ -1,0 +1,92 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\util.py:118: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  sentry_hub = sentry_sdk.Hub(sentry_client)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\sdk\internal\internal_api.py:30: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+D:\EV-TTT\adajepa_official_51d8665\env\__init__.py:7: UserWarning: point_maze envs unavailable (mujoco_py missing): No module named 'mujoco_py'. (HINT: you need to install mujoco_py, and also perform the setup instructions here: https://github.com/openai/mujoco-py/.)
+  warnings.warn(f"point_maze envs unavailable (mujoco_py missing): {_e}")
+D:\EV-TTT\adajepa_official_51d8665\custom_resolvers.py:4: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path=None)
+Using cache found in D:\EV-TTT\adajepa_runtime\torch\hub\facebookresearch_dinov2_main
+Unknown projector 'none' for patch tokens; proceeding without projector.
+Resuming from epoch 3: D:\EV-TTT\pushobj_shape_shift\checkpoints\model_latest.pth
+{
+  "budget": {
+    "internal_gd_iterations": 6800,
+    "logical_open_plan_predictions": 18,
+    "new_environment_calls": 0,
+    "outer_model_transitions": 85,
+    "peak_cuda_memory_bytes": 301003264,
+    "physical_matched_feedback_predictions": 17,
+    "tail_replans": 68,
+    "wall_clock_s": 241.529206
+  },
+  "evaluation": {
+    "anchors": 6,
+    "decomposition_max_abs_residual": 0.0,
+    "logical_rows": 18,
+    "raw_error": {
+      "cross_target_Jmodel_to_Qenv_mae": 0.014587236697682075,
+      "matched_Qhat_to_Qenv_mae": 0.005164672090258036
+    },
+    "relative_to_frozen_error": {
+      "cross_target_Jmodel_to_Qenv_mae": 0.0022284413183418414,
+      "matched_Qhat_to_Qenv_mae": 0.0009172021721800169
+    },
+    "selection": {
+      "all_three_logical_labels": {
+        "matched_feedback_Qhat": {
+          "anchors": 6,
+          "exact_selected_truth_regret_mean": 0.0008854524542888006,
+          "tie_aware_truth_regret_min_mean": 0.0008854512125253677,
+          "tie_aware_zero_regret_anchors": 4
+        },
+        "open_plan_J_model": {
+          "anchors": 6,
+          "exact_selected_truth_regret_mean": 0.0010684137232601643,
+          "tie_aware_truth_regret_min_mean": 0.001068408756206433,
+          "tie_aware_zero_regret_anchors": 4
+        }
+      },
+      "legal_frozen_adapted": {
+        "matched_feedback_Qhat": {
+          "anchors": 6,
+          "exact_selected_truth_regret_mean": 0.0001067759779592355,
+          "tie_aware_truth_regret_min_mean": 0.00010677473619580269,
+          "tie_aware_zero_regret_anchors": 5
+        },
+        "open_plan_J_model": {
+          "anchors": 6,
+          "exact_selected_truth_regret_mean": 6.503735979398091e-08,
+          "tie_aware_truth_regret_min_mean": 6.007030606269836e-08,
+          "tie_aware_zero_regret_anchors": 6
+        }
+      }
+    }
+  },
+  "validation": {
+    "decomposition_max_abs_residual": 0.0,
+    "first_chunk_group_failures": [],
+    "frozen_open_cost_reproduction_max_abs_error": 0.0,
+    "frozen_open_cost_reproduction_tolerance": 1e-06,
+    "logical_predictions": 18,
+    "model_parameters_and_buffers_unchanged": true,
+    "nonfinite_predictions": [],
+    "passed": true,
+    "physical_predictions": 17,
+    "predictions_saved_before_truth_evaluation": true,
+    "predictions_saved_unix_ns": 1789903895547766600,
+    "truth_rows_joined": 18
+  }
+}

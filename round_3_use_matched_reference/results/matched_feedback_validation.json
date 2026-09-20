@@ -1,0 +1,14 @@
+{
+  "decomposition_max_abs_residual": 0.0,
+  "first_chunk_group_failures": [],
+  "frozen_open_cost_reproduction_max_abs_error": 0.0,
+  "frozen_open_cost_reproduction_tolerance": 1e-06,
+  "logical_predictions": 18,
+  "model_parameters_and_buffers_unchanged": true,
+  "nonfinite_predictions": [],
+  "passed": true,
+  "physical_predictions": 17,
+  "predictions_saved_before_truth_evaluation": true,
+  "predictions_saved_unix_ns": 1789903895547766600,
+  "truth_rows_joined": 18
+}

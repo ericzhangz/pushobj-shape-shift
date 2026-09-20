@@ -1,0 +1,43 @@
+{
+  "anchors": 6,
+  "decomposition_max_abs_residual": 0.0,
+  "logical_rows": 18,
+  "raw_error": {
+    "cross_target_Jmodel_to_Qenv_mae": 0.014587236697682075,
+    "matched_Qhat_to_Qenv_mae": 0.005164672090258036
+  },
+  "relative_to_frozen_error": {
+    "cross_target_Jmodel_to_Qenv_mae": 0.0022284413183418414,
+    "matched_Qhat_to_Qenv_mae": 0.0009172021721800169
+  },
+  "selection": {
+    "all_three_logical_labels": {
+      "matched_feedback_Qhat": {
+        "anchors": 6,
+        "exact_selected_truth_regret_mean": 0.0008854524542888006,
+        "tie_aware_truth_regret_min_mean": 0.0008854512125253677,
+        "tie_aware_zero_regret_anchors": 4
+      },
+      "open_plan_J_model": {
+        "anchors": 6,
+        "exact_selected_truth_regret_mean": 0.0010684137232601643,
+        "tie_aware_truth_regret_min_mean": 0.001068408756206433,
+        "tie_aware_zero_regret_anchors": 4
+      }
+    },
+    "legal_frozen_adapted": {
+      "matched_feedback_Qhat": {
+        "anchors": 6,
+        "exact_selected_truth_regret_mean": 0.0001067759779592355,
+        "tie_aware_truth_regret_min_mean": 0.00010677473619580269,
+        "tie_aware_zero_regret_anchors": 5
+      },
+      "open_plan_J_model": {
+        "anchors": 6,
+        "exact_selected_truth_regret_mean": 6.503735979398091e-08,
+        "tie_aware_truth_regret_min_mean": 6.007030606269836e-08,
+        "tie_aware_zero_regret_anchors": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\util.py:118: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  sentry_hub = sentry_sdk.Hub(sentry_client)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\sdk\internal\internal_api.py:30: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+D:\EV-TTT\adajepa_official_51d8665\env\__init__.py:7: UserWarning: point_maze envs unavailable (mujoco_py missing): No module named 'mujoco_py'. (HINT: you need to install mujoco_py, and also perform the setup instructions here: https://github.com/openai/mujoco-py/.)
+  warnings.warn(f"point_maze envs unavailable (mujoco_py missing): {_e}")
+D:\EV-TTT\adajepa_official_51d8665\custom_resolvers.py:4: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path=None)
+Using cache found in D:\EV-TTT\adajepa_runtime\torch\hub\facebookresearch_dinov2_main
+Unknown projector 'none' for patch tokens; proceeding without projector.
+Resuming from epoch 3: D:\EV-TTT\pushobj_shape_shift\checkpoints\model_latest.pth
+{
+  "checkpoint_dir": "D:\\EV-TTT\\pushobj_shape_shift",
+  "device": "cuda:0",
+  "donor_dir": "D:\\EV-TTT\\adajepa_official_51d8665\\artifacts\\development\\val_T_frozen_n3",
+  "full_gd_iterations": 400,
+  "model_parameters_and_buffers_unchanged": true,
+  "observations": [
+    {
+      "action_gradient_close": true,
+      "action_gradient_max_abs": 0.0,
+      "cost_abs_difference": 0.0,
+      "cost_close": true,
+      "full_latent_max_abs": 0.0,
+      "gd_action_close": true,
+      "gd_action_max_abs": 0.0,
+      "mpc_iter": 4,
+      "objective_stage": "terminal",
+      "passed": true,
+      "rng_after_exact": true,
+      "rng_before_exact": true,
+      "rollout_close": true,
+      "rollout_max_abs": {
+        "proprio": 0.0,
+        "visual": 0.0
+      },
+      "sample_id": 0,
+      "seed": 290924
+    },
+    {
+      "action_gradient_close": true,
+      "action_gradient_max_abs": 0.0,
+      "cost_abs_difference": 0.0,
+      "cost_close": true,
+      "full_latent_max_abs": 0.0,
+      "gd_action_close": true,
+      "gd_action_max_abs": 0.0,
+      "mpc_iter": 5,
+      "objective_stage": "full_horizon",
+      "passed": true,
+      "rng_after_exact": true,
+      "rng_before_exact": true,
+      "rollout_close": true,
+      "rollout_max_abs": {
+        "proprio": 0.0,
+        "visual": 0.0
+      },
+      "sample_id": 0,
+      "seed": 290925
+    }
+  ],
+  "passed": true,
+  "stage": "S2_latent_interface_parity",
+  "threshold_source": "predeclared FP32 interface-equivalence tolerances; not tuned after results",
+  "thresholds": {
+    "cost_atol": 1e-08,
+    "gd_action_atol": 1e-06,
+    "gd_action_rtol": 1e-06,
+    "gradient_atol": 1e-06,
+    "gradient_rtol": 1e-06,
+    "rollout_atol": 1e-06,
+    "rollout_rtol": 1e-06
+  }
+}

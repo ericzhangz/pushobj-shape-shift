@@ -1,0 +1,42 @@
+{
+  "new_environment_calls_total": 0,
+  "gd_iterations_total": 7200,
+  "S1_existing_data_reanalysis": {
+    "new_environment_calls": 0,
+    "gd_iterations": 0
+  },
+  "S2_latent_interface_parity": {
+    "observations": 2,
+    "full_gd_iterations": 400,
+    "model_parameters_and_buffers_unchanged": true
+  },
+  "S3_successful_blind_forecast": {
+    "internal_gd_iterations": 6800,
+    "logical_open_plan_predictions": 18,
+    "new_environment_calls": 0,
+    "outer_model_transitions": 85,
+    "peak_cuda_memory_bytes": 301003264,
+    "physical_matched_feedback_predictions": 17,
+    "tail_replans": 68,
+    "wall_clock_s": 241.529206
+  },
+  "post_S3_successful_propagation_audit": {
+    "physical_branches": 17,
+    "sequential_rollout_paths": 34,
+    "real_state_one_step_rollouts": 85,
+    "model_transitions": 255,
+    "new_environment_calls": 0,
+    "gd_iterations": 0,
+    "wall_clock_s": 6.9471741
+  },
+  "preserved_development_attempts": {
+    "S3_startup_failures_before_prediction": 2,
+    "S3_startup_failure_gd_iterations": 0,
+    "propagation_wrong_full_sequence_model_transitions": 170,
+    "propagation_wrong_donor_model_transitions": 0,
+    "propagation_reencoded_initial_model_transitions": 170,
+    "propagation_batched_real_encoding_model_transitions": 170,
+    "propagation_before_real_state_reset_model_transitions": 170
+  },
+  "known_S3_and_propagation_model_transitions_including_preserved_attempts": 1020
+}

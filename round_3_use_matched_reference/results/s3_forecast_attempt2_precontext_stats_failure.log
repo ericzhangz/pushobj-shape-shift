@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "D:\EV-TTT\adajepa_official_51d8665\research\reframe_v3\matched_feedback_forecast.py", line 917, in <module>
+    main()
+  File "D:\EV-TTT\adajepa_official_51d8665\research\reframe_v3\matched_feedback_forecast.py", line 909, in main
+    result = run_parity(args) if args.command == "parity" else run_forecast(args)
+  File "D:\EV-TTT\adajepa_official_51d8665\research\reframe_v3\matched_feedback_forecast.py", line 850, in run_forecast
+    logical_blind, physical_blind, validation, budget = _forecast_blind(
+  File "D:\EV-TTT\adajepa_official_51d8665\research\reframe_v3\matched_feedback_forecast.py", line 472, in _forecast_blind
+    torch.cuda.reset_peak_memory_stats(cuda_index)
+  File "C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\torch\cuda\memory.py", line 309, in reset_peak_memory_stats
+    return torch._C._cuda_resetPeakMemoryStats(device)
+RuntimeError: Invalid device argument 

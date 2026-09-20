@@ -1,0 +1,106 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\util.py:118: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  sentry_hub = sentry_sdk.Hub(sentry_client)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\sdk\internal\internal_api.py:30: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+D:\EV-TTT\adajepa_official_51d8665\env\__init__.py:7: UserWarning: point_maze envs unavailable (mujoco_py missing): No module named 'mujoco_py'. (HINT: you need to install mujoco_py, and also perform the setup instructions here: https://github.com/openai/mujoco-py/.)
+  warnings.warn(f"point_maze envs unavailable (mujoco_py missing): {_e}")
+D:\EV-TTT\adajepa_official_51d8665\custom_resolvers.py:4: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path=None)
+Using cache found in D:\EV-TTT\adajepa_runtime\torch\hub\facebookresearch_dinov2_main
+Unknown projector 'none' for patch tokens; proceeding without projector.
+Resuming from epoch 3: D:\EV-TTT\pushobj_shape_shift\checkpoints\model_latest.pth
+{
+  "depth": {
+    "0": {
+      "free_goal_cost_mae": 0.0,
+      "free_latent_mse_mean": 0.0,
+      "preceding_action_delta_l2_mean": 0.0,
+      "teacher_goal_cost_mae": 0.0,
+      "teacher_latent_mse_mean": 0.0
+    },
+    "1": {
+      "free_goal_cost_mae": 0.014441058477934669,
+      "free_latent_mse_mean": 0.006080414497238749,
+      "preceding_action_delta_l2_mean": 0.0,
+      "teacher_goal_cost_mae": 0.014441058477934669,
+      "teacher_latent_mse_mean": 0.006080414497238749
+    },
+    "2": {
+      "free_goal_cost_mae": 0.01197308671715505,
+      "free_latent_mse_mean": 0.008659532211501808,
+      "preceding_action_delta_l2_mean": 0.22813416228574865,
+      "teacher_goal_cost_mae": 0.01350511725553695,
+      "teacher_latent_mse_mean": 0.010101427132373346
+    },
+    "3": {
+      "free_goal_cost_mae": 0.0063034482300281525,
+      "free_latent_mse_mean": 0.011536529150736682,
+      "preceding_action_delta_l2_mean": 0.4317005083841436,
+      "teacher_goal_cost_mae": 0.009545850540127824,
+      "teacher_latent_mse_mean": 0.015203769948771772
+    },
+    "4": {
+      "free_goal_cost_mae": 0.004130801144877777,
+      "free_latent_mse_mean": 0.016030524145154393,
+      "preceding_action_delta_l2_mean": 0.4052393247976023,
+      "teacher_goal_cost_mae": 0.00868369996383348,
+      "teacher_latent_mse_mean": 0.01882025952834417
+    },
+    "5": {
+      "free_goal_cost_mae": 0.005167647949693834,
+      "free_latent_mse_mean": 0.019047857070451275,
+      "preceding_action_delta_l2_mean": 0.48483866716132445,
+      "teacher_goal_cost_mae": 0.009047561242957325,
+      "teacher_latent_mse_mean": 0.02476702378514935
+    }
+  },
+  "final_mean_free_to_real_range_ratio": 0.26582429055710755,
+  "final_mean_teacher_to_real_range_ratio": 1.3631752968260336,
+  "first_step_mean_free_to_real_range_ratio": 1.5430573298225638,
+  "model_rollouts": 34,
+  "new_GD_iterations": 0,
+  "new_environment_calls": 0,
+  "physical_branches": 17,
+  "physical_primary_matched_final_mae": 0.005167647949693834,
+  "stage": "post_S3_propagation_audit",
+  "teacher_forced_actual_action_final_mae": 0.009047561242957325,
+  "teacher_forcing_reduces_final_mae": false,
+  "validation": {
+    "failures": [
+      "val_L_L_s0_m4_b0:forecast_sidecar",
+      "val_L_L_s0_m4_b1:forecast_sidecar",
+      "val_L_L_s0_m4_b2:forecast_sidecar",
+      "val_L_L_s1_m4_b0:forecast_sidecar",
+      "val_L_L_s1_m4_b1:forecast_sidecar",
+      "val_L_L_s1_m4_b2:forecast_sidecar",
+      "val_L_L_s2_m4_b0:forecast_sidecar",
+      "val_L_L_s2_m4_b1:forecast_sidecar",
+      "val_L_L_s2_m4_b2:forecast_sidecar",
+      "val_T_T_s0_m4_b0:forecast_sidecar",
+      "val_T_T_s0_m4_b1:forecast_sidecar",
+      "val_T_T_s0_m4_b2:forecast_sidecar",
+      "val_T_T_s1_m4_b0:forecast_sidecar",
+      "val_T_T_s1_m4_b1:forecast_sidecar",
+      "val_T_T_s2_m4_b0:forecast_sidecar",
+      "val_T_T_s2_m4_b1:forecast_sidecar",
+      "val_T_T_s2_m4_b2:forecast_sidecar"
+    ],
+    "model_parameters_and_buffers_unchanged": true,
+    "passed": false,
+    "recorded_final_cost_crosscheck_max_abs_error": 1.2673437595367432e-05,
+    "sidecar_reconstruction_max_abs_error": 0.00028395652770996094
+  },
+  "wall_clock_s": 4.7466515000000005
+}

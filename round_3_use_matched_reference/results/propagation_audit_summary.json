@@ -1,0 +1,86 @@
+{
+  "depth": {
+    "0": {
+      "free_goal_cost_mae": 0.0,
+      "free_latent_mse_mean": 0.0,
+      "preceding_action_delta_l2_mean": 0.0,
+      "real_state_one_step_goal_cost_mae": 0.0,
+      "real_state_one_step_latent_mse_mean": 0.0,
+      "teacher_goal_cost_mae": 0.0,
+      "teacher_latent_mse_mean": 0.0
+    },
+    "1": {
+      "free_goal_cost_mae": 0.014433669693329754,
+      "free_latent_mse_mean": 0.0060799363589681245,
+      "preceding_action_delta_l2_mean": 0.0,
+      "real_state_one_step_goal_cost_mae": 0.014433669693329754,
+      "real_state_one_step_latent_mse_mean": 0.0060799363589681245,
+      "teacher_goal_cost_mae": 0.014433669693329754,
+      "teacher_latent_mse_mean": 0.0060799363589681245
+    },
+    "2": {
+      "free_goal_cost_mae": 0.011974956675925675,
+      "free_latent_mse_mean": 0.00866091062369592,
+      "preceding_action_delta_l2_mean": 0.22813416228574865,
+      "real_state_one_step_goal_cost_mae": 0.011225983774399055,
+      "real_state_one_step_latent_mse_mean": 0.007635119809385608,
+      "teacher_goal_cost_mae": 0.013506617123151527,
+      "teacher_latent_mse_mean": 0.010102218893520972
+    },
+    "3": {
+      "free_goal_cost_mae": 0.006304686354911502,
+      "free_latent_mse_mean": 0.011537178474314073,
+      "preceding_action_delta_l2_mean": 0.4317005083841436,
+      "real_state_one_step_goal_cost_mae": 0.005461510448880932,
+      "real_state_one_step_latent_mse_mean": 0.006771427634007791,
+      "teacher_goal_cost_mae": 0.009547069463331033,
+      "teacher_latent_mse_mean": 0.015204835518756333
+    },
+    "4": {
+      "free_goal_cost_mae": 0.0041341464829576366,
+      "free_latent_mse_mean": 0.01602869771201821,
+      "preceding_action_delta_l2_mean": 0.4052393247976023,
+      "real_state_one_step_goal_cost_mae": 0.0049652442856527425,
+      "real_state_one_step_latent_mse_mean": 0.009185007088543737,
+      "teacher_goal_cost_mae": 0.008682319004198207,
+      "teacher_latent_mse_mean": 0.018820306998403633
+    },
+    "5": {
+      "free_goal_cost_mae": 0.005167999250047347,
+      "free_latent_mse_mean": 0.0190477938774754,
+      "preceding_action_delta_l2_mean": 0.48483866716132445,
+      "real_state_one_step_goal_cost_mae": 0.005244751269107356,
+      "real_state_one_step_latent_mse_mean": 0.008090905845165253,
+      "teacher_goal_cost_mae": 0.009048930396709372,
+      "teacher_latent_mse_mean": 0.02476765209918513
+    }
+  },
+  "final_mean_free_to_real_range_ratio": 0.26460827182161806,
+  "final_mean_real_state_one_step_to_real_range_ratio": 0.7583344971334156,
+  "final_mean_teacher_to_real_range_ratio": 1.362693872342269,
+  "first_step_mean_free_to_real_range_ratio": 1.5429213771617583,
+  "model_transitions": 255,
+  "new_GD_iterations": 0,
+  "new_environment_calls": 0,
+  "physical_branches": 17,
+  "physical_primary_matched_final_mae": 0.005167999250047347,
+  "real_state_one_step_actual_action_final_mae": 0.005244751269107356,
+  "real_state_one_step_rollouts": 85,
+  "sequential_rollout_paths": 34,
+  "stage": "post_S3_propagation_audit",
+  "teacher_forced_actual_action_final_mae": 0.009048930396709372,
+  "teacher_forcing_reduces_final_mae": false,
+  "validation": {
+    "blind_anchor_vs_replayed_initial_max_abs_error": 0.0,
+    "blind_goal_vs_reencoded_goal_max_abs_error": 0.0,
+    "failures": [],
+    "model_parameters_and_buffers_unchanged": true,
+    "passed": true,
+    "recorded_Qenv_crosscheck_max_abs_error": 0.0,
+    "recorded_Qhat_crosscheck_max_abs_error": 2.421438694000244e-08,
+    "recorded_final_cost_crosscheck_max_abs_error": 2.421438694000244e-08,
+    "sidecar_reconstruction_max_abs_error": 1.430511474609375e-06,
+    "sidecar_reconstruction_tolerance": 2e-06
+  },
+  "wall_clock_s": 6.9471741
+}
