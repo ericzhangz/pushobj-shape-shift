@@ -1,0 +1,33 @@
+{
+  "run_id": "ood_valI_predictor_only_n5",
+  "arm": "PREDICTOR_ONLY",
+  "instrumentation_enabled": true,
+  "oracle_gd_steps": [
+    0,
+    24,
+    49,
+    74,
+    99
+  ],
+  "eval_data_path": "D:\\EV-TTT\\pushobj_eval\\val_I\\plan_targets.pkl",
+  "n_evals": 5,
+  "seed": 100,
+  "shapes": [
+    "I",
+    "I",
+    "I",
+    "I",
+    "I"
+  ],
+  "frameskip": 5,
+  "model_action_dim": 10,
+  "objective": {
+    "mode": "staged",
+    "alpha": 1.0,
+    "base": 2.0
+  },
+  "action_units": {
+    "model": "normalized environment API action packed by frameskip",
+    "environment_api": "relative displacement before internal x100 scale"
+  }
+}

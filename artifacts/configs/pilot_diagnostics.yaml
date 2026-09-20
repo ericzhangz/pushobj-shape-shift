@@ -1,0 +1,29 @@
+protocol_phase: development
+frozen_before_runs:
+  - val_T_three_arm_n3
+  - val_L_three_arm_n3
+oracle_gd_iterations_zero_based: [0, 24, 49, 74, 99]
+zero_replay_gate:
+  rgb: exact
+  proprio: exact
+  public_state: exact
+  same_version_cost: exact
+  environment_metrics: exact
+objective_closure_max_abs_error: 1.0e-6
+contrast_reporting:
+  retain_raw_values: true
+  numerical_tie_epsilon: 1.0e-6
+  thresholded_sign_rule: sign(delta) is zero when abs(delta) <= epsilon
+  thresholded_false_improvement_rule: delta_pred < -epsilon and delta_env_samever > epsilon
+  rationale: The epsilon matches the pre-registered native-objective closure gate and only labels float32-scale changes as numerical ties.
+arms:
+  FROZEN:
+    adapt_steps: 0
+  OFFICIAL_ADAJEPA:
+    adapt_steps: 1
+    finetune_encoder: true
+    replay_buffer: recent5
+  PREDICTOR_ONLY:
+    adapt_steps: 1
+    finetune_encoder: false
+    replay_buffer: recent5

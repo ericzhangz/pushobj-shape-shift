@@ -1,0 +1,6 @@
+- ckpt_base_path=checkpoints
+- model_name=pushobj_shape_shift
+- eval_data_path=data/pushobj_eval/val_T/plan_targets.pkl
+- n_evals=3
+- planner.max_iter=20
+- +wandb_logging=false

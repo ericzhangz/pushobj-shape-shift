@@ -1,0 +1,40 @@
+[2026-09-19 21:35:31,498][plan][INFO] - Planning result saved dir: D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_T_predictor_only_n3\hydra
+[2026-09-19 21:35:32,521][dinov2][INFO] - using MLP layer as FFN
+[2026-09-19 21:35:32,872][models.dino][WARNING] - Unknown projector 'none' for patch tokens; proceeding without projector.
+[2026-09-19 21:35:33,365][models.visual_world_model][INFO] - num_action_repeat: 1
+[2026-09-19 21:35:33,365][models.visual_world_model][INFO] - num_proprio_repeat: 1
+[2026-09-19 21:35:33,365][models.visual_world_model][INFO] - proprio encoder: ProprioceptiveEmbedding(
+  (patch_embed): Conv1d(4, 10, kernel_size=(1,), stride=(1,))
+  (norm): LayerNorm((10,), eps=1e-05, elementwise_affine=True)
+)
+[2026-09-19 21:35:33,366][models.visual_world_model][INFO] - action encoder: ProprioceptiveEmbedding(
+  (patch_embed): Conv1d(10, 10, kernel_size=(1,), stride=(1,))
+  (norm): LayerNorm((10,), eps=1e-05, elementwise_affine=True)
+)
+[2026-09-19 21:35:33,366][models.visual_world_model][INFO] - proprio_dim: 10, after repeat: 10
+[2026-09-19 21:35:33,366][models.visual_world_model][INFO] - action_dim: 10, after repeat: 10
+[2026-09-19 21:35:33,366][models.visual_world_model][INFO] - emb_dim: 404
+[2026-09-19 21:35:33,366][models.visual_world_model][INFO] - Straightening disabled
+[2026-09-19 21:35:33,366][models.visual_world_model][INFO] - Stop-grad enabled: True
+[2026-09-19 21:35:33,366][models.visual_world_model][INFO] - VCReg enabled: False, apply_to=enc, std_coeff=0.0, cov_coeff=0.0
+[2026-09-19 21:35:33,366][models.visual_world_model][INFO] - Model emb_dim: 404
+[2026-09-19 21:35:35,780][planning.adajepa][INFO] - AdaJEPA predictor adaptation restricted to last transformer layer (13 tensors).
+[2026-09-19 21:35:44,582][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006579
+[2026-09-19 21:35:52,881][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.005650
+[2026-09-19 21:36:01,952][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007333
+[2026-09-19 21:36:09,830][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006350
+[2026-09-19 21:36:17,689][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.005817
+[2026-09-19 21:36:25,747][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.005924
+[2026-09-19 21:36:34,074][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.005747
+[2026-09-19 21:36:42,446][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.005353
+[2026-09-19 21:36:51,143][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.005397
+[2026-09-19 21:36:59,904][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.004824
+[2026-09-19 21:37:08,885][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.004101
+[2026-09-19 21:37:16,244][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.004553
+[2026-09-19 21:37:23,650][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.003984
+[2026-09-19 21:37:31,043][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.009534
+[2026-09-19 21:37:38,531][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.009985
+[2026-09-19 21:37:46,185][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.005838
+[2026-09-19 21:37:54,009][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006263
+[2026-09-19 21:38:02,094][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006311
+[2026-09-19 21:38:10,281][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007803

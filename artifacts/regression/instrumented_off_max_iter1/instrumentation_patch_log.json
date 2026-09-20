@@ -1,0 +1,20 @@
+[
+  {
+    "target": "PlanWorkspace.__init__",
+    "purpose": "attach run metadata after official workspace construction",
+    "enabled_modes": [
+      "capture",
+      "off",
+      "on"
+    ]
+  },
+  {
+    "target": "AdaJEPAMPCPlanner.plan",
+    "purpose": "capture returned action tensor without changing it",
+    "enabled_modes": [
+      "capture",
+      "off",
+      "on"
+    ]
+  }
+]

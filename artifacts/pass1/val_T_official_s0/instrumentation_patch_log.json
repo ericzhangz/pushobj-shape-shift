@@ -1,0 +1,55 @@
+[
+  {
+    "target": "PlanWorkspace.__init__",
+    "purpose": "attach run metadata after official workspace construction",
+    "enabled_modes": [
+      "capture",
+      "off",
+      "on"
+    ]
+  },
+  {
+    "target": "AdaJEPAMPCPlanner.plan",
+    "purpose": "capture returned action tensor without changing it",
+    "enabled_modes": [
+      "capture",
+      "off",
+      "on"
+    ]
+  },
+  {
+    "target": "AdaJEPAMPCPlanner._plan_single",
+    "purpose": "sample-scoped reference snapshot and budget accounting",
+    "enabled_modes": [
+      "on"
+    ]
+  },
+  {
+    "target": "MPCPlanner.plan",
+    "purpose": "zero-prefix replay gate and executed-evidence capture",
+    "enabled_modes": [
+      "on"
+    ]
+  },
+  {
+    "target": "GDPlanner.plan",
+    "purpose": "actual optimizer-step and native contrast trace",
+    "enabled_modes": [
+      "on"
+    ]
+  },
+  {
+    "target": "AdaJEPATrainer.finetune",
+    "purpose": "deterministic support loss before/after and versions",
+    "enabled_modes": [
+      "on"
+    ]
+  },
+  {
+    "target": "VWorldModel rollout/predict/encode_obs",
+    "purpose": "model-query accounting",
+    "enabled_modes": [
+      "on"
+    ]
+  }
+]

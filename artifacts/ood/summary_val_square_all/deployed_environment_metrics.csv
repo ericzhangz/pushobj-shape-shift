@@ -1,0 +1,4 @@
+run_id,arm,split,n_episodes,n_success,success_rate,success_source
+ood_square_frozen_n5,FROZEN,val_square,5,1,0.2,official MPC first-success action_len (finite means success)
+ood_square_official_n5,OFFICIAL_ADAJEPA,val_square,5,2,0.4,official MPC first-success action_len (finite means success)
+ood_square_predictor_only_n5,PREDICTOR_ONLY,val_square,5,0,0.0,official MPC first-success action_len (finite means success)

@@ -1,0 +1,120 @@
+{
+  "protocol": "AdaJEPA PushObj real-checkpoint decisive pilot",
+  "created_at": "2026-09-19T20:46:03.8826386+08:00",
+  "timezone": "China Standard Time",
+  "official_commit_requested": "51d8665b7978824bd218decab9e05ddb6eb1f47b",
+  "git_branch": "research/pushobj-contrast-pilot",
+  "git_status_at_provenance": "clean",
+  "repository": "agentic-learning-ai-lab/adajepa",
+  "workspace": "D:\\EV-TTT\\adajepa_official_51d8665",
+  "source_snapshot_supplied_by_user": "D:\\EV-TTT\\adajepa",
+  "integrity_check_policy": "Cryptographic SHA checks omitted by explicit user instruction; paths, byte sizes, timestamps, Git branch, and the user-specified official commit identifier are recorded instead.",
+  "checkpoint": {
+    "root": "D:\\EV-TTT\\pushobj_shape_shift",
+    "config": {
+      "path": "D:\\EV-TTT\\pushobj_shape_shift\\hydra.yaml",
+      "bytes": 2084,
+      "last_write": "2026-07-19T15:09:04.0000000+08:00"
+    },
+    "model": {
+      "path": "D:\\EV-TTT\\pushobj_shape_shift\\checkpoints\\model_latest.pth",
+      "bytes": 418103400,
+      "last_write": "2026-07-17T07:24:16.0000000+08:00"
+    }
+  },
+  "plan_targets": {
+    "val_T": {"path": "D:\\EV-TTT\\pushobj_eval\\val_T\\plan_targets.pkl", "bytes": 808238, "last_write": "2026-09-19T20:04:30.7743951+08:00"},
+    "val_L": {"path": "D:\\EV-TTT\\pushobj_eval\\val_L\\plan_targets.pkl", "bytes": 808235, "last_write": "2026-09-19T20:04:30.7328710+08:00"},
+    "val_Z": {"path": "D:\\EV-TTT\\pushobj_eval\\val_Z\\plan_targets.pkl", "bytes": 808239, "last_write": "2026-09-19T20:04:30.7633949+08:00"},
+    "val_+": {"path": "D:\\EV-TTT\\pushobj_eval\\val_+\\plan_targets.pkl", "bytes": 808227, "last_write": "2026-09-19T20:04:30.7519390+08:00"},
+    "val_I": {"path": "D:\\EV-TTT\\pushobj_eval\\val_I\\plan_targets.pkl", "bytes": 808241, "last_write": "2026-09-19T20:04:30.7418737+08:00"},
+    "val_small_tee": {"path": "D:\\EV-TTT\\pushobj_eval\\val_small_tee\\plan_targets.pkl", "bytes": 808235, "last_write": "2026-09-19T20:04:30.7843955+08:00"},
+    "val_square": {"path": "D:\\EV-TTT\\pushobj_eval\\val_square\\plan_targets.pkl", "bytes": 808241, "last_write": "2026-09-19T20:04:30.7163857+08:00"}
+  },
+  "runtime": {
+    "conda_env": "adajepa-pilot",
+    "python_version": "3.9.19",
+    "python_executable": "C:\\Users\\ASUS\\anaconda3\\envs\\adajepa-pilot\\python.exe",
+    "torch_version": "2.3.0+cu121",
+    "cuda_runtime": "12.1",
+    "cuda_driver_reported": "13.2",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_memory_mib": 8188,
+    "hostname": "LAPTOP-G10CUQ2H",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "runtime_dependency_pins": {
+    "dinov2": {
+      "source": "facebookresearch/dinov2",
+      "snapshot_date": "2024-02-22",
+      "reason": "AdaJEPA dynamically loads the DINOv2 default branch during checkpoint deserialization. The current branch requires Python 3.10+, while the official AdaJEPA environment specifies Python 3.9. This official historical snapshot preserves Python 3.9 compatibility without changing planner logic.",
+      "torch_home": "D:\\EV-TTT\\adajepa_runtime\\torch"
+    }
+  },
+  "config": "conf/adajepa_plan_gd_pushobj.yaml",
+  "analysis_runtime": {
+    "python_version": "3.11.5",
+    "purpose": "Offline CSV/Parquet aggregation, validation, plots, and report generation only; model and environment runs used the adajepa-pilot runtime above."
+  },
+  "code_modified_files": [
+    "conf/__init__.py",
+    "research/schemas.py",
+    "research/contrast_probe.py",
+    "research/replay_oracle.py",
+    "research/instrumentation.py",
+    "research/run_pushobj_pilot.py",
+    "research/compare_action_runs.py",
+    "research/summarize_pilot_runs.py",
+    "research/contract_checks.py",
+    "research/build_pilot_report.py",
+    "research/validate_pilot_outputs.py"
+  ],
+  "formal_pilot": {
+    "completed_at": "2026-09-20T06:50:39.7754976+08:00",
+    "formal_runs": 15,
+    "formal_episodes": 63,
+    "planner_iterations": 80000,
+    "fixed_step_contrasts": 4000,
+    "oracle_branches": 8000,
+    "zero_replay_passed": 800,
+    "zero_replay_total": 800,
+    "task_successes": 35,
+    "decision": "REDEFINE",
+    "included_splits": {
+      "development": {"val_T": 3, "val_L": 3},
+      "ood": {"val_I": 5, "val_small_tee": 5, "val_square": 5}
+    },
+    "arms": ["FROZEN", "OFFICIAL_ADAJEPA", "PREDICTOR_ONLY"],
+    "excluded_failed_startups": [
+      "artifacts/development/val_T_official_n3",
+      "artifacts/ood/val_I_frozen_n5"
+    ]
+  },
+  "audit_corrections": [
+    "Frozen finetune calls with zero step losses are recorded as zero-update calls, not adaptation events.",
+    "Official final-evaluator environment steps are derived from the actually executed padded action batch; the original recorded value is retained in run_budgets.csv.",
+    "Offline summaries reject incomplete runs, duplicate paths/run ids, duplicated arm/split inputs, unpaired initial evidence, failed replay anchors, and incomplete fixed-step branches."
+  ],
+  "outputs": {
+    "report": "artifacts/PILOT_REPORT.md",
+    "result_summary": "artifacts/metrics/result_summary.json",
+    "task_metrics": "artifacts/metrics/task_metrics.csv",
+    "contrast_metrics": "artifacts/metrics/contrast_metrics.csv",
+    "episode_outcomes": "artifacts/metrics/episode_outcomes.csv",
+    "run_budgets": "artifacts/metrics/run_budgets.csv",
+    "planner_steps": "artifacts/traces/planner_steps.parquet",
+    "adaptation_steps": "artifacts/traces/adaptation_steps.parquet",
+    "version_table": "artifacts/traces/version_table.parquet",
+    "oracle_branches": "artifacts/oracle/branch_records.parquet",
+    "query_budget": "artifacts/oracle/query_budget.csv",
+    "plots": [
+      "artifacts/plots/task_success_rate.png",
+      "artifacts/plots/conditional_false_improvement_rate.png",
+      "artifacts/plots/predicted_vs_environment_contrast.png"
+    ]
+  },
+  "asset_links": {
+    "checkpoints/pushobj_shape_shift": "D:\\EV-TTT\\pushobj_shape_shift",
+    "data/pushobj_eval": "D:\\EV-TTT\\pushobj_eval"
+  }
+}

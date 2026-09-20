@@ -1,0 +1,2 @@
+run_id,arm,split,n_episodes,n_success,success_rate,success_source
+ood_valI_predictor_only_n5,PREDICTOR_ONLY,val_I,5,1,0.2,official MPC first-success action_len (finite means success)

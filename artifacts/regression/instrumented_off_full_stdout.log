@@ -1,0 +1,536 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\util.py:118: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  sentry_hub = sentry_sdk.Hub(sentry_client)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\sdk\internal\internal_api.py:30: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+D:\EV-TTT\adajepa_official_51d8665\env\__init__.py:7: UserWarning: point_maze envs unavailable (mujoco_py missing): No module named 'mujoco_py'. (HINT: you need to install mujoco_py, and also perform the setup instructions here: https://github.com/openai/mujoco-py/.)
+  warnings.warn(f"point_maze envs unavailable (mujoco_py missing): {_e}")
+D:\EV-TTT\adajepa_official_51d8665\custom_resolvers.py:4: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path=None)
+[2026-09-19 21:15:01,458][plan][INFO] - Planning result saved dir: D:\EV-TTT\adajepa_official_51d8665\artifacts\regression\instrumented_off_full\hydra
+Using cache found in D:\EV-TTT\adajepa_runtime\torch\hub\facebookresearch_dinov2_main
+[2026-09-19 21:15:03,976][dinov2][INFO] - using MLP layer as FFN
+[2026-09-19 21:15:04,284][models.dino][WARNING] - Unknown projector 'none' for patch tokens; proceeding without projector.
+Resuming from epoch 3: D:\EV-TTT\adajepa_official_51d8665\checkpoints\pushobj_shape_shift\checkpoints\model_latest.pth
+[2026-09-19 21:15:04,655][models.visual_world_model][INFO] - num_action_repeat: 1
+[2026-09-19 21:15:04,655][models.visual_world_model][INFO] - num_proprio_repeat: 1
+[2026-09-19 21:15:04,655][models.visual_world_model][INFO] - proprio encoder: ProprioceptiveEmbedding(
+  (patch_embed): Conv1d(4, 10, kernel_size=(1,), stride=(1,))
+  (norm): LayerNorm((10,), eps=1e-05, elementwise_affine=True)
+)
+[2026-09-19 21:15:04,656][models.visual_world_model][INFO] - action encoder: ProprioceptiveEmbedding(
+  (patch_embed): Conv1d(10, 10, kernel_size=(1,), stride=(1,))
+  (norm): LayerNorm((10,), eps=1e-05, elementwise_affine=True)
+)
+[2026-09-19 21:15:04,656][models.visual_world_model][INFO] - proprio_dim: 10, after repeat: 10
+[2026-09-19 21:15:04,656][models.visual_world_model][INFO] - action_dim: 10, after repeat: 10
+[2026-09-19 21:15:04,656][models.visual_world_model][INFO] - emb_dim: 404
+[2026-09-19 21:15:04,656][models.visual_world_model][INFO] - Straightening disabled
+[2026-09-19 21:15:04,656][models.visual_world_model][INFO] - Stop-grad enabled: True
+[2026-09-19 21:15:04,656][models.visual_world_model][INFO] - VCReg enabled: False, apply_to=enc, std_coeff=0.0, cov_coeff=0.0
+[2026-09-19 21:15:04,656][models.visual_world_model][INFO] - Model emb_dim: 404
+[timing] setup_model_s=3.199
+eval_seed:  [1]
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+D:\EV-TTT\adajepa_official_51d8665\env\__init__.py:7: UserWarning: point_maze envs unavailable (mujoco_py missing): No module named 'mujoco_py'. (HINT: you need to install mujoco_py, and also perform the setup instructions here: https://github.com/openai/mujoco-py/.)
+  warnings.warn(f"point_maze envs unavailable (mujoco_py missing): {_e}")
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pygame\pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\skimage\util\dtype.py:27: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\matplotlib\fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+  family = Regex(
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\matplotlib\fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  self._parser.parseString(pattern)
+C:\Users\ASUS\anaconda3\envs\adajepa-pilot\lib\site-packages\matplotlib\fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  self._parser.resetCache()
+[2026-09-19 21:15:06,790][planning.adajepa][INFO] - AdaJEPA predictor adaptation restricted to last transformer layer (13 tensors).
+[2026-09-19 21:15:06,790][planning.adajepa][INFO] - AdaJEPA encoder adaptation restricted to last submodule 'projection' (6 tensors).
+Dumped plan targets to D:\EV-TTT\adajepa_official_51d8665\artifacts\regression\instrumented_off_full\hydra\plan_targets.pkl
+[timing] setup_workspace_s=2.138
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  1%|          | 1/100 [00:00<00:15,  6.46it/s]
+  4%|▍         | 4/100 [00:00<00:05, 16.87it/s]
+  7%|▋         | 7/100 [00:00<00:04, 21.31it/s]
+ 10%|█         | 10/100 [00:00<00:03, 23.46it/s]
+ 13%|█▎        | 13/100 [00:00<00:03, 24.71it/s]
+ 16%|█▌        | 16/100 [00:00<00:03, 25.23it/s]
+ 19%|█▉        | 19/100 [00:00<00:03, 25.91it/s]
+ 22%|██▏       | 22/100 [00:00<00:02, 26.39it/s]
+ 25%|██▌       | 25/100 [00:01<00:02, 26.73it/s]
+ 28%|██▊       | 28/100 [00:01<00:02, 26.75it/s]
+ 31%|███       | 31/100 [00:01<00:02, 26.77it/s]
+ 34%|███▍      | 34/100 [00:01<00:02, 26.94it/s]
+ 37%|███▋      | 37/100 [00:01<00:02, 26.67it/s]
+ 40%|████      | 40/100 [00:01<00:02, 27.00it/s]
+ 43%|████▎     | 43/100 [00:01<00:02, 27.22it/s]
+ 46%|████▌     | 46/100 [00:01<00:01, 27.06it/s]
+ 49%|████▉     | 49/100 [00:01<00:01, 27.10it/s]
+ 52%|█████▏    | 52/100 [00:02<00:01, 27.26it/s]
+ 55%|█████▌    | 55/100 [00:02<00:01, 27.43it/s]
+ 58%|█████▊    | 58/100 [00:02<00:01, 27.41it/s]
+ 61%|██████    | 61/100 [00:02<00:01, 27.44it/s]
+ 64%|██████▍   | 64/100 [00:02<00:01, 26.95it/s]
+ 67%|██████▋   | 67/100 [00:02<00:01, 26.25it/s]
+ 70%|███████   | 70/100 [00:02<00:01, 26.76it/s]
+ 73%|███████▎  | 73/100 [00:02<00:01, 26.90it/s]
+ 76%|███████▌  | 76/100 [00:02<00:00, 26.91it/s]
+ 79%|███████▉  | 79/100 [00:03<00:00, 27.19it/s]
+ 82%|████████▏ | 82/100 [00:03<00:00, 27.06it/s]
+ 85%|████████▌ | 85/100 [00:03<00:00, 27.14it/s]
+ 88%|████████▊ | 88/100 [00:03<00:00, 27.12it/s]
+ 91%|█████████ | 91/100 [00:03<00:00, 27.02it/s]
+ 94%|█████████▍| 94/100 [00:03<00:00, 27.13it/s]
+ 97%|█████████▋| 97/100 [00:03<00:00, 27.00it/s]
+100%|██████████| 100/100 [00:03<00:00, 26.92it/s]
+100%|██████████| 100/100 [00:03<00:00, 26.22it/s]
+MPC iter 0 Eval ------- 
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([151.54227], dtype=float32)}
+self.is_success:  [False]
+[2026-09-19 21:15:10,958][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:15:11,060][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006579
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  2%|▏         | 2/100 [00:00<00:05, 17.29it/s]
+  5%|▌         | 5/100 [00:00<00:04, 22.93it/s]
+  8%|▊         | 8/100 [00:00<00:03, 24.97it/s]
+ 11%|█         | 11/100 [00:00<00:03, 25.64it/s]
+ 14%|█▍        | 14/100 [00:00<00:03, 25.39it/s]
+ 17%|█▋        | 17/100 [00:00<00:03, 25.72it/s]
+ 20%|██        | 20/100 [00:00<00:03, 25.58it/s]
+ 23%|██▎       | 23/100 [00:00<00:02, 25.87it/s]
+ 26%|██▌       | 26/100 [00:01<00:02, 26.31it/s]
+ 29%|██▉       | 29/100 [00:01<00:02, 26.35it/s]
+ 32%|███▏      | 32/100 [00:01<00:02, 26.28it/s]
+ 35%|███▌      | 35/100 [00:01<00:02, 26.19it/s]
+ 38%|███▊      | 38/100 [00:01<00:02, 25.90it/s]
+ 41%|████      | 41/100 [00:01<00:02, 26.37it/s]
+ 44%|████▍     | 44/100 [00:01<00:02, 26.51it/s]
+ 47%|████▋     | 47/100 [00:01<00:01, 26.80it/s]
+ 50%|█████     | 50/100 [00:01<00:01, 26.88it/s]
+ 53%|█████▎    | 53/100 [00:02<00:01, 26.83it/s]
+ 56%|█████▌    | 56/100 [00:02<00:01, 26.76it/s]
+ 59%|█████▉    | 59/100 [00:02<00:01, 26.98it/s]
+ 62%|██████▏   | 62/100 [00:02<00:01, 27.28it/s]
+ 65%|██████▌   | 65/100 [00:02<00:01, 27.02it/s]
+ 68%|██████▊   | 68/100 [00:02<00:01, 27.27it/s]
+ 71%|███████   | 71/100 [00:02<00:01, 27.26it/s]
+ 74%|███████▍  | 74/100 [00:02<00:00, 27.39it/s]
+ 77%|███████▋  | 77/100 [00:02<00:00, 27.31it/s]
+ 80%|████████  | 80/100 [00:03<00:00, 27.36it/s]
+ 83%|████████▎ | 83/100 [00:03<00:00, 27.16it/s]
+ 86%|████████▌ | 86/100 [00:03<00:00, 27.27it/s]
+ 89%|████████▉ | 89/100 [00:03<00:00, 26.88it/s]
+ 92%|█████████▏| 92/100 [00:03<00:00, 26.75it/s]
+ 95%|█████████▌| 95/100 [00:03<00:00, 26.89it/s]
+ 98%|█████████▊| 98/100 [00:03<00:00, 26.99it/s]
+100%|██████████| 100/100 [00:03<00:00, 26.53it/s]
+MPC iter 1 Eval ------- 
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([131.66518], dtype=float32)}
+self.is_success:  [False]
+[2026-09-19 21:15:14,902][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:15:14,984][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006152
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  2%|▏         | 2/100 [00:00<00:05, 18.84it/s]
+  5%|▌         | 5/100 [00:00<00:03, 23.93it/s]
+  8%|▊         | 8/100 [00:00<00:03, 25.51it/s]
+ 11%|█         | 11/100 [00:00<00:03, 26.38it/s]
+ 14%|█▍        | 14/100 [00:00<00:03, 26.61it/s]
+ 17%|█▋        | 17/100 [00:00<00:03, 26.63it/s]
+ 20%|██        | 20/100 [00:00<00:02, 26.79it/s]
+ 23%|██▎       | 23/100 [00:00<00:02, 26.71it/s]
+ 26%|██▌       | 26/100 [00:00<00:02, 27.03it/s]
+ 29%|██▉       | 29/100 [00:01<00:02, 27.21it/s]
+ 32%|███▏      | 32/100 [00:01<00:02, 27.45it/s]
+ 35%|███▌      | 35/100 [00:01<00:02, 27.26it/s]
+ 38%|███▊      | 38/100 [00:01<00:02, 27.07it/s]
+ 41%|████      | 41/100 [00:01<00:02, 26.85it/s]
+ 44%|████▍     | 44/100 [00:01<00:02, 26.76it/s]
+ 47%|████▋     | 47/100 [00:01<00:01, 27.09it/s]
+ 50%|█████     | 50/100 [00:01<00:01, 27.08it/s]
+ 53%|█████▎    | 53/100 [00:01<00:01, 27.18it/s]
+ 56%|█████▌    | 56/100 [00:02<00:01, 27.17it/s]
+ 59%|█████▉    | 59/100 [00:02<00:01, 27.37it/s]
+ 62%|██████▏   | 62/100 [00:02<00:01, 27.20it/s]
+ 65%|██████▌   | 65/100 [00:02<00:01, 27.51it/s]
+ 68%|██████▊   | 68/100 [00:02<00:01, 27.29it/s]
+ 71%|███████   | 71/100 [00:02<00:01, 26.96it/s]
+ 74%|███████▍  | 74/100 [00:02<00:00, 26.71it/s]
+ 77%|███████▋  | 77/100 [00:02<00:00, 26.62it/s]
+ 80%|████████  | 80/100 [00:02<00:00, 26.85it/s]
+ 83%|████████▎ | 83/100 [00:03<00:00, 26.69it/s]
+ 86%|████████▌ | 86/100 [00:03<00:00, 26.60it/s]
+ 89%|████████▉ | 89/100 [00:03<00:00, 26.90it/s]
+ 92%|█████████▏| 92/100 [00:03<00:00, 26.76it/s]
+ 95%|█████████▌| 95/100 [00:03<00:00, 26.59it/s]
+ 98%|█████████▊| 98/100 [00:03<00:00, 26.31it/s]
+100%|██████████| 100/100 [00:03<00:00, 26.74it/s]
+MPC iter 2 Eval ------- 
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([109.43076], dtype=float32)}
+self.is_success:  [False]
+[2026-09-19 21:15:18,809][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:15:18,900][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007297
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  2%|▏         | 2/100 [00:00<00:05, 16.88it/s]
+  5%|▌         | 5/100 [00:00<00:04, 22.86it/s]
+  8%|▊         | 8/100 [00:00<00:03, 24.95it/s]
+ 11%|█         | 11/100 [00:00<00:03, 25.88it/s]
+ 14%|█▍        | 14/100 [00:00<00:03, 26.17it/s]
+ 17%|█▋        | 17/100 [00:00<00:03, 26.47it/s]
+ 20%|██        | 20/100 [00:00<00:03, 26.51it/s]
+ 23%|██▎       | 23/100 [00:00<00:02, 26.84it/s]
+ 26%|██▌       | 26/100 [00:01<00:02, 27.02it/s]
+ 29%|██▉       | 29/100 [00:01<00:02, 27.02it/s]
+ 32%|███▏      | 32/100 [00:01<00:02, 26.88it/s]
+ 35%|███▌      | 35/100 [00:01<00:02, 27.24it/s]
+ 38%|███▊      | 38/100 [00:01<00:02, 27.49it/s]
+ 41%|████      | 41/100 [00:01<00:02, 27.26it/s]
+ 44%|████▍     | 44/100 [00:01<00:02, 27.08it/s]
+ 47%|████▋     | 47/100 [00:01<00:01, 27.10it/s]
+ 50%|█████     | 50/100 [00:01<00:01, 27.26it/s]
+ 53%|█████▎    | 53/100 [00:01<00:01, 27.53it/s]
+ 56%|█████▌    | 56/100 [00:02<00:01, 27.48it/s]
+ 59%|█████▉    | 59/100 [00:02<00:01, 27.69it/s]
+ 62%|██████▏   | 62/100 [00:02<00:01, 27.60it/s]
+ 65%|██████▌   | 65/100 [00:02<00:01, 27.72it/s]
+ 68%|██████▊   | 68/100 [00:02<00:01, 25.83it/s]
+ 71%|███████   | 71/100 [00:02<00:01, 25.86it/s]
+ 74%|███████▍  | 74/100 [00:02<00:00, 26.21it/s]
+ 77%|███████▋  | 77/100 [00:02<00:00, 26.69it/s]
+ 80%|████████  | 80/100 [00:02<00:00, 26.98it/s]
+ 83%|████████▎ | 83/100 [00:03<00:00, 27.03it/s]
+ 86%|████████▌ | 86/100 [00:03<00:00, 27.24it/s]
+ 89%|████████▉ | 89/100 [00:03<00:00, 27.26it/s]
+ 92%|█████████▏| 92/100 [00:03<00:00, 27.36it/s]
+ 95%|█████████▌| 95/100 [00:03<00:00, 27.19it/s]
+ 98%|█████████▊| 98/100 [00:03<00:00, 27.01it/s]
+100%|██████████| 100/100 [00:03<00:00, 26.79it/s]
+MPC iter 3 Eval ------- 
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([125.69639], dtype=float32)}
+self.is_success:  [False]
+[2026-09-19 21:15:22,743][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:15:22,851][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006585
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  2%|▏         | 2/100 [00:00<00:05, 17.61it/s]
+  5%|▌         | 5/100 [00:00<00:04, 22.81it/s]
+  8%|▊         | 8/100 [00:00<00:03, 24.74it/s]
+ 11%|█         | 11/100 [00:00<00:03, 25.22it/s]
+ 14%|█▍        | 14/100 [00:00<00:03, 25.77it/s]
+ 17%|█▋        | 17/100 [00:00<00:03, 26.06it/s]
+ 20%|██        | 20/100 [00:00<00:03, 26.10it/s]
+ 23%|██▎       | 23/100 [00:00<00:02, 26.32it/s]
+ 26%|██▌       | 26/100 [00:01<00:02, 26.23it/s]
+ 29%|██▉       | 29/100 [00:01<00:02, 26.45it/s]
+ 32%|███▏      | 32/100 [00:01<00:02, 26.59it/s]
+ 35%|███▌      | 35/100 [00:01<00:02, 26.90it/s]
+ 38%|███▊      | 38/100 [00:01<00:02, 27.14it/s]
+ 41%|████      | 41/100 [00:01<00:02, 27.32it/s]
+ 44%|████▍     | 44/100 [00:01<00:02, 27.32it/s]
+ 47%|████▋     | 47/100 [00:01<00:01, 27.37it/s]
+ 50%|█████     | 50/100 [00:01<00:01, 27.04it/s]
+ 53%|█████▎    | 53/100 [00:02<00:01, 27.20it/s]
+ 56%|█████▌    | 56/100 [00:02<00:01, 27.28it/s]
+ 59%|█████▉    | 59/100 [00:02<00:01, 27.46it/s]
+ 62%|██████▏   | 62/100 [00:02<00:01, 27.37it/s]
+ 65%|██████▌   | 65/100 [00:02<00:01, 27.48it/s]
+ 68%|██████▊   | 68/100 [00:02<00:01, 27.56it/s]
+ 71%|███████   | 71/100 [00:02<00:01, 27.52it/s]
+ 74%|███████▍  | 74/100 [00:02<00:00, 27.30it/s]
+ 77%|███████▋  | 77/100 [00:02<00:00, 27.18it/s]
+ 80%|████████  | 80/100 [00:02<00:00, 27.36it/s]
+ 83%|████████▎ | 83/100 [00:03<00:00, 27.63it/s]
+ 86%|████████▌ | 86/100 [00:03<00:00, 27.58it/s]
+ 89%|████████▉ | 89/100 [00:03<00:00, 27.45it/s]
+ 92%|█████████▏| 92/100 [00:03<00:00, 27.43it/s]
+ 95%|█████████▌| 95/100 [00:03<00:00, 27.24it/s]
+ 98%|█████████▊| 98/100 [00:03<00:00, 27.39it/s]
+100%|██████████| 100/100 [00:03<00:00, 26.85it/s]
+MPC iter 4 Eval ------- 
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([76.59041], dtype=float32)}
+self.is_success:  [False]
+[2026-09-19 21:15:26,731][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:15:26,838][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.005606
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  2%|▏         | 2/100 [00:00<00:06, 16.02it/s]
+  5%|▌         | 5/100 [00:00<00:04, 22.44it/s]
+  8%|▊         | 8/100 [00:00<00:03, 24.66it/s]
+ 11%|█         | 11/100 [00:00<00:03, 25.43it/s]
+ 14%|█▍        | 14/100 [00:00<00:03, 26.30it/s]
+ 17%|█▋        | 17/100 [00:00<00:03, 26.23it/s]
+ 20%|██        | 20/100 [00:00<00:03, 26.44it/s]
+ 23%|██▎       | 23/100 [00:00<00:02, 26.57it/s]
+ 26%|██▌       | 26/100 [00:01<00:02, 26.97it/s]
+ 29%|██▉       | 29/100 [00:01<00:02, 26.95it/s]
+ 32%|███▏      | 32/100 [00:01<00:02, 27.09it/s]
+ 35%|███▌      | 35/100 [00:01<00:02, 27.27it/s]
+ 38%|███▊      | 38/100 [00:01<00:02, 27.19it/s]
+ 41%|████      | 41/100 [00:01<00:02, 27.41it/s]
+ 44%|████▍     | 44/100 [00:01<00:02, 27.31it/s]
+ 47%|████▋     | 47/100 [00:01<00:01, 26.82it/s]
+ 50%|█████     | 50/100 [00:01<00:01, 27.46it/s]
+ 53%|█████▎    | 53/100 [00:01<00:01, 27.31it/s]
+ 56%|█████▌    | 56/100 [00:02<00:01, 27.27it/s]
+ 59%|█████▉    | 59/100 [00:02<00:01, 27.38it/s]
+ 62%|██████▏   | 62/100 [00:02<00:01, 27.32it/s]
+ 65%|██████▌   | 65/100 [00:02<00:01, 27.34it/s]
+ 68%|██████▊   | 68/100 [00:02<00:01, 27.61it/s]
+ 71%|███████   | 71/100 [00:02<00:01, 27.70it/s]
+ 74%|███████▍  | 74/100 [00:02<00:00, 27.25it/s]
+ 77%|███████▋  | 77/100 [00:02<00:00, 26.80it/s]
+ 80%|████████  | 80/100 [00:02<00:00, 26.48it/s]
+ 83%|████████▎ | 83/100 [00:03<00:00, 26.31it/s]
+ 86%|████████▌ | 86/100 [00:03<00:00, 26.32it/s]
+ 89%|████████▉ | 89/100 [00:03<00:00, 26.56it/s]
+ 92%|█████████▏| 92/100 [00:03<00:00, 26.22it/s]
+ 95%|█████████▌| 95/100 [00:03<00:00, 26.56it/s]
+ 98%|█████████▊| 98/100 [00:03<00:00, 26.85it/s]
+100%|██████████| 100/100 [00:03<00:00, 26.67it/s]
+MPC iter 5 Eval ------- 
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([47.150887], dtype=float32)}
+self.is_success:  [False]
+[2026-09-19 21:15:30,733][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:15:30,768][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006288
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  2%|▏         | 2/100 [00:00<00:05, 17.51it/s]
+  5%|▌         | 5/100 [00:00<00:04, 23.70it/s]
+  8%|▊         | 8/100 [00:00<00:03, 25.48it/s]
+ 11%|█         | 11/100 [00:00<00:03, 26.23it/s]
+ 14%|█▍        | 14/100 [00:00<00:03, 26.23it/s]
+ 17%|█▋        | 17/100 [00:00<00:03, 26.48it/s]
+ 20%|██        | 20/100 [00:00<00:03, 26.50it/s]
+ 23%|██▎       | 23/100 [00:00<00:02, 26.64it/s]
+ 26%|██▌       | 26/100 [00:00<00:02, 26.76it/s]
+ 29%|██▉       | 29/100 [00:01<00:02, 26.98it/s]
+ 32%|███▏      | 32/100 [00:01<00:02, 27.10it/s]
+ 35%|███▌      | 35/100 [00:01<00:02, 27.24it/s]
+ 38%|███▊      | 38/100 [00:01<00:02, 27.49it/s]
+ 41%|████      | 41/100 [00:01<00:02, 27.50it/s]
+ 44%|████▍     | 44/100 [00:01<00:02, 27.48it/s]
+ 47%|████▋     | 47/100 [00:01<00:01, 27.18it/s]
+ 50%|█████     | 50/100 [00:01<00:01, 26.97it/s]
+ 53%|█████▎    | 53/100 [00:01<00:01, 27.31it/s]
+ 56%|█████▌    | 56/100 [00:02<00:01, 27.08it/s]
+ 59%|█████▉    | 59/100 [00:02<00:01, 26.94it/s]
+ 62%|██████▏   | 62/100 [00:02<00:01, 27.02it/s]
+ 65%|██████▌   | 65/100 [00:02<00:01, 27.00it/s]
+ 68%|██████▊   | 68/100 [00:02<00:01, 27.48it/s]
+ 71%|███████   | 71/100 [00:02<00:01, 27.43it/s]
+ 74%|███████▍  | 74/100 [00:02<00:00, 27.40it/s]
+ 77%|███████▋  | 77/100 [00:02<00:00, 27.10it/s]
+ 80%|████████  | 80/100 [00:02<00:00, 27.12it/s]
+ 83%|████████▎ | 83/100 [00:03<00:00, 27.43it/s]
+ 86%|████████▌ | 86/100 [00:03<00:00, 27.55it/s]
+ 89%|████████▉ | 89/100 [00:03<00:00, 27.34it/s]
+ 92%|█████████▏| 92/100 [00:03<00:00, 27.14it/s]
+ 95%|█████████▌| 95/100 [00:03<00:00, 26.70it/s]
+ 98%|█████████▊| 98/100 [00:03<00:00, 26.83it/s]
+100%|██████████| 100/100 [00:03<00:00, 26.86it/s]
+MPC iter 6 Eval ------- 
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([31.968958], dtype=float32)}
+self.is_success:  [False]
+[2026-09-19 21:15:34,664][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:15:34,717][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006049
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  2%|▏         | 2/100 [00:00<00:05, 18.03it/s]
+  5%|▌         | 5/100 [00:00<00:04, 23.27it/s]
+  8%|▊         | 8/100 [00:00<00:03, 24.87it/s]
+ 11%|█         | 11/100 [00:00<00:03, 24.97it/s]
+ 14%|█▍        | 14/100 [00:00<00:03, 25.26it/s]
+ 17%|█▋        | 17/100 [00:00<00:03, 25.90it/s]
+ 20%|██        | 20/100 [00:00<00:03, 26.39it/s]
+ 23%|██▎       | 23/100 [00:00<00:02, 26.46it/s]
+ 26%|██▌       | 26/100 [00:01<00:02, 26.77it/s]
+ 29%|██▉       | 29/100 [00:01<00:02, 27.18it/s]
+ 32%|███▏      | 32/100 [00:01<00:02, 27.21it/s]
+ 35%|███▌      | 35/100 [00:01<00:02, 27.31it/s]
+ 38%|███▊      | 38/100 [00:01<00:02, 27.66it/s]
+ 41%|████      | 41/100 [00:01<00:02, 27.50it/s]
+ 44%|████▍     | 44/100 [00:01<00:02, 27.02it/s]
+ 47%|████▋     | 47/100 [00:01<00:01, 27.05it/s]
+ 50%|█████     | 50/100 [00:01<00:01, 27.06it/s]
+ 53%|█████▎    | 53/100 [00:01<00:01, 27.42it/s]
+ 56%|█████▌    | 56/100 [00:02<00:01, 27.40it/s]
+ 59%|█████▉    | 59/100 [00:02<00:01, 27.43it/s]
+ 62%|██████▏   | 62/100 [00:02<00:01, 26.12it/s]
+ 65%|██████▌   | 65/100 [00:02<00:01, 26.40it/s]
+ 68%|██████▊   | 68/100 [00:02<00:01, 26.89it/s]
+ 71%|███████   | 71/100 [00:02<00:01, 27.04it/s]
+ 74%|███████▍  | 74/100 [00:02<00:00, 26.98it/s]
+ 77%|███████▋  | 77/100 [00:02<00:00, 26.95it/s]
+ 80%|████████  | 80/100 [00:03<00:00, 26.80it/s]
+ 83%|████████▎ | 83/100 [00:03<00:00, 27.07it/s]
+ 86%|████████▌ | 86/100 [00:03<00:00, 26.90it/s]
+ 89%|████████▉ | 89/100 [00:03<00:00, 27.15it/s]
+ 92%|█████████▏| 92/100 [00:03<00:00, 27.19it/s]
+ 95%|█████████▌| 95/100 [00:03<00:00, 27.01it/s]
+ 98%|█████████▊| 98/100 [00:03<00:00, 26.97it/s]
+100%|██████████| 100/100 [00:03<00:00, 26.69it/s]
+MPC iter 7 Eval ------- 
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([47.7359], dtype=float32)}
+self.is_success:  [False]
+[2026-09-19 21:15:38,636][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:15:38,681][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006249
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  2%|▏         | 2/100 [00:00<00:05, 16.86it/s]
+  5%|▌         | 5/100 [00:00<00:04, 22.62it/s]
+  8%|▊         | 8/100 [00:00<00:03, 24.82it/s]
+ 11%|█         | 11/100 [00:00<00:03, 25.69it/s]
+ 14%|█▍        | 14/100 [00:00<00:03, 26.26it/s]
+ 17%|█▋        | 17/100 [00:00<00:03, 26.48it/s]
+ 20%|██        | 20/100 [00:00<00:02, 26.82it/s]
+ 23%|██▎       | 23/100 [00:00<00:02, 26.30it/s]
+ 26%|██▌       | 26/100 [00:01<00:02, 26.74it/s]
+ 29%|██▉       | 29/100 [00:01<00:02, 26.90it/s]
+ 32%|███▏      | 32/100 [00:01<00:02, 26.93it/s]
+ 35%|███▌      | 35/100 [00:01<00:02, 27.18it/s]
+ 38%|███▊      | 38/100 [00:01<00:02, 27.34it/s]
+ 41%|████      | 41/100 [00:01<00:02, 27.60it/s]
+ 44%|████▍     | 44/100 [00:01<00:02, 27.35it/s]
+ 47%|████▋     | 47/100 [00:01<00:01, 27.25it/s]
+ 50%|█████     | 50/100 [00:01<00:01, 27.18it/s]
+ 53%|█████▎    | 53/100 [00:01<00:01, 27.19it/s]
+ 56%|█████▌    | 56/100 [00:02<00:01, 27.21it/s]
+ 59%|█████▉    | 59/100 [00:02<00:01, 27.17it/s]
+ 62%|██████▏   | 62/100 [00:02<00:01, 27.33it/s]
+ 65%|██████▌   | 65/100 [00:02<00:01, 27.19it/s]
+ 68%|██████▊   | 68/100 [00:02<00:01, 27.21it/s]
+ 71%|███████   | 71/100 [00:02<00:01, 27.01it/s]
+ 74%|███████▍  | 74/100 [00:02<00:00, 27.13it/s]
+ 77%|███████▋  | 77/100 [00:02<00:00, 27.03it/s]
+ 80%|████████  | 80/100 [00:02<00:00, 26.98it/s]
+ 83%|████████▎ | 83/100 [00:03<00:00, 27.26it/s]
+ 86%|████████▌ | 86/100 [00:03<00:00, 27.22it/s]
+ 89%|████████▉ | 89/100 [00:03<00:00, 27.38it/s]
+ 92%|█████████▏| 92/100 [00:03<00:00, 26.85it/s]
+ 95%|█████████▌| 95/100 [00:03<00:00, 26.95it/s]
+ 98%|█████████▊| 98/100 [00:03<00:00, 27.04it/s]
+100%|██████████| 100/100 [00:03<00:00, 26.82it/s]
+MPC iter 8 Eval ------- 
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([33.712708], dtype=float32)}
+self.is_success:  [False]
+[2026-09-19 21:15:42,607][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:15:42,642][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006022
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  2%|▏         | 2/100 [00:00<00:05, 17.13it/s]
+  5%|▌         | 5/100 [00:00<00:04, 22.93it/s]
+  8%|▊         | 8/100 [00:00<00:03, 24.56it/s]
+ 11%|█         | 11/100 [00:00<00:03, 25.72it/s]
+ 14%|█▍        | 14/100 [00:00<00:03, 26.41it/s]
+ 17%|█▋        | 17/100 [00:00<00:03, 26.38it/s]
+ 20%|██        | 20/100 [00:00<00:03, 26.44it/s]
+ 23%|██▎       | 23/100 [00:00<00:02, 26.71it/s]
+ 26%|██▌       | 26/100 [00:01<00:02, 26.80it/s]
+ 29%|██▉       | 29/100 [00:01<00:02, 26.76it/s]
+ 32%|███▏      | 32/100 [00:01<00:02, 26.74it/s]
+ 35%|███▌      | 35/100 [00:01<00:02, 26.78it/s]
+ 38%|███▊      | 38/100 [00:01<00:02, 27.08it/s]
+ 41%|████      | 41/100 [00:01<00:02, 27.00it/s]
+ 44%|████▍     | 44/100 [00:01<00:02, 27.21it/s]
+ 47%|████▋     | 47/100 [00:01<00:01, 27.17it/s]
+ 50%|█████     | 50/100 [00:01<00:01, 26.84it/s]
+ 53%|█████▎    | 53/100 [00:02<00:01, 27.03it/s]
+ 56%|█████▌    | 56/100 [00:02<00:01, 26.88it/s]
+ 59%|█████▉    | 59/100 [00:02<00:01, 27.06it/s]
+ 62%|██████▏   | 62/100 [00:02<00:01, 27.02it/s]
+ 65%|██████▌   | 65/100 [00:02<00:01, 27.11it/s]
+ 68%|██████▊   | 68/100 [00:02<00:01, 27.05it/s]
+ 71%|███████   | 71/100 [00:02<00:01, 26.94it/s]
+ 74%|███████▍  | 74/100 [00:02<00:00, 27.06it/s]
+ 77%|███████▋  | 77/100 [00:02<00:00, 26.74it/s]
+ 80%|████████  | 80/100 [00:03<00:00, 26.61it/s]
+ 83%|████████▎ | 83/100 [00:03<00:00, 26.56it/s]
+ 86%|████████▌ | 86/100 [00:03<00:00, 26.69it/s]
+ 89%|████████▉ | 89/100 [00:03<00:00, 26.56it/s]
+ 92%|█████████▏| 92/100 [00:03<00:00, 26.48it/s]
+ 95%|█████████▌| 95/100 [00:03<00:00, 26.20it/s]
+ 98%|█████████▊| 98/100 [00:03<00:00, 26.15it/s]
+100%|██████████| 100/100 [00:03<00:00, 26.53it/s]
+MPC iter 9 Eval ------- 
+Success rate:  0.0
+{'success': array([False]), 'state_dist': array([55.02567], dtype=float32)}
+self.is_success:  [False]
+[2026-09-19 21:15:46,613][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:15:46,664][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.005447
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  2%|▏         | 2/100 [00:00<00:05, 18.44it/s]
+  5%|▌         | 5/100 [00:00<00:04, 23.30it/s]
+  8%|▊         | 8/100 [00:00<00:03, 24.91it/s]
+ 11%|█         | 11/100 [00:00<00:03, 26.02it/s]
+ 14%|█▍        | 14/100 [00:00<00:03, 26.33it/s]
+ 17%|█▋        | 17/100 [00:00<00:03, 26.81it/s]
+ 20%|██        | 20/100 [00:00<00:02, 26.93it/s]
+ 23%|██▎       | 23/100 [00:00<00:02, 27.02it/s]
+ 26%|██▌       | 26/100 [00:00<00:02, 27.27it/s]
+ 29%|██▉       | 29/100 [00:01<00:02, 27.14it/s]
+ 32%|███▏      | 32/100 [00:01<00:02, 27.41it/s]
+ 35%|███▌      | 35/100 [00:01<00:02, 27.47it/s]
+ 38%|███▊      | 38/100 [00:01<00:02, 27.50it/s]
+ 41%|████      | 41/100 [00:01<00:02, 27.19it/s]
+ 44%|████▍     | 44/100 [00:01<00:02, 27.09it/s]
+ 47%|████▋     | 47/100 [00:01<00:01, 27.19it/s]
+ 50%|█████     | 50/100 [00:01<00:01, 27.19it/s]
+ 53%|█████▎    | 53/100 [00:01<00:01, 27.02it/s]
+ 56%|█████▌    | 56/100 [00:02<00:01, 27.06it/s]
+ 59%|█████▉    | 59/100 [00:02<00:01, 27.29it/s]
+ 62%|██████▏   | 62/100 [00:02<00:01, 27.36it/s]
+ 65%|██████▌   | 65/100 [00:02<00:01, 27.36it/s]
+ 68%|██████▊   | 68/100 [00:02<00:01, 27.32it/s]
+ 71%|███████   | 71/100 [00:02<00:01, 27.22it/s]
+ 74%|███████▍  | 74/100 [00:02<00:00, 27.64it/s]
+ 77%|███████▋  | 77/100 [00:02<00:00, 27.12it/s]
+ 80%|████████  | 80/100 [00:02<00:00, 27.02it/s]
+ 83%|████████▎ | 83/100 [00:03<00:00, 27.22it/s]
+ 86%|████████▌ | 86/100 [00:03<00:00, 27.30it/s]
+ 89%|████████▉ | 89/100 [00:03<00:00, 27.33it/s]
+ 92%|█████████▏| 92/100 [00:03<00:00, 27.29it/s]
+ 95%|█████████▌| 95/100 [00:03<00:00, 27.15it/s]
+ 98%|█████████▊| 98/100 [00:03<00:00, 26.92it/s]
+100%|██████████| 100/100 [00:03<00:00, 26.96it/s]
+MPC iter 10 Eval ------- 
+Success rate:  1.0
+{'success': array([ True]), 'state_dist': array([58.35865], dtype=float32)}
+self.is_success:  [ True]
+[2026-09-19 21:15:50,590][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:15:50,649][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.004465
+Success rate:  1.0
+{'success': array([ True]), 'state_dist': array([58.35865], dtype=float32)}
+[timing] perform_planning_s=44.070
+[timing] total_planning_main_s=49.406

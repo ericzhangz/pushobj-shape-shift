@@ -1,0 +1,2 @@
+run_id,arm,split,n_episodes,n_success,success_rate,success_source
+dev_valL_official_n3,OFFICIAL_ADAJEPA,val_L,3,3,1.0,official MPC first-success action_len (finite means success)

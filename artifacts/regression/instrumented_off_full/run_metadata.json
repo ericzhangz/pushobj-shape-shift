@@ -1,0 +1,29 @@
+{
+  "run_id": "valT_s0_off_full",
+  "arm": "OFFICIAL_ADAJEPA",
+  "instrumentation_enabled": false,
+  "oracle_gd_steps": [
+    0,
+    24,
+    49,
+    74,
+    99
+  ],
+  "eval_data_path": "D:\\EV-TTT\\pushobj_eval\\val_T\\plan_targets.pkl",
+  "n_evals": 1,
+  "seed": 100,
+  "shapes": [
+    "T"
+  ],
+  "frameskip": 5,
+  "model_action_dim": 10,
+  "objective": {
+    "mode": "staged",
+    "alpha": 1.0,
+    "base": 2.0
+  },
+  "action_units": {
+    "model": "normalized environment API action packed by frameskip",
+    "environment_api": "relative displacement before internal x100 scale"
+  }
+}

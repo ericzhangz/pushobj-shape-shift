@@ -1,0 +1,46 @@
+ckpt_base_path: D:\EV-TTT\adajepa_official_51d8665\checkpoints
+model_name: pushobj_shape_shift
+model_epoch: latest
+seed: 100
+n_evals: 5
+goal_source: segments
+eval_data_path: D:\EV-TTT\adajepa_official_51d8665\data\pushobj_eval\val_square\plan_targets.pkl
+ood_corruption: null
+ood_level: null
+env_kwargs_override: null
+goal_H: 25
+n_plot_samples: 10
+decode_for_viz: false
+num_start_frames: 1
+debug_dset_init: false
+objective:
+  _target_: planning.objectives.create_objective_fn
+  alpha: 1
+  base: 2
+  mode: staged
+planner:
+  _target_: planning.adajepa_mpc.AdaJEPAMPCPlanner
+  max_iter: 20
+  n_taken_actions: 5
+  adapt:
+    lr: 0.0005
+    steps: 0
+    optimizer: adam
+    finetune_every: 1
+    replay_buffer: recent5
+    finetune_encoder: true
+    encoder_lr: 1.0e-05
+    last_layer_only: true
+    encoder_last_layer_only: true
+  reuse_actions: true
+  sub_planner:
+    target: planning.gd.GDPlanner
+    lr: 0.1
+    sample_type: zero
+    action_noise: 0
+    horizon: 25
+    var_scale: 1
+    opt_steps: 100
+    eval_every: -1
+  name: adajepa_plan_gd_pushobj
+wandb_logging: false

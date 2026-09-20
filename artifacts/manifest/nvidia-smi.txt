@@ -1,0 +1,6 @@
+Captured: 2026-09-19T20:46:03.8826386+08:00
+Driver Version: 596.36
+Driver-reported CUDA Version: 13.2
+GPU 0: NVIDIA GeForce RTX 4060 Laptop GPU
+Memory at capture: 1184 MiB used / 8188 MiB total
+Compute processes at capture: none; reported use was Windows graphics/display activity.

@@ -1,0 +1,7 @@
+- ckpt_base_path=D:\EV-TTT\adajepa_official_51d8665\checkpoints
+- model_name=pushobj_shape_shift
+- eval_data_path=D:\EV-TTT\adajepa_official_51d8665\data\pushobj_eval\val_I\plan_targets.pkl
+- n_evals=5
+- planner.max_iter=20
+- planner.adapt.finetune_encoder=false
+- +wandb_logging=false

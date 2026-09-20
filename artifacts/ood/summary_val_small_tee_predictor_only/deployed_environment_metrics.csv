@@ -1,0 +1,2 @@
+run_id,arm,split,n_episodes,n_success,success_rate,success_source
+ood_smalltee_predictor_only_n5,PREDICTOR_ONLY,val_small_tee,5,5,1.0,official MPC first-success action_len (finite means success)

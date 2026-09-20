@@ -1,0 +1,30 @@
+{
+  "runs": [
+    "D:\\EV-TTT\\adajepa_official_51d8665\\artifacts\\pass1\\val_T_official_s0"
+  ],
+  "n_contrasts": 55,
+  "n_oracle_branches": 110,
+  "zero_replay_passed": 11,
+  "zero_replay_total": 11,
+  "adaptation_events": 11,
+  "support_loss_improved_events": 10,
+  "metrics": [
+    {
+      "arm": "OFFICIAL_ADAJEPA",
+      "shape": "T",
+      "n_contrasts": 55,
+      "mae": 0.002674262528307736,
+      "rmse": 0.008137407479021528,
+      "spearman": 0.47873223207431137,
+      "sign_accuracy": 0.6363636363636364,
+      "false_improvement_count": 17,
+      "false_improvement_rate_all": 0.3090909090909091,
+      "predicted_improvement_count": 39,
+      "false_improvement_rate_given_predicted_improvement": 0.4358974358974359,
+      "mean_abs_delta_pred": 0.005922755711203949,
+      "mean_abs_delta_env_samever": 0.008442104218358342,
+      "max_env_worsening_under_predicted_improvement": 0.0032844766974449158,
+      "encoder_coordinate_delta_mae": 5.714286288077181e-06
+    }
+  ]
+}

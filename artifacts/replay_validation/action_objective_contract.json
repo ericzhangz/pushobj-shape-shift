@@ -1,0 +1,111 @@
+{
+  "action_contract": {
+    "sample_selection": {
+      "seed": 100,
+      "shape": "T",
+      "stored_sequence_shape": [
+        25,
+        2
+      ]
+    },
+    "units": {
+      "stored_plan_target": "pixel displacement",
+      "environment_api": "relative displacement divided by action_scale=100",
+      "environment_internal_controller": "environment API action multiplied by 100",
+      "model": "environment API action normalized by dataset ACTION_MEAN/ACTION_STD"
+    },
+    "action_dim": 2,
+    "frameskip": 5,
+    "model_action_dim": 10,
+    "model_action_shape": [
+      1,
+      5,
+      10
+    ],
+    "environment_action_shape": [
+      1,
+      25,
+      2
+    ],
+    "dtype": "torch.float32",
+    "ranges": {
+      "normalized_model_min": -0.8739978671073914,
+      "normalized_model_max": 1.6464886665344238,
+      "environment_api_min": -0.18516017496585846,
+      "environment_api_max": 0.3364270329475403,
+      "stored_pixel_min": -18.51601791381836,
+      "stored_pixel_max": 33.642704010009766
+    },
+    "first_action": {
+      "normalized_model": [
+        1.311937928199768,
+        0.03957328945398331
+      ],
+      "environment_api": [
+        0.2561802566051483,
+        0.014722572639584541
+      ],
+      "stored_pixel_and_internal_controller": [
+        25.618026733398438,
+        1.4722572565078735
+      ]
+    },
+    "roundtrip_max_abs_error": {
+      "model_pack_unpack": 0.0,
+      "normalize_denormalize_environment_api": 1.4901161193847656e-08,
+      "full_pixel_roundtrip": 1.9073486328125e-06
+    },
+    "passed": true
+  },
+  "objective_contract": {
+    "mode": "staged",
+    "alpha": 1.0,
+    "base": 2.0,
+    "model_action_horizon": 5,
+    "rollout_observation_horizon": 6,
+    "stage_rule": {
+      "terminal_steps": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "full_horizon_from_step": 5
+    },
+    "full_horizon_coefficients_before_outer_mean": [
+      0.01587301678955555,
+      0.0317460335791111,
+      0.0634920671582222,
+      0.1269841343164444,
+      0.2539682686328888,
+      0.5079365372657776
+    ],
+    "component_example": {
+      "terminal_visual": [
+        1.970526099205017,
+        1.314023733139038
+      ],
+      "terminal_proprio": [
+        2.347820520401001,
+        2.413144826889038
+      ],
+      "full_visual": [
+        0.3682746887207031,
+        0.26825448870658875
+      ],
+      "full_proprio": [
+        0.5214642286300659,
+        0.27047041058540344
+      ]
+    },
+    "closure_max_abs_error": {
+      "early_terminal": 0.0,
+      "boundary_minus_one_terminal": 0.0,
+      "boundary_full": 0.0,
+      "late_full": 0.0
+    },
+    "passed": true
+  },
+  "all_passed": true
+}

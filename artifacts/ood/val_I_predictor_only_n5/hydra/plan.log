@@ -1,0 +1,108 @@
+[2026-09-19 22:23:19,290][plan][INFO] - Planning result saved dir: D:\EV-TTT\adajepa_official_51d8665\artifacts\ood\val_I_predictor_only_n5\hydra
+[2026-09-19 22:23:20,382][dinov2][INFO] - using MLP layer as FFN
+[2026-09-19 22:23:20,748][models.dino][WARNING] - Unknown projector 'none' for patch tokens; proceeding without projector.
+[2026-09-19 22:23:21,158][models.visual_world_model][INFO] - num_action_repeat: 1
+[2026-09-19 22:23:21,158][models.visual_world_model][INFO] - num_proprio_repeat: 1
+[2026-09-19 22:23:21,158][models.visual_world_model][INFO] - proprio encoder: ProprioceptiveEmbedding(
+  (patch_embed): Conv1d(4, 10, kernel_size=(1,), stride=(1,))
+  (norm): LayerNorm((10,), eps=1e-05, elementwise_affine=True)
+)
+[2026-09-19 22:23:21,159][models.visual_world_model][INFO] - action encoder: ProprioceptiveEmbedding(
+  (patch_embed): Conv1d(10, 10, kernel_size=(1,), stride=(1,))
+  (norm): LayerNorm((10,), eps=1e-05, elementwise_affine=True)
+)
+[2026-09-19 22:23:21,159][models.visual_world_model][INFO] - proprio_dim: 10, after repeat: 10
+[2026-09-19 22:23:21,159][models.visual_world_model][INFO] - action_dim: 10, after repeat: 10
+[2026-09-19 22:23:21,159][models.visual_world_model][INFO] - emb_dim: 404
+[2026-09-19 22:23:21,159][models.visual_world_model][INFO] - Straightening disabled
+[2026-09-19 22:23:21,159][models.visual_world_model][INFO] - Stop-grad enabled: True
+[2026-09-19 22:23:21,159][models.visual_world_model][INFO] - VCReg enabled: False, apply_to=enc, std_coeff=0.0, cov_coeff=0.0
+[2026-09-19 22:23:21,159][models.visual_world_model][INFO] - Model emb_dim: 404
+[2026-09-19 22:23:24,318][planning.adajepa][INFO] - AdaJEPA predictor adaptation restricted to last transformer layer (13 tensors).
+[2026-09-19 22:23:32,282][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.021370
+[2026-09-19 22:23:39,827][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.019493
+[2026-09-19 22:23:47,476][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.018983
+[2026-09-19 22:23:55,277][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.018381
+[2026-09-19 22:24:03,414][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.019210
+[2026-09-19 22:24:11,660][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.020599
+[2026-09-19 22:24:20,109][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.021750
+[2026-09-19 22:24:28,647][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.020374
+[2026-09-19 22:24:37,461][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.014966
+[2026-09-19 22:24:46,629][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.012225
+[2026-09-19 22:24:55,710][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.010727
+[2026-09-19 22:25:04,819][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.008315
+[2026-09-19 22:25:14,124][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.008394
+[2026-09-19 22:25:23,526][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.008408
+[2026-09-19 22:25:32,944][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006541
+[2026-09-19 22:25:42,513][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.008011
+[2026-09-19 22:25:52,098][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006716
+[2026-09-19 22:26:02,074][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007815
+[2026-09-19 22:26:12,082][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007886
+[2026-09-19 22:26:22,308][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007512
+[2026-09-19 22:26:29,808][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.029493
+[2026-09-19 22:26:37,468][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.058702
+[2026-09-19 22:26:45,254][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.040059
+[2026-09-19 22:26:53,483][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.026543
+[2026-09-19 22:27:01,627][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.023607
+[2026-09-19 22:27:10,070][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.024325
+[2026-09-19 22:27:18,611][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.016761
+[2026-09-19 22:27:26,133][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.051067
+[2026-09-19 22:27:33,875][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.042379
+[2026-09-19 22:27:41,770][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.035357
+[2026-09-19 22:27:49,722][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.055456
+[2026-09-19 22:27:57,810][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.063431
+[2026-09-19 22:28:06,249][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.082246
+[2026-09-19 22:28:14,724][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.059524
+[2026-09-19 22:28:23,439][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.047604
+[2026-09-19 22:28:32,201][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.065511
+[2026-09-19 22:28:41,128][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.058312
+[2026-09-19 22:28:50,639][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.075578
+[2026-09-19 22:28:59,815][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.055477
+[2026-09-19 22:29:09,067][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.028138
+[2026-09-19 22:29:18,417][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.020142
+[2026-09-19 22:29:27,923][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.026189
+[2026-09-19 22:29:37,487][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.034992
+[2026-09-19 22:29:47,170][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.034011
+[2026-09-19 22:29:56,958][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.033432
+[2026-09-19 22:30:06,907][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.019070
+[2026-09-19 22:30:17,003][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.012340
+[2026-09-19 22:30:24,594][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.023463
+[2026-09-19 22:30:32,246][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.040826
+[2026-09-19 22:30:40,081][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.027393
+[2026-09-19 22:30:48,194][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.049502
+[2026-09-19 22:30:56,490][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.049633
+[2026-09-19 22:31:04,908][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.054932
+[2026-09-19 22:31:13,419][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.044669
+[2026-09-19 22:31:22,056][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.028414
+[2026-09-19 22:31:30,771][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.019297
+[2026-09-19 22:31:39,643][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.016646
+[2026-09-19 22:31:48,514][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.019317
+[2026-09-19 22:31:57,576][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.019485
+[2026-09-19 22:32:06,833][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.025343
+[2026-09-19 22:32:16,325][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.037486
+[2026-09-19 22:32:25,782][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.035446
+[2026-09-19 22:32:35,408][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.050211
+[2026-09-19 22:32:45,125][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.038406
+[2026-09-19 22:32:55,324][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.039711
+[2026-09-19 22:33:05,289][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.032278
+[2026-09-19 22:33:15,476][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.063901
+[2026-09-19 22:33:23,043][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.047859
+[2026-09-19 22:33:30,727][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.036637
+[2026-09-19 22:33:38,547][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.040673
+[2026-09-19 22:33:46,513][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.041841
+[2026-09-19 22:33:54,701][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.037352
+[2026-09-19 22:34:03,167][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.030442
+[2026-09-19 22:34:11,751][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.025666
+[2026-09-19 22:34:20,478][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.018912
+[2026-09-19 22:34:29,357][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.013083
+[2026-09-19 22:34:38,471][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.010179
+[2026-09-19 22:34:47,521][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.009194
+[2026-09-19 22:34:56,749][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.008890
+[2026-09-19 22:35:06,057][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.008374
+[2026-09-19 22:35:15,610][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007885
+[2026-09-19 22:35:25,429][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007875
+[2026-09-19 22:35:35,066][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.008607
+[2026-09-19 22:35:44,865][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007792
+[2026-09-19 22:35:54,811][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007044
+[2026-09-19 22:36:04,811][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007359
+[2026-09-19 22:36:15,086][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006453

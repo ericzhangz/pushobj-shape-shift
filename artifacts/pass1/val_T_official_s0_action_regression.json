@@ -1,0 +1,19 @@
+{
+  "baseline": "D:\\EV-TTT\\adajepa_official_51d8665\\artifacts\\baseline\\official_capture_full\\baseline_actions.pt",
+  "candidate": "D:\\EV-TTT\\adajepa_official_51d8665\\artifacts\\pass1\\val_T_official_s0\\baseline_actions.pt",
+  "baseline_shape": [
+    1,
+    11,
+    10
+  ],
+  "candidate_shape": [
+    1,
+    11,
+    10
+  ],
+  "same_shape": true,
+  "actions_exactly_equal": true,
+  "action_max_abs_error": 0.0,
+  "action_lengths_equal": true,
+  "passed": true
+}

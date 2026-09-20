@@ -1,0 +1,10 @@
+{
+  "n_runs": 15,
+  "n_episodes": 63,
+  "n_contrasts": 4000,
+  "n_oracle_branches": 8000,
+  "zero_replay_passed": 800,
+  "zero_replay_total": 800,
+  "decision": "REDEFINE",
+  "report": "D:\\EV-TTT\\adajepa_official_51d8665\\artifacts\\PILOT_REPORT.md"
+}

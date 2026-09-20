@@ -1,0 +1,4 @@
+run_id,arm,split,n_episodes,n_success,success_rate,success_source
+dev_valT_frozen_n3,FROZEN,val_T,3,2,0.6666666666666666,official MPC first-success action_len (finite means success)
+dev_valT_official_n3,OFFICIAL_ADAJEPA,val_T,3,3,1.0,official MPC first-success action_len (finite means success)
+dev_valT_predictor_only_n3,PREDICTOR_ONLY,val_T,3,3,1.0,official MPC first-success action_len (finite means success)

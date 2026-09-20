@@ -1,0 +1,70 @@
+[2026-09-19 21:31:03,365][plan][INFO] - Planning result saved dir: D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_T_official_n3_attempt2\hydra
+[2026-09-19 21:31:04,375][dinov2][INFO] - using MLP layer as FFN
+[2026-09-19 21:31:04,760][models.dino][WARNING] - Unknown projector 'none' for patch tokens; proceeding without projector.
+[2026-09-19 21:31:05,306][models.visual_world_model][INFO] - num_action_repeat: 1
+[2026-09-19 21:31:05,306][models.visual_world_model][INFO] - num_proprio_repeat: 1
+[2026-09-19 21:31:05,306][models.visual_world_model][INFO] - proprio encoder: ProprioceptiveEmbedding(
+  (patch_embed): Conv1d(4, 10, kernel_size=(1,), stride=(1,))
+  (norm): LayerNorm((10,), eps=1e-05, elementwise_affine=True)
+)
+[2026-09-19 21:31:05,306][models.visual_world_model][INFO] - action encoder: ProprioceptiveEmbedding(
+  (patch_embed): Conv1d(10, 10, kernel_size=(1,), stride=(1,))
+  (norm): LayerNorm((10,), eps=1e-05, elementwise_affine=True)
+)
+[2026-09-19 21:31:05,307][models.visual_world_model][INFO] - proprio_dim: 10, after repeat: 10
+[2026-09-19 21:31:05,307][models.visual_world_model][INFO] - action_dim: 10, after repeat: 10
+[2026-09-19 21:31:05,307][models.visual_world_model][INFO] - emb_dim: 404
+[2026-09-19 21:31:05,307][models.visual_world_model][INFO] - Straightening disabled
+[2026-09-19 21:31:05,307][models.visual_world_model][INFO] - Stop-grad enabled: True
+[2026-09-19 21:31:05,307][models.visual_world_model][INFO] - VCReg enabled: False, apply_to=enc, std_coeff=0.0, cov_coeff=0.0
+[2026-09-19 21:31:05,307][models.visual_world_model][INFO] - Model emb_dim: 404
+[2026-09-19 21:31:07,752][planning.adajepa][INFO] - AdaJEPA predictor adaptation restricted to last transformer layer (13 tensors).
+[2026-09-19 21:31:07,752][planning.adajepa][INFO] - AdaJEPA encoder adaptation restricted to last submodule 'projection' (6 tensors).
+[2026-09-19 21:31:16,788][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:31:16,846][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006579
+[2026-09-19 21:31:25,463][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:31:25,489][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006152
+[2026-09-19 21:31:34,040][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:31:34,063][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007297
+[2026-09-19 21:31:42,656][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:31:42,689][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006585
+[2026-09-19 21:31:51,718][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:31:51,757][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.005606
+[2026-09-19 21:32:00,940][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:32:00,986][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006288
+[2026-09-19 21:32:10,302][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:32:10,343][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006049
+[2026-09-19 21:32:19,717][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:32:19,759][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006249
+[2026-09-19 21:32:29,539][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:32:29,584][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006022
+[2026-09-19 21:32:41,410][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:32:41,458][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.005447
+[2026-09-19 21:32:51,470][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:32:51,506][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.004465
+[2026-09-19 21:32:59,771][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:32:59,798][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.004553
+[2026-09-19 21:33:10,153][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:33:10,173][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.003618
+[2026-09-19 21:33:19,068][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:33:19,083][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.004044
+[2026-09-19 21:33:27,970][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:33:27,999][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.002803
+[2026-09-19 21:33:36,868][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:33:36,916][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.003758
+[2026-09-19 21:33:46,079][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:33:46,120][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.003629
+[2026-09-19 21:33:54,466][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:33:54,488][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.010843
+[2026-09-19 21:34:03,356][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:34:03,377][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006160
+[2026-09-19 21:34:11,930][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:34:11,954][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.008672
+[2026-09-19 21:34:20,816][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:34:20,851][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006217
+[2026-09-19 21:34:30,171][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:34:30,219][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007195
+[2026-09-19 21:34:39,511][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:34:39,564][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.006780
+[2026-09-19 21:34:48,999][planning.adajepa][INFO] - AdaJEPA optimizer: predictor_lr=5.00e-04  encoder_lr=1.00e-05
+[2026-09-19 21:34:49,038][planning.adajepa][INFO] - AdaJEPA step 1/1  pred_loss=0.007073
