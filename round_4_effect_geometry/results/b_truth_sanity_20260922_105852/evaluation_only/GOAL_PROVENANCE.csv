@@ -1,0 +1,2 @@
+anchor_id,goal_evidence,checkpoint_dir,reference_encoder_version,goal_latent
+val_T|T|s0|m2,D:\EV-TTT\adajepa_official_51d8665\artifacts\development\val_T_frozen_n3\real_evidence\sample_000_initial.npz,D:\EV-TTT\pushobj_shape_shift,0,D:\EV-TTT\adajepa_official_51d8665\artifacts\round_4_effect_geometry\b_truth_sanity_20260922_105852\evaluation_only\B_GOAL_LATENTS\val_T__T__s0__m2.npz

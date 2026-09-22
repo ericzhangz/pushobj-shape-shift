@@ -1,0 +1,26 @@
+{
+  "status": "PASS_DATA_AND_TRUTH_CONTRACT",
+  "date": "2026-09-22",
+  "source_contract": "artifacts/round_4_effect_geometry/g0_20260922_105708/INPUT_CONTRACT.json",
+  "truth_encoding_validation": "artifacts/round_4_effect_geometry/b_truth_full_20260922_110025/TRUTH_ENCODING_VALIDATION.json",
+  "b_anchors": 12,
+  "b_cases": 6,
+  "b_candidates_reencoded": 120,
+  "c_physical_branches": 17,
+  "c_logical_branches": 18,
+  "b_total_visual_proprio_cost_max_abs_error": 0.0,
+  "b_truth_encoding": "original_single_batch_six_frame_frozen_encoder",
+  "r3_truth_encoding": "distinct_single_frame_contract_not_interchanged",
+  "candidate_action_outcome_binding": "archival_record_and_exact_path; B outcome sidecars do not embed action trace",
+  "oracle_for_training": false,
+  "model_parameters_changed": false,
+  "new_environment_calls": 0,
+  "training_steps": 0,
+  "source_test_package": "geometry_contract.py and check_processing.py not locally available; reconstruct independently before claiming those tests passed",
+  "preserved_failed_attempts": [
+    "artifacts/round_4_effect_geometry/g0_20260922_104949",
+    "artifacts/round_4_effect_geometry/g0_20260922_105042",
+    "artifacts/round_4_effect_geometry/b_truth_sanity_20260922_105806",
+    "artifacts/round_4_effect_geometry/b_truth_sanity_20260922_105852"
+  ]
+}

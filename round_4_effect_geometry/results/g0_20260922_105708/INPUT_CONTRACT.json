@@ -1,0 +1,23 @@
+{
+  "passed": false,
+  "status": "PARTIAL_SOURCE_AND_TIME_CONTRACT",
+  "source_and_time_contract_passed": true,
+  "b_anchors": 12,
+  "b_cases": 6,
+  "b_frozen_candidate_outcomes": 120,
+  "c": {
+    "physical_branches": 17,
+    "logical_branches": 18,
+    "anchors": 6,
+    "oracle_use": "diagnosis_only"
+  },
+  "b_truth_encoding": "archived_six_frame_batch_not_yet_recomputed",
+  "b_truth_encoding_passed": false,
+  "r3_truth_encoding": "distinct_one_frame_contract",
+  "action_outcome_binding": "archived_branch_record_and_exact_filename_only; outcome sidecars contain no action trace",
+  "source_tests": "geometry_contract_and_check_processing_not_found_locally",
+  "training_use_of_oracle": false,
+  "new_environment_calls": 0,
+  "model_calls": 0,
+  "training_steps": 0
+}

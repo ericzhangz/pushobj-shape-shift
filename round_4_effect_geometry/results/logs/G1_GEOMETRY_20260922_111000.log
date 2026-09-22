@@ -1,0 +1,24 @@
+{
+  "W": "visual 2/n_visual; proprio 2/n_proprio; C=0.5||z-g||_W^2",
+  "anchors": 6,
+  "closure_max_abs": 8.881784197001252e-16,
+  "closure_tolerance": 1e-10,
+  "frozen_nonfrozen_pairs": 11,
+  "latent_flattened_dimensions": [
+    394
+  ],
+  "legal_frozen_adapted_pairs": 6,
+  "new_GD_iterations": 0,
+  "new_environment_calls": 0,
+  "new_model_transitions": 0,
+  "new_training_updates": 0,
+  "norm_mask": 1e-10,
+  "pair_depth_mode_rows": 320,
+  "passed": true,
+  "physical_branches": 17,
+  "physical_pairs": 16,
+  "scalar_parity_max_abs": 2.302281060240219e-08,
+  "scalar_parity_tolerance": 1e-06,
+  "stage": "G1_Round4_saved_vector_geometry",
+  "truth_role": "evaluation_only; C future observations/actions never used for update"
+}

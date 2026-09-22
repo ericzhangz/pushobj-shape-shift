@@ -1,0 +1,9 @@
+{
+  "purpose": "Post-run provenance binding for the optional hybrid; original G1 summary was not edited or rerun",
+  "propagation_summary": "D:\\EV-TTT\\adajepa_official_51d8665\\artifacts\\round_4_effect_geometry\\g1_propagation_20260922_111000\\propagation_audit_summary.json",
+  "vector_directory": "D:\\EV-TTT\\adajepa_official_51d8665\\artifacts\\round_4_effect_geometry\\g1_propagation_20260922_111000\\vectors",
+  "execution_log": "D:\\EV-TTT\\adajepa_official_51d8665\\refine-logs\\G1_PROPAGATION_20260922_111000.log",
+  "loaded_checkpoint_directory": "D:\\EV-TTT\\pushobj_shape_shift",
+  "evidence": "Execution log explicitly reports Resuming from epoch 3 at this checkpoint; G0 run_config resolves the same junction target; 17 sidecars were published only after propagation validation PASS.",
+  "new_hash_checks": 0
+}

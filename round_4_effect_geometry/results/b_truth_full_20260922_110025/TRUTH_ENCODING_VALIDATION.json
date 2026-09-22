@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "status": "PASS",
+  "candidates_checked": 120,
+  "expected_candidates": 120,
+  "max_abs_cost_error": 0.0,
+  "tolerance": 1e-06,
+  "model_unchanged": true,
+  "reference_encoder": "frozen_checkpoint_version_0",
+  "goal_encoding": "same_frozen_checkpoint_from_archived_initial_goal_observation",
+  "model_encode_calls": 132,
+  "new_environment_calls": 0,
+  "training_steps": 0,
+  "wall_s": 5.0733336,
+  "gpu_peak_bytes": 423726592
+}

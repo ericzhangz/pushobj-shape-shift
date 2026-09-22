@@ -1,0 +1,19 @@
+{
+  "anchors": 6,
+  "branch_depth_rows": 68,
+  "closure_max_abs": 1.3877787807814457e-17,
+  "closure_tolerance": 1e-10,
+  "interpretation": "ordered algebraic decomposition, not unique causal attribution",
+  "model_parameters_and_buffers_unchanged": true,
+  "model_samples": 68,
+  "model_transitions": 68,
+  "new_GD_iterations": 0,
+  "new_environment_calls": 0,
+  "new_training_updates": 0,
+  "pair_depth_rows": 64,
+  "passed": true,
+  "physical_branches": 17,
+  "physical_pairs": 16,
+  "stage": "G1_optional_ordered_hybrid_feedback_split",
+  "wall_clock_s": 4.2005647
+}

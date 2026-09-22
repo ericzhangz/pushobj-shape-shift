@@ -1,0 +1,2 @@
+anchor_id,candidate_id,logged_c_env_ref,reencoded_cost,total_abs_error,visual_abs_error,proprio_abs_error,objective_stage,latent_sidecar
+val_T|T|s0|m2,g0_before,0.02916865609586239,0.029171302914619446,2.64681875705719e-06,2.6477500796318054e-06,0.0,terminal,D:\EV-TTT\adajepa_official_51d8665\artifacts\round_4_effect_geometry\b_truth_sanity_20260922_105852\evaluation_only\B_TRUTH_LATENTS\val_T__T__s0__m2\g0_before.npz
