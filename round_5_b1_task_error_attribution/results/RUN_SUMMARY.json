@@ -1,0 +1,64 @@
+{
+  "status": "COMPLETE_B1_RETROSPECTIVE",
+  "checks": {
+    "saved_model_cost": 0.0,
+    "latent_model_cost": 0.0,
+    "support_loss": 0.0,
+    "truth_cost": 0.0,
+    "truth_same_variants": 0.0,
+    "candidate_telescope": 0.0,
+    "pair_update_telescope": 0.0,
+    "selection_regret": 0.0
+  },
+  "groups": [
+    {
+      "mpc": 2,
+      "cases": 6,
+      "support_down": 6,
+      "regret_improved": 0,
+      "regret_worsened": 4,
+      "regret_unchanged": 2,
+      "mean_pair_mae_before": 0.01116722368169576,
+      "mean_pair_mae_after": 0.010012599817235712,
+      "mean_regret_before": 0.002068332900914053,
+      "mean_regret_after": 0.0024174062612776956,
+      "median_true_cost_span": 0.06973585765808821,
+      "median_margin_after": 1.3508135452866554e-05
+    },
+    {
+      "mpc": 4,
+      "cases": 6,
+      "support_down": 6,
+      "regret_improved": 2,
+      "regret_worsened": 2,
+      "regret_unchanged": 2,
+      "mean_pair_mae_before": 0.00870043953742694,
+      "mean_pair_mae_after": 0.007265735348617589,
+      "mean_regret_before": 0.005511736419672768,
+      "mean_regret_after": 0.0054714571839819355,
+      "median_true_cost_span": 0.04802558710798621,
+      "median_margin_after": 2.3097265511751175e-05
+    }
+  ],
+  "candidate_rows": 240,
+  "step_rows": 1200,
+  "pair_rows": 540,
+  "anchor_rows": 12,
+  "load_seconds": 2.5703283,
+  "compute_seconds": 22.5583393,
+  "peak_allocated_bytes": 371305984,
+  "ledger": {
+    "F_calls": 6114,
+    "F_samples": 6114,
+    "backward": 0,
+    "updates": 0,
+    "encoder_calls": 12,
+    "encoder_frames": 12
+  },
+  "new_environment_branches": 0,
+  "adaptation_optimizer_steps": 36,
+  "factual_transition_uses": 78,
+  "ledger_backward_and_updates_exclude_AdaJEPA_trainer": true,
+  "ledger_encoder_calls_cover_runner_only": true,
+  "fixed_full_plan_not_native_closed_loop": true
+}

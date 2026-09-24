@@ -1,0 +1,14 @@
+{
+  "status": "B1_RETROSPECTIVE",
+  "protocol": "artifacts/processing_math_bridge/B1_UPDATE_ATTRIBUTION_PROTOCOL.md",
+  "original_variant": "predictor_official_shadow",
+  "cases": 6,
+  "anchors": 12,
+  "candidates_per_anchor": 10,
+  "fixed_full_plan_only": true,
+  "future_latent_sidecars_loaded_after_score_reproduction": true,
+  "new_environment_branches": 0,
+  "new_operator": false,
+  "cost_parity_limit": 1e-06,
+  "closure_limit": 1e-05
+}
