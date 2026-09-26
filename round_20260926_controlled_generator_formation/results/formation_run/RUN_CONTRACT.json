@@ -1,0 +1,44 @@
+{
+  "stage": "F0_COARSE_BOUNDARY_GATE",
+  "anchors": [
+    [
+      "T",
+      0
+    ],
+    [
+      "T",
+      1
+    ],
+    [
+      "L",
+      0
+    ],
+    [
+      "L",
+      1
+    ]
+  ],
+  "mpc": 2,
+  "checkpoint_dir": "D:\\EV-TTT\\pushobj_shape_shift",
+  "seed": 260926,
+  "teacher_single_train": 128,
+  "teacher_H5_train": 32,
+  "teacher_single_validation": 64,
+  "teacher_H5_validation": 16,
+  "training_steps": 600,
+  "batch_size": 64,
+  "lr": 0.001,
+  "gate_single_relative_rms": 0.25,
+  "gate_H5_relative_rms": 0.5,
+  "validation_used_for_fit_or_selection": false,
+  "candidate_outcomes_read": false,
+  "environment_branches": 0,
+  "information": "completed D inputs and independent F0 queries only",
+  "no_D_label_updates_at_this_gate": true,
+  "teacher_cache_walk": "training query construction only; held H5 uses native rollout",
+  "matched_teacher_data_and_optimization_steps": true,
+  "matched_compute_or_parameter_count": false,
+  "flow_network_calls_per_chunk": 10,
+  "packed_network_calls_per_chunk": 1,
+  "metadata_wording_corrected_after_run": "Audit found the original key overstated matched compute; no data, model, threshold or result changed."
+}

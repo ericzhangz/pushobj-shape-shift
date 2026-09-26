@@ -1,0 +1,10 @@
+{
+  "status": "PREFIX_FORMATION_COMPLETE_NO_CANDIDATE_TRUTH_READ",
+  "prefix_lifts_passed": 4,
+  "D_gates_passed": 0,
+  "factual_metrics_written": true,
+  "environment_branches": 0,
+  "seconds": 52.920634799999995,
+  "host_tensor_versions_unchanged": true,
+  "host_gradients_absent": true
+}

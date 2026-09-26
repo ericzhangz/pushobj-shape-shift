@@ -1,0 +1,5 @@
+split,sample,prefix_lift_pass,D_gate_pass,decision
+T,0,True,False,STOP_CURRENT_D_RECOVERY_RULE
+T,1,True,False,STOP_CURRENT_D_RECOVERY_RULE
+L,0,True,False,STOP_CURRENT_D_RECOVERY_RULE
+L,1,True,False,STOP_CURRENT_D_RECOVERY_RULE

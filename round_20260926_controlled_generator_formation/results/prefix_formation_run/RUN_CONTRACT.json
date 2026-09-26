@@ -1,0 +1,60 @@
+{
+  "stage": "PREFIX_D_FORMATION",
+  "anchors": [
+    [
+      "T",
+      0
+    ],
+    [
+      "T",
+      1
+    ],
+    [
+      "L",
+      0
+    ],
+    [
+      "L",
+      1
+    ]
+  ],
+  "fit_cut_lowlevel": 5,
+  "D_train_targets": [
+    5
+  ],
+  "D_hold_targets": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "prefix_teacher_real_frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "prefix_teacher_start_for_H5": 5,
+  "full_D_teacher_or_normalization_reused": false,
+  "teacher_train_single": 128,
+  "teacher_train_H5": 32,
+  "teacher_held_single": 64,
+  "teacher_held_H5": 16,
+  "lift_steps": 600,
+  "lift_lr": 0.001,
+  "D_steps": 100,
+  "D_lr": 0.0001,
+  "batch": 64,
+  "factual_weight": 0.5,
+  "teacher_weight": 0.5,
+  "seed": 260926,
+  "step_or_hyperparameter_selection": false,
+  "candidate_outcomes_read": false,
+  "environment_branches": 0,
+  "matched_data_and_updates_not_compute": true,
+  "D_gate": "support, pure second-chunk teacher-forced and native H2 all strictly improve vs PREFIX_FLOW0; held TF and H2 also beat F0",
+  "gate_is_development_screen_not_certificate": true
+}

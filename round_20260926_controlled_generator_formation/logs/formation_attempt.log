@@ -1,0 +1,75 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+<USER_DIR>\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\util.py:118: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  sentry_hub = sentry_sdk.Hub(sentry_client)
+<USER_DIR>\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\sdk\internal\internal_api.py:30: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+<USER_DIR>\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+<USER_DIR>\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+<EXPERIMENT_CHECKOUT>\env\__init__.py:7: UserWarning: point_maze envs unavailable (mujoco_py missing): No module named 'mujoco_py'. (HINT: you need to install mujoco_py, and also perform the setup instructions here: https://github.com/openai/mujoco-py/.)
+  warnings.warn(f"point_maze envs unavailable (mujoco_py missing): {_e}")
+<EXPERIMENT_CHECKOUT>\custom_resolvers.py:4: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path=None)
+Unknown projector 'none' for patch tokens; proceeding without projector.
+Resuming from epoch 3: D:\EV-TTT\pushobj_shape_shift\checkpoints\model_latest.pth
+flow coarse-match step 100 loss 0.008183104917407036
+flow coarse-match step 200 loss 0.004130851477384567
+flow coarse-match step 300 loss 0.003652667859569192
+flow coarse-match step 400 loss 0.002530533354729414
+flow coarse-match step 500 loss 0.002598371123895049
+flow coarse-match step 600 loss 0.0011229696683585644
+packed coarse-match step 100 loss 0.014431918039917946
+packed coarse-match step 200 loss 0.020698081701993942
+packed coarse-match step 300 loss 0.007138247601687908
+packed coarse-match step 400 loss 0.011508282274007797
+packed coarse-match step 500 loss 0.008484112098813057
+packed coarse-match step 600 loss 0.005083795636892319
+FINISHED T 0 {'split': 'T', 'sample': 0, 'passed': True, 'single_relative_rms': 0.17043939523756138, 'H5_relative_rms': 0.1461127744469618, 'H5_refinement_rms': 0.003401580626345347, 'decision': 'ELIGIBLE_FOR_D_FORMATION'}
+flow coarse-match step 100 loss 0.01733911596238613
+flow coarse-match step 200 loss 0.009083127602934837
+flow coarse-match step 300 loss 0.0036625275388360023
+flow coarse-match step 400 loss 0.008422452956438065
+flow coarse-match step 500 loss 0.002869065385311842
+flow coarse-match step 600 loss 0.0016733967931941152
+packed coarse-match step 100 loss 0.028453519567847252
+packed coarse-match step 200 loss 0.01854291558265686
+packed coarse-match step 300 loss 0.01193750835955143
+packed coarse-match step 400 loss 0.010229046456515789
+packed coarse-match step 500 loss 0.004454425070434809
+packed coarse-match step 600 loss 0.003613595850765705
+FINISHED T 1 {'split': 'T', 'sample': 1, 'passed': True, 'single_relative_rms': 0.1562820384990555, 'H5_relative_rms': 0.15201042318768085, 'H5_refinement_rms': 0.010784781335924046, 'decision': 'ELIGIBLE_FOR_D_FORMATION'}
+flow coarse-match step 100 loss 0.006451406981796026
+flow coarse-match step 200 loss 0.004531193058937788
+flow coarse-match step 300 loss 0.003134825499728322
+flow coarse-match step 400 loss 0.002261064015328884
+flow coarse-match step 500 loss 0.0028281768318265676
+flow coarse-match step 600 loss 0.002241952810436487
+packed coarse-match step 100 loss 0.013764390721917152
+packed coarse-match step 200 loss 0.008452078327536583
+packed coarse-match step 300 loss 0.007824322208762169
+packed coarse-match step 400 loss 0.006146138999611139
+packed coarse-match step 500 loss 0.006543374620378017
+packed coarse-match step 600 loss 0.0069059943780303
+FINISHED L 0 {'split': 'L', 'sample': 0, 'passed': True, 'single_relative_rms': 0.1654778906864129, 'H5_relative_rms': 0.09102047672690641, 'H5_refinement_rms': 0.0022270374078538304, 'decision': 'ELIGIBLE_FOR_D_FORMATION'}
+flow coarse-match step 100 loss 0.006626890040934086
+flow coarse-match step 200 loss 0.00535340653732419
+flow coarse-match step 300 loss 0.004332099575549364
+flow coarse-match step 400 loss 0.0024361093528568745
+flow coarse-match step 500 loss 0.0017263619229197502
+flow coarse-match step 600 loss 0.0022630621679127216
+packed coarse-match step 100 loss 0.00824003852903843
+packed coarse-match step 200 loss 0.007654303219169378
+packed coarse-match step 300 loss 0.004993663169443607
+packed coarse-match step 400 loss 0.0062914881855249405
+packed coarse-match step 500 loss 0.004722883924841881
+packed coarse-match step 600 loss 0.004577159881591797
+FINISHED L 1 {'split': 'L', 'sample': 1, 'passed': True, 'single_relative_rms': 0.18703819336246566, 'H5_relative_rms': 0.13345262177179704, 'H5_refinement_rms': 0.0014011410189466536, 'decision': 'ELIGIBLE_FOR_D_FORMATION'}
+

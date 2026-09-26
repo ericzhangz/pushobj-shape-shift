@@ -1,0 +1,48 @@
+{
+  "gate": {
+    "split": "T",
+    "sample": 0,
+    "prefix_lift_pass": true,
+    "D_gate_pass": false,
+    "decision": "STOP_CURRENT_D_RECOVERY_RULE"
+  },
+  "supervised_times": [
+    {
+      "phase": 0,
+      "start": 0,
+      "end": 5
+    }
+  ],
+  "evaluation_times": [
+    {
+      "phase": 0,
+      "start": 0,
+      "end": 5
+    },
+    {
+      "phase": 0,
+      "start": 5,
+      "end": 10
+    },
+    {
+      "phase": 1,
+      "start": 1,
+      "end": 6
+    },
+    {
+      "phase": 2,
+      "start": 2,
+      "end": 7
+    },
+    {
+      "phase": 3,
+      "start": 3,
+      "end": 8
+    },
+    {
+      "phase": 4,
+      "start": 4,
+      "end": 9
+    }
+  ]
+}

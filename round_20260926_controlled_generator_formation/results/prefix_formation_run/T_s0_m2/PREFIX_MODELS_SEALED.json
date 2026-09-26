@@ -1,0 +1,12 @@
+{
+  "status": "SEALED_BEFORE_D_HOLD_READ",
+  "held_inputs_encoded": false,
+  "D_train_times": [
+    {
+      "phase": 0,
+      "start": 0,
+      "end": 5
+    }
+  ],
+  "future_candidate_truth_read": false
+}

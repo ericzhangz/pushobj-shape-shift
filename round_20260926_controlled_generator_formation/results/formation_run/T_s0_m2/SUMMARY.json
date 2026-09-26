@@ -1,0 +1,12 @@
+{
+  "gate": {
+    "split": "T",
+    "sample": 0,
+    "passed": true,
+    "single_relative_rms": 0.17043939523756138,
+    "H5_relative_rms": 0.1461127744469618,
+    "H5_refinement_rms": 0.003401580626345347,
+    "decision": "ELIGIBLE_FOR_D_FORMATION"
+  },
+  "seconds": 10.947547799999999
+}

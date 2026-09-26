@@ -1,0 +1,12 @@
+{
+  "status": "F0_LIFT_GATE_COMPLETE_NO_CANDIDATE_TRUTH_READ",
+  "anchors": 4,
+  "flow_gates_passed": 4,
+  "environment_branches": 0,
+  "D_label_updates": 0,
+  "host_tensor_versions_unchanged": true,
+  "host_gradients_absent": true,
+  "seconds": 44.025535,
+  "peak_cuda_bytes": 404168192,
+  "interpretation": "representation and numerical fidelity gate, not online transfer or originality"
+}

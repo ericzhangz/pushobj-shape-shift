@@ -1,0 +1,14 @@
+{
+  "status": "POST_SEAL_ATTRIBUTION_COMPLETE",
+  "source": "artifacts\\controlled_generator_formation_20260926\\prefix_formation_run",
+  "rows": 16,
+  "training_steps": 0,
+  "environment_branches": 0,
+  "candidate_outcomes_read": false,
+  "gate_decisions_changed": false,
+  "definition_TF": "same actual held native history/action; F0 is a teacher, not environment truth",
+  "definition_H2": "each operator uses its own native predicted cache from same real initial frame",
+  "refinement": "same saved fields; RK2 substeps 1 versus 2, no fitting",
+  "host_tensor_versions_unchanged": true,
+  "host_gradients_absent": true
+}

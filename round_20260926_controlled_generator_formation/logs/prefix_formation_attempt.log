@@ -1,0 +1,75 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+<USER_DIR>\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\util.py:118: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+  sentry_hub = sentry_sdk.Hub(sentry_client)
+<USER_DIR>\anaconda3\envs\adajepa-pilot\lib\site-packages\wandb\sdk\internal\internal_api.py:30: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+<USER_DIR>\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+<USER_DIR>\anaconda3\envs\adajepa-pilot\lib\site-packages\pkg_resources\__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+<EXPERIMENT_CHECKOUT>\env\__init__.py:7: UserWarning: point_maze envs unavailable (mujoco_py missing): No module named 'mujoco_py'. (HINT: you need to install mujoco_py, and also perform the setup instructions here: https://github.com/openai/mujoco-py/.)
+  warnings.warn(f"point_maze envs unavailable (mujoco_py missing): {_e}")
+<EXPERIMENT_CHECKOUT>\custom_resolvers.py:4: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path=None)
+Unknown projector 'none' for patch tokens; proceeding without projector.
+Resuming from epoch 3: D:\EV-TTT\pushobj_shape_shift\checkpoints\model_latest.pth
+flow coarse-match step 100 loss 0.002639086451381445
+flow coarse-match step 200 loss 0.002118275035172701
+flow coarse-match step 300 loss 0.0015497971326112747
+flow coarse-match step 400 loss 0.003666501957923174
+flow coarse-match step 500 loss 0.001417865976691246
+flow coarse-match step 600 loss 0.0011914980132132769
+packed coarse-match step 100 loss 0.00742744654417038
+packed coarse-match step 200 loss 0.0038885606918483973
+packed coarse-match step 300 loss 0.0049120234325528145
+packed coarse-match step 400 loss 0.0023559262044727802
+packed coarse-match step 500 loss 0.006129876244813204
+packed coarse-match step 600 loss 0.009646754711866379
+PREFIX FINISHED T 0 {'split': 'T', 'sample': 0, 'prefix_lift_pass': True, 'D_gate_pass': False, 'decision': 'STOP_CURRENT_D_RECOVERY_RULE'}
+flow coarse-match step 100 loss 0.011202732101082802
+flow coarse-match step 200 loss 0.005287630017846823
+flow coarse-match step 300 loss 0.004512684885412455
+flow coarse-match step 400 loss 0.003968364093452692
+flow coarse-match step 500 loss 0.0027621553745120764
+flow coarse-match step 600 loss 0.005206425674259663
+packed coarse-match step 100 loss 0.02075791172683239
+packed coarse-match step 200 loss 0.01225688960403204
+packed coarse-match step 300 loss 0.02204069495201111
+packed coarse-match step 400 loss 0.013321727514266968
+packed coarse-match step 500 loss 0.004854203201830387
+packed coarse-match step 600 loss 0.01112651638686657
+PREFIX FINISHED T 1 {'split': 'T', 'sample': 1, 'prefix_lift_pass': True, 'D_gate_pass': False, 'decision': 'STOP_CURRENT_D_RECOVERY_RULE'}
+flow coarse-match step 100 loss 0.0037400443106889725
+flow coarse-match step 200 loss 0.0022755679674446583
+flow coarse-match step 300 loss 0.004013423807919025
+flow coarse-match step 400 loss 0.004425422288477421
+flow coarse-match step 500 loss 0.00484261941164732
+flow coarse-match step 600 loss 0.0009831946808844805
+packed coarse-match step 100 loss 0.008676210418343544
+packed coarse-match step 200 loss 0.00783943198621273
+packed coarse-match step 300 loss 0.006677335128188133
+packed coarse-match step 400 loss 0.008444995619356632
+packed coarse-match step 500 loss 0.0074825105257332325
+packed coarse-match step 600 loss 0.004322406370192766
+PREFIX FINISHED L 0 {'split': 'L', 'sample': 0, 'prefix_lift_pass': True, 'D_gate_pass': False, 'decision': 'STOP_CURRENT_D_RECOVERY_RULE'}
+flow coarse-match step 100 loss 0.00763332424685359
+flow coarse-match step 200 loss 0.0010714109521359205
+flow coarse-match step 300 loss 0.0007366514764726162
+flow coarse-match step 400 loss 0.0008375196484848857
+flow coarse-match step 500 loss 0.0014560706913471222
+flow coarse-match step 600 loss 0.0011680768802762032
+packed coarse-match step 100 loss 0.015406355261802673
+packed coarse-match step 200 loss 0.0025675480719655752
+packed coarse-match step 300 loss 0.002960151992738247
+packed coarse-match step 400 loss 0.0030849180184304714
+packed coarse-match step 500 loss 0.003243299201130867
+packed coarse-match step 600 loss 0.004250301048159599
+PREFIX FINISHED L 1 {'split': 'L', 'sample': 1, 'prefix_lift_pass': True, 'D_gate_pass': False, 'decision': 'STOP_CURRENT_D_RECOVERY_RULE'}
+
