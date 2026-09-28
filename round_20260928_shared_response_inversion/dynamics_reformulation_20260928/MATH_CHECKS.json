@@ -1,0 +1,95 @@
+{
+  "experiment_type": "synthetic_mathematical_checks_only",
+  "native_model_calls": 0,
+  "training_steps": 0,
+  "environment_calls": 0,
+  "balanced": {
+    "A_diagonal": [
+      0.2,
+      0.9
+    ],
+    "B_diagonal": [
+      5.0,
+      0.2
+    ],
+    "C_diagonal": [
+      0.02,
+      5.0
+    ],
+    "controllability_diagonal": [
+      26.041666666666668,
+      0.21052631578947378
+    ],
+    "observability_diagonal": [
+      0.0004166666666666667,
+      131.5789473684211
+    ],
+    "hankel_singular_values_by_mode": [
+      0.10416666666666667,
+      5.263157894736844
+    ],
+    "POD_kept_mode_one_based": 1,
+    "balanced_kept_mode_one_based": 2,
+    "POD_discarded_transfer_Hinf": 10.000000000000002,
+    "balanced_discarded_transfer_Hinf": 0.125,
+    "both_reduced_models_stable": true,
+    "hankel_factorization_max_error": 2.220446049250313e-16,
+    "second_channel_opposite_impulse_output_gap": 2.0,
+    "POD_predicted_gap": 0.0,
+    "balanced_predicted_gap": 2.0,
+    "scope": "Known stable linear toy; not evidence of visual encoder failure or a new algorithm."
+  },
+  "ordered_path": {
+    "AB_final_state": [
+      1.0,
+      1.0
+    ],
+    "BA_final_state": [
+      1.0,
+      0.0
+    ],
+    "same_first_level_input_increment": [
+      1.0,
+      1.0
+    ],
+    "ordered_second_level_U1_then_U2": [
+      1.0,
+      0.0
+    ],
+    "net_zero_input_loop_final_state": [
+      0.0,
+      1.0
+    ],
+    "actual_inverse_word_final_state": [
+      0.0,
+      0.0
+    ],
+    "same_path_subdivision_max_error": 0.0,
+    "scope": "Classical order-dependent response. An ordinary recurrent state can implement the exact same rule; no superiority claim."
+  },
+  "sweeping": {
+    "positive_excursion_response": [
+      0.0,
+      1.0,
+      1.0
+    ],
+    "negative_excursion_response": [
+      0.0,
+      -1.0,
+      -1.0
+    ],
+    "same_actuator_endpoint": 0.0,
+    "object_endpoint_gap": 2.0,
+    "endpoint_only_projection_output": 0.0,
+    "fixed_path_nonexpansiveness_max_violation": 0.0,
+    "fixed_input_continuation": [
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_firm_nonexpansiveness_violation": 1.0,
+    "scope": "Rechecks an already discussed classical model. Convex quasistatic play excludes free inertial continuation; not a new proposed PushObj mechanism."
+  },
+  "source_sha256": "055e2fd512171aad61aeaf1db2a4d3ff50328965e2380cece44eea17dc16ca36"
+}

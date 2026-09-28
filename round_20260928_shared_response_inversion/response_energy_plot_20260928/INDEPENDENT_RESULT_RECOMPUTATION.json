@@ -1,0 +1,342 @@
+{
+  "status": "PASS",
+  "checks": 48,
+  "rows": [
+    {
+      "arm": "SPECTRAL",
+      "horizon": 1,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.2648477065462861,
+      "difference": 0.0
+    },
+    {
+      "arm": "SPECTRAL",
+      "horizon": 1,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.0468510758557803,
+      "difference": 1.3877787807814457e-17
+    },
+    {
+      "arm": "SPECTRAL",
+      "horizon": 2,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.27932395506606916,
+      "difference": -5.551115123125783e-17
+    },
+    {
+      "arm": "SPECTRAL",
+      "horizon": 2,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.07144973738489768,
+      "difference": 2.7755575615628914e-17
+    },
+    {
+      "arm": "DIRECT",
+      "horizon": 1,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.22556442363187726,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "arm": "DIRECT",
+      "horizon": 1,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.04248189904808833,
+      "difference": 6.938893903907228e-18
+    },
+    {
+      "arm": "DIRECT",
+      "horizon": 2,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.2389917590364462,
+      "difference": 0.0
+    },
+    {
+      "arm": "DIRECT",
+      "horizon": 2,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.06522621812720414,
+      "difference": 0.0
+    },
+    {
+      "arm": "SPECTRAL_FT",
+      "horizon": 1,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.26931073983524634,
+      "difference": 0.0
+    },
+    {
+      "arm": "SPECTRAL_FT",
+      "horizon": 1,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.04551284167401382,
+      "difference": 1.3877787807814457e-17
+    },
+    {
+      "arm": "SPECTRAL_FT",
+      "horizon": 2,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.2834405548254827,
+      "difference": 0.0
+    },
+    {
+      "arm": "SPECTRAL_FT",
+      "horizon": 2,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.06954574005049242,
+      "difference": 1.3877787807814457e-17
+    },
+    {
+      "arm": "GRU",
+      "horizon": 1,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.25437798438923126,
+      "difference": 5.551115123125783e-17
+    },
+    {
+      "arm": "GRU",
+      "horizon": 1,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.03768315311347278,
+      "difference": 0.0
+    },
+    {
+      "arm": "GRU",
+      "horizon": 2,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.27226828868652536,
+      "difference": 0.0
+    },
+    {
+      "arm": "GRU",
+      "horizon": 2,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.05449372305729757,
+      "difference": 0.0
+    },
+    {
+      "arm": "NONLINEAR_STATE",
+      "horizon": 1,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.25535112900883633,
+      "difference": 0.0
+    },
+    {
+      "arm": "NONLINEAR_STATE",
+      "horizon": 1,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.02819208251967681,
+      "difference": 6.938893903907228e-18
+    },
+    {
+      "arm": "NONLINEAR_STATE",
+      "horizon": 2,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.26223401621634096,
+      "difference": 0.0
+    },
+    {
+      "arm": "NONLINEAR_STATE",
+      "horizon": 2,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.04415094923570168,
+      "difference": -6.938893903907228e-18
+    },
+    {
+      "arm": "NATIVE",
+      "horizon": 1,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.004701997715420174,
+      "difference": 0.0
+    },
+    {
+      "arm": "NATIVE",
+      "horizon": 1,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.0029680926673667867,
+      "difference": 8.673617379884035e-19
+    },
+    {
+      "arm": "NATIVE",
+      "horizon": 2,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.006468822401433835,
+      "difference": 0.0
+    },
+    {
+      "arm": "NATIVE",
+      "horizon": 2,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.004148505567857287,
+      "difference": 8.673617379884035e-19
+    },
+    {
+      "arm": "SPECTRAL",
+      "horizon": 3,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.29540284045489107,
+      "difference": 0.0
+    },
+    {
+      "arm": "SPECTRAL",
+      "horizon": 3,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.10091134993253194,
+      "difference": 1.3877787807814457e-17
+    },
+    {
+      "arm": "SPECTRAL",
+      "horizon": 5,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.33838897265758217,
+      "difference": -5.551115123125783e-17
+    },
+    {
+      "arm": "SPECTRAL",
+      "horizon": 5,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.1867083430554577,
+      "difference": 0.0
+    },
+    {
+      "arm": "DIRECT",
+      "horizon": 3,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.2538399795900994,
+      "difference": 0.0
+    },
+    {
+      "arm": "DIRECT",
+      "horizon": 3,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.09295402266676274,
+      "difference": 0.0
+    },
+    {
+      "arm": "DIRECT",
+      "horizon": 5,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.29409344541220067,
+      "difference": 0.0
+    },
+    {
+      "arm": "DIRECT",
+      "horizon": 5,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.16877834344983342,
+      "difference": 0.0
+    },
+    {
+      "arm": "SPECTRAL_FT",
+      "horizon": 3,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.299412578453465,
+      "difference": -5.551115123125783e-17
+    },
+    {
+      "arm": "SPECTRAL_FT",
+      "horizon": 3,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.09867639306205904,
+      "difference": 2.7755575615628914e-17
+    },
+    {
+      "arm": "SPECTRAL_FT",
+      "horizon": 5,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.34180623704473717,
+      "difference": -5.551115123125783e-17
+    },
+    {
+      "arm": "SPECTRAL_FT",
+      "horizon": 5,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.18313247270670607,
+      "difference": 0.0
+    },
+    {
+      "arm": "GRU",
+      "horizon": 3,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.2893446863541704,
+      "difference": 5.551115123125783e-17
+    },
+    {
+      "arm": "GRU",
+      "horizon": 3,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.07390495821638797,
+      "difference": 0.0
+    },
+    {
+      "arm": "GRU",
+      "horizon": 5,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.32838328414621126,
+      "difference": 5.551115123125783e-17
+    },
+    {
+      "arm": "GRU",
+      "horizon": 5,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.12312097969808666,
+      "difference": 0.0
+    },
+    {
+      "arm": "NONLINEAR_STATE",
+      "horizon": 3,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.27405093251122264,
+      "difference": -5.551115123125783e-17
+    },
+    {
+      "arm": "NONLINEAR_STATE",
+      "horizon": 3,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.06476522252777601,
+      "difference": 1.3877787807814457e-17
+    },
+    {
+      "arm": "NONLINEAR_STATE",
+      "horizon": 5,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.3162709605640426,
+      "difference": 5.551115123125783e-17
+    },
+    {
+      "arm": "NONLINEAR_STATE",
+      "horizon": 5,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.1214752717382606,
+      "difference": 0.0
+    },
+    {
+      "arm": "NATIVE",
+      "horizon": 3,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.009070412585925646,
+      "difference": 0.0
+    },
+    {
+      "arm": "NATIVE",
+      "horizon": 3,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.005776691704528741,
+      "difference": 1.734723475976807e-18
+    },
+    {
+      "arm": "NATIVE",
+      "horizon": 5,
+      "metric": "prefix_full_mse",
+      "recomputed": 0.01612833466061122,
+      "difference": 0.0
+    },
+    {
+      "arm": "NATIVE",
+      "horizon": 5,
+      "metric": "prefix_contrast_mse",
+      "recomputed": 0.01114577253670011,
+      "difference": 0.0
+    }
+  ]
+}

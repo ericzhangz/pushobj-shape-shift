@@ -1,0 +1,207 @@
+{
+  "cases": {
+    "T0": {
+      "support_end_vs_observed_query_cache": {
+        "visual": {
+          "mse": 0.0018020400664902436,
+          "max_abs": 0.19172906875610352
+        },
+        "proprio": {
+          "mse": 0.0010436061695305943,
+          "max_abs": 0.07124430313706398
+        }
+      },
+      "steps": [
+        {
+          "step": 1,
+          "same_state_update_rms": 0.01999115026386784,
+          "generated_history_effect_rms": 4.567055154474941e-08,
+          "total_change_rms": 0.019991149563204327,
+          "twice_cross_term": -2.8016224406656748e-11
+        },
+        {
+          "step": 2,
+          "same_state_update_rms": 0.01923271613145624,
+          "generated_history_effect_rms": 0.013494292872885063,
+          "total_change_rms": 0.02748898823874918,
+          "twice_cross_term": 0.00020365116445771685
+        },
+        {
+          "step": 3,
+          "same_state_update_rms": 0.018844170413021496,
+          "generated_history_effect_rms": 0.02708416597541141,
+          "total_change_rms": 0.03917296781458756,
+          "twice_cross_term": 0.00044586660226408523
+        },
+        {
+          "step": 4,
+          "same_state_update_rms": 0.020277863078546097,
+          "generated_history_effect_rms": 0.04511788296199491,
+          "total_change_rms": 0.05530349043074598,
+          "twice_cross_term": 0.0006116609598190776
+        },
+        {
+          "step": 5,
+          "same_state_update_rms": 0.019178604921514714,
+          "generated_history_effect_rms": 0.06499345978448559,
+          "total_change_rms": 0.07222434191849503,
+          "twice_cross_term": 0.000624386864066584
+        }
+      ]
+    },
+    "T1": {
+      "support_end_vs_observed_query_cache": {
+        "visual": {
+          "mse": 0.009609382408675276,
+          "max_abs": 0.733698844909668
+        },
+        "proprio": {
+          "mse": 0.0020086311020169373,
+          "max_abs": 0.11121386289596558
+        }
+      },
+      "steps": [
+        {
+          "step": 1,
+          "same_state_update_rms": 0.04970668696282904,
+          "generated_history_effect_rms": 5.302059978148666e-08,
+          "total_change_rms": 0.049706688969600496,
+          "twice_cross_term": 1.994971140563729e-10
+        },
+        {
+          "step": 2,
+          "same_state_update_rms": 0.02864674969167953,
+          "generated_history_effect_rms": 0.04493243321217969,
+          "total_change_rms": 0.06876682775158438,
+          "twice_cross_term": 0.0018893167767513469
+        },
+        {
+          "step": 3,
+          "same_state_update_rms": 0.030638011113984245,
+          "generated_history_effect_rms": 0.05801838580205075,
+          "total_change_rms": 0.08240035753516692,
+          "twice_cross_term": 0.0024849981058271127
+        },
+        {
+          "step": 4,
+          "same_state_update_rms": 0.027388529353537326,
+          "generated_history_effect_rms": 0.06340465504620951,
+          "total_change_rms": 0.0833508982830362,
+          "twice_cross_term": 0.0021770904229106475
+        },
+        {
+          "step": 5,
+          "same_state_update_rms": 0.026511635505543595,
+          "generated_history_effect_rms": 0.11671393857860693,
+          "total_change_rms": 0.13128470189874733,
+          "twice_cross_term": 0.0029106626769333168
+        }
+      ]
+    },
+    "L0": {
+      "support_end_vs_observed_query_cache": {
+        "visual": {
+          "mse": 0.0012594190511501608,
+          "max_abs": 0.16873133182525635
+        },
+        "proprio": {
+          "mse": 0.0002795726345024179,
+          "max_abs": 0.036921411752700806
+        }
+      },
+      "steps": [
+        {
+          "step": 1,
+          "same_state_update_rms": 0.017010783530246525,
+          "generated_history_effect_rms": 4.7198484313514e-08,
+          "total_change_rms": 0.01701078499559266,
+          "twice_cross_term": 4.985114628764101e-11
+        },
+        {
+          "step": 2,
+          "same_state_update_rms": 0.015353485531352766,
+          "generated_history_effect_rms": 0.005619202968457885,
+          "total_change_rms": 0.018325068516577406,
+          "twice_cross_term": 6.850317617507184e-05
+        },
+        {
+          "step": 3,
+          "same_state_update_rms": 0.015476278975753904,
+          "generated_history_effect_rms": 0.00937720668892857,
+          "total_change_rms": 0.020636765336119425,
+          "twice_cross_term": 9.84288673158112e-05
+        },
+        {
+          "step": 4,
+          "same_state_update_rms": 0.015245290128663781,
+          "generated_history_effect_rms": 0.013240022925081484,
+          "total_change_rms": 0.022891941142211963,
+          "twice_cross_term": 0.00011632389109468031
+        },
+        {
+          "step": 5,
+          "same_state_update_rms": 0.01525716199519244,
+          "generated_history_effect_rms": 0.016762340028724725,
+          "total_change_rms": 0.025228433384261693,
+          "twice_cross_term": 0.00012271681563799818
+        }
+      ]
+    },
+    "L1": {
+      "support_end_vs_observed_query_cache": {
+        "visual": {
+          "mse": 0.003979416240743248,
+          "max_abs": 0.5098565220832825
+        },
+        "proprio": {
+          "mse": 0.0008269354555764663,
+          "max_abs": 0.07963127456605434
+        }
+      },
+      "steps": [
+        {
+          "step": 1,
+          "same_state_update_rms": 0.06629102900529842,
+          "generated_history_effect_rms": 4.488405783181217e-08,
+          "total_change_rms": 0.0662910287323026,
+          "twice_cross_term": -3.6196362750605255e-11
+        },
+        {
+          "step": 2,
+          "same_state_update_rms": 0.04613166661216411,
+          "generated_history_effect_rms": 0.0515345445329242,
+          "total_change_rms": 0.08223606839422141,
+          "twice_cross_term": 0.001978831000307257
+        },
+        {
+          "step": 3,
+          "same_state_update_rms": 0.025842876812657994,
+          "generated_history_effect_rms": 0.07924204411884093,
+          "total_change_rms": 0.09543243105111293,
+          "twice_cross_term": 0.002160193058238874
+        },
+        {
+          "step": 4,
+          "same_state_update_rms": 0.02714363471197159,
+          "generated_history_effect_rms": 0.08656420195902033,
+          "total_change_rms": 0.09665503198495809,
+          "twice_cross_term": 0.001112057241834263
+        },
+        {
+          "step": 5,
+          "same_state_update_rms": 0.017749680878330117,
+          "generated_history_effect_rms": 0.09779774917664694,
+          "total_change_rms": 0.10238015522418342,
+          "twice_cross_term": 0.0006022452684269905
+        }
+      ]
+    }
+  },
+  "query_future_truth_read": false,
+  "new_model_calls": 0,
+  "hashes": {
+    "local_input_001": "ece9084362f749c0b948f949d4eb2143b0438b813139852adb221e89281bb917",
+    "local_input_002": "3531d76cfe44ccf799e9850ab9808e4856af47f01607c72fc276f4ff0d63efd8",
+    "local_input_003": "681cb3c5c03e5af5480a1cdbb36c28bc2c814e8d389f5d2f156c59fd51f590e1"
+  }
+}

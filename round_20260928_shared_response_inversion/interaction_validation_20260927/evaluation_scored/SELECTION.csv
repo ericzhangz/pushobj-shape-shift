@@ -1,0 +1,9 @@
+case,arm,selected,best,regret,selected_recorded_success
+T0,SINGLE,g99_after,g24_after,0.0031131096184253693,False
+T0,FULL,fact_matched_return,g24_after,0.011898238211870193,False
+T1,SINGLE,g99_after,official_pred_return,0.0010123923420906067,False
+T1,FULL,g99_after,official_pred_return,0.0010123923420906067,False
+L0,SINGLE,g99_after,g24_after,0.0024939533323049545,True
+L0,FULL,g99_after,g24_after,0.0024939533323049545,True
+L1,SINGLE,fact_matched_return,g99_after,1.31810849532485,False
+L1,FULL,fact_matched_return,g99_after,1.31810849532485,False

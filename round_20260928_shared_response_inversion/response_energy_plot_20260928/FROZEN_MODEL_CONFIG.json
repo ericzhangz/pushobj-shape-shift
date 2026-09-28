@@ -1,0 +1,33 @@
+{
+  "seeds": [
+    928,
+    929,
+    930
+  ],
+  "ranks": [
+    4,
+    8
+  ],
+  "gru_dims": [
+    8,
+    32
+  ],
+  "steps": 1500,
+  "check_every": 50,
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "clip": 5.0,
+  "history_hidden": 64,
+  "pinv_rcond": 1e-08,
+  "selection": "validation length-two full visual MSE only",
+  "arms": [
+    "SPECTRAL",
+    "DIRECT",
+    "SPECTRAL_FT",
+    "GRU",
+    "NONLINEAR_STATE"
+  ],
+  "loss": "mean(current-anchor visual MSE, future-step-1 MSE, future-step-2 MSE)",
+  "spectral_observer_loss": "MSE to training-only whitened response coordinates",
+  "nonlinear_role": "diagnostic: fixed spectral readout; jointly learned legal initializer and nonlinear state transition"
+}

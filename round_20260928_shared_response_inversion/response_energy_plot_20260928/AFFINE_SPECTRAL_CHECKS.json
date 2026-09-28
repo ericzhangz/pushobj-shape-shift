@@ -1,0 +1,31 @@
+{
+  "kind": "synthetic algebra check, not native experiment",
+  "dimensions": {
+    "roots": 34,
+    "dynamic_rank": 4,
+    "visual_output": 12,
+    "actions": 5
+  },
+  "centered_h_reconstruction_max_error": 1.2434497875801753e-14,
+  "state_population_covariance_error": 1.7763568394002505e-15,
+  "state_absolute_max": 2.4061823821452237,
+  "state_fraction_outside_tanh_range": 0.3602941176470588,
+  "shift_fit_max_errors": [
+    7.993605777301127e-15,
+    7.993605777301127e-15,
+    6.661338147750939e-15,
+    6.217248937900877e-15,
+    6.217248937900877e-15
+  ],
+  "orthogonal_error_split_absolute_errors": [
+    1.2538116447654767e-27,
+    1.9848206757658506e-28,
+    1.3619160200127884e-27,
+    3.8819281009623093e-28,
+    7.650746252764453e-28
+  ],
+  "h5_recursive_max_error_100_words": 1.8207657603852567e-14,
+  "homogeneous_coordinate_max_error": 0.0,
+  "native_model_calls": 0,
+  "environment_calls": 0
+}

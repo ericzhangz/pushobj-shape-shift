@@ -1,0 +1,35 @@
+{
+  "scope": "Training responses only; secondary readout calibration, no parameter selection.",
+  "raw": {
+    "valid": 1699,
+    "total": 1700,
+    "valid_fraction": 0.9994117647058823,
+    "failure_counts": {
+      "pusher not visible in RGB": 1
+    }
+  },
+  "reconstruction": {
+    "valid": 1699,
+    "total": 1700,
+    "valid_fraction": 0.9994117647058823,
+    "failure_counts": {
+      "pusher not visible in RGB": 1
+    }
+  },
+  "centroid_error_only_valid": {
+    "n": 1699,
+    "mae_px": 1.4949843219773415,
+    "rmse_px": 1.869925023506743,
+    "max_px": 6.758528975139322
+  },
+  "decoder_out_of_range_fraction_mean": 0.017852906787715086,
+  "decoder_calls": 136,
+  "decoder_frames": 1700,
+  "geometry_unique_rgb_evaluations": 2048,
+  "test_files_read": false,
+  "model_training_calls": 0,
+  "environment_calls": 0,
+  "interpretation": "Palette-derived visible silhouette centroid, not rigid-body ground truth or contact state. Readability does not certify an off-manifold prediction.",
+  "wall_s": 67.676569,
+  "code_sha256": "5dfee985cf2b6ff93cbb8ab5da242e2b67178ab7ad3feaec562123163e7eaf66"
+}

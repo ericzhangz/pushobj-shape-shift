@@ -1,0 +1,619 @@
+{
+  "status": "PASS",
+  "action_bindings": 32,
+  "hashes_match": true,
+  "all_time_mappings_match": true,
+  "pair_formula": "gap_error = predicted_gap - true_gap = -E0; no E0 labeling in CSV",
+  "exact_duplicate_action_groups": {
+    "T0": [],
+    "T1": [],
+    "L0": [],
+    "L1": []
+  },
+  "case_statistics": [
+    {
+      "case": "T0",
+      "arm": "SINGLE",
+      "pair_MAE": 0.019552648050843606,
+      "reversals": 4,
+      "pairs": 28,
+      "exact_ties": 0,
+      "regret": 0.0031131096184253693,
+      "selected": "g99_after"
+    },
+    {
+      "case": "T0",
+      "arm": "FULL",
+      "pair_MAE": 0.018295083793678453,
+      "reversals": 9,
+      "pairs": 28,
+      "exact_ties": 0,
+      "regret": 0.011898238211870193,
+      "selected": "fact_matched_return"
+    },
+    {
+      "case": "T1",
+      "arm": "SINGLE",
+      "pair_MAE": 0.050492122470002086,
+      "reversals": 8,
+      "pairs": 28,
+      "exact_ties": 0,
+      "regret": 0.0010123923420906067,
+      "selected": "g99_after"
+    },
+    {
+      "case": "T1",
+      "arm": "FULL",
+      "pair_MAE": 0.04788637901323715,
+      "reversals": 6,
+      "pairs": 28,
+      "exact_ties": 0,
+      "regret": 0.0010123923420906067,
+      "selected": "g99_after"
+    },
+    {
+      "case": "L0",
+      "arm": "SINGLE",
+      "pair_MAE": 0.08075865783861705,
+      "reversals": 6,
+      "pairs": 28,
+      "exact_ties": 0,
+      "regret": 0.0024939533323049545,
+      "selected": "g99_after"
+    },
+    {
+      "case": "L0",
+      "arm": "FULL",
+      "pair_MAE": 0.08812727779150009,
+      "reversals": 6,
+      "pairs": 28,
+      "exact_ties": 0,
+      "regret": 0.0024939533323049545,
+      "selected": "g99_after"
+    },
+    {
+      "case": "L1",
+      "arm": "SINGLE",
+      "pair_MAE": 0.7127284539663898,
+      "reversals": 12,
+      "pairs": 28,
+      "exact_ties": 0,
+      "regret": 1.31810849532485,
+      "selected": "fact_matched_return"
+    },
+    {
+      "case": "L1",
+      "arm": "FULL",
+      "pair_MAE": 0.7093459517761532,
+      "reversals": 12,
+      "pairs": 28,
+      "exact_ties": 0,
+      "regret": 1.31810849532485,
+      "selected": "fact_matched_return"
+    }
+  ],
+  "max_cost_replay_abs": 8.380413055419922e-05,
+  "category_counts": {
+    "REAL": {
+      "near": 145,
+      "separated": 37,
+      "ambiguous": 10
+    },
+    "RECON_REAL": {
+      "near": 146,
+      "separated": 36,
+      "unreadable": 7,
+      "ambiguous": 3
+    },
+    "SINGLE": {
+      "near": 148,
+      "separated": 39,
+      "ambiguous": 5
+    },
+    "FULL": {
+      "near": 156,
+      "separated": 35,
+      "ambiguous": 1
+    }
+  },
+  "future_category_counts": {
+    "REAL": {
+      "near": 113,
+      "separated": 37,
+      "ambiguous": 10
+    },
+    "RECON_REAL": {
+      "near": 114,
+      "separated": 36,
+      "unreadable": 7,
+      "ambiguous": 3
+    },
+    "SINGLE": {
+      "near": 116,
+      "separated": 39,
+      "ambiguous": 5
+    },
+    "FULL": {
+      "near": 124,
+      "separated": 35,
+      "ambiguous": 1
+    }
+  },
+  "query_reconstruction_geometry": {
+    "pairs": 185,
+    "mean_gap_error": 1.516605820184778,
+    "max_gap_error": 14.34744386746627,
+    "same_category": 175,
+    "near_separated_flips": 0
+  },
+  "native_category_differences": [
+    {
+      "case": "T0",
+      "candidate": "g0_before",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g0_before",
+      "step": 4,
+      "arm": "FULL",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g0_before",
+      "step": 5,
+      "arm": "SINGLE",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g0_before",
+      "step": 5,
+      "arm": "FULL",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g24_after",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "ambiguous",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g24_after",
+      "step": 4,
+      "arm": "FULL",
+      "real": "ambiguous",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g24_after",
+      "step": 5,
+      "arm": "SINGLE",
+      "real": "separated",
+      "pred": "ambiguous"
+    },
+    {
+      "case": "T0",
+      "candidate": "g24_after",
+      "step": 5,
+      "arm": "FULL",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g49_after",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g49_after",
+      "step": 4,
+      "arm": "FULL",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g49_after",
+      "step": 5,
+      "arm": "SINGLE",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g49_after",
+      "step": 5,
+      "arm": "FULL",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g99_after",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g99_after",
+      "step": 4,
+      "arm": "FULL",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g99_after",
+      "step": 5,
+      "arm": "SINGLE",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "g99_after",
+      "step": 5,
+      "arm": "FULL",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "official_pred_return",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "official_pred_return",
+      "step": 4,
+      "arm": "FULL",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "official_pred_return",
+      "step": 5,
+      "arm": "SINGLE",
+      "real": "separated",
+      "pred": "ambiguous"
+    },
+    {
+      "case": "T0",
+      "candidate": "official_pred_return",
+      "step": 5,
+      "arm": "FULL",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "fact_matched_return",
+      "step": 4,
+      "arm": "FULL",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T0",
+      "candidate": "fact_matched_return",
+      "step": 5,
+      "arm": "FULL",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "T1",
+      "candidate": "g49_after",
+      "step": 3,
+      "arm": "SINGLE",
+      "real": "ambiguous",
+      "pred": "near"
+    },
+    {
+      "case": "T1",
+      "candidate": "g49_after",
+      "step": 3,
+      "arm": "FULL",
+      "real": "ambiguous",
+      "pred": "near"
+    },
+    {
+      "case": "T1",
+      "candidate": "g49_after",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "ambiguous",
+      "pred": "separated"
+    },
+    {
+      "case": "T1",
+      "candidate": "g49_after",
+      "step": 4,
+      "arm": "FULL",
+      "real": "ambiguous",
+      "pred": "separated"
+    },
+    {
+      "case": "T1",
+      "candidate": "g99_after",
+      "step": 3,
+      "arm": "SINGLE",
+      "real": "ambiguous",
+      "pred": "near"
+    },
+    {
+      "case": "T1",
+      "candidate": "g99_after",
+      "step": 3,
+      "arm": "FULL",
+      "real": "ambiguous",
+      "pred": "near"
+    },
+    {
+      "case": "T1",
+      "candidate": "official_pred_return",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "ambiguous",
+      "pred": "separated"
+    },
+    {
+      "case": "T1",
+      "candidate": "official_pred_return",
+      "step": 4,
+      "arm": "FULL",
+      "real": "ambiguous",
+      "pred": "separated"
+    },
+    {
+      "case": "T1",
+      "candidate": "fact_matched_return",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "ambiguous",
+      "pred": "separated"
+    },
+    {
+      "case": "T1",
+      "candidate": "fact_matched_return",
+      "step": 4,
+      "arm": "FULL",
+      "real": "ambiguous",
+      "pred": "separated"
+    },
+    {
+      "case": "T1",
+      "candidate": "repeat_last_completed_action",
+      "step": 2,
+      "arm": "SINGLE",
+      "real": "ambiguous",
+      "pred": "near"
+    },
+    {
+      "case": "T1",
+      "candidate": "repeat_last_completed_action",
+      "step": 2,
+      "arm": "FULL",
+      "real": "ambiguous",
+      "pred": "near"
+    },
+    {
+      "case": "L0",
+      "candidate": "zero_environment_action",
+      "step": 2,
+      "arm": "SINGLE",
+      "real": "near",
+      "pred": "ambiguous"
+    },
+    {
+      "case": "L0",
+      "candidate": "zero_environment_action",
+      "step": 3,
+      "arm": "SINGLE",
+      "real": "near",
+      "pred": "ambiguous"
+    },
+    {
+      "case": "L0",
+      "candidate": "zero_environment_action",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "near",
+      "pred": "separated"
+    },
+    {
+      "case": "L0",
+      "candidate": "zero_environment_action",
+      "step": 5,
+      "arm": "SINGLE",
+      "real": "near",
+      "pred": "separated"
+    },
+    {
+      "case": "L0",
+      "candidate": "repeat_last_completed_action",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "ambiguous",
+      "pred": "near"
+    },
+    {
+      "case": "L0",
+      "candidate": "repeat_last_completed_action",
+      "step": 4,
+      "arm": "FULL",
+      "real": "ambiguous",
+      "pred": "near"
+    },
+    {
+      "case": "L1",
+      "candidate": "g0_before",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "near",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "g0_before",
+      "step": 4,
+      "arm": "FULL",
+      "real": "near",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "g0_before",
+      "step": 5,
+      "arm": "SINGLE",
+      "real": "near",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "g0_before",
+      "step": 5,
+      "arm": "FULL",
+      "real": "near",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "g24_after",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "L1",
+      "candidate": "g24_after",
+      "step": 4,
+      "arm": "FULL",
+      "real": "separated",
+      "pred": "near"
+    },
+    {
+      "case": "L1",
+      "candidate": "g99_after",
+      "step": 5,
+      "arm": "SINGLE",
+      "real": "ambiguous",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "g99_after",
+      "step": 5,
+      "arm": "FULL",
+      "real": "ambiguous",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "official_pred_return",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "near",
+      "pred": "ambiguous"
+    },
+    {
+      "case": "L1",
+      "candidate": "official_pred_return",
+      "step": 4,
+      "arm": "FULL",
+      "real": "near",
+      "pred": "ambiguous"
+    },
+    {
+      "case": "L1",
+      "candidate": "official_pred_return",
+      "step": 5,
+      "arm": "SINGLE",
+      "real": "near",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "official_pred_return",
+      "step": 5,
+      "arm": "FULL",
+      "real": "near",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "fact_matched_return",
+      "step": 4,
+      "arm": "SINGLE",
+      "real": "near",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "fact_matched_return",
+      "step": 4,
+      "arm": "FULL",
+      "real": "near",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "fact_matched_return",
+      "step": 5,
+      "arm": "SINGLE",
+      "real": "near",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "fact_matched_return",
+      "step": 5,
+      "arm": "FULL",
+      "real": "near",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "repeat_last_completed_action",
+      "step": 2,
+      "arm": "SINGLE",
+      "real": "ambiguous",
+      "pred": "separated"
+    },
+    {
+      "case": "L1",
+      "candidate": "repeat_last_completed_action",
+      "step": 2,
+      "arm": "FULL",
+      "real": "ambiguous",
+      "pred": "separated"
+    }
+  ],
+  "model_calls": 0,
+  "environment_calls": 0,
+  "training_steps": 0,
+  "warning": "Four development cases; candidates, pairs, horizons and duplicate actions are not independent samples."
+}

@@ -1,0 +1,42 @@
+{
+  "SPECTRAL": {
+    "rank": 8,
+    "models": [
+      "SPECTRAL_r8_s928",
+      "SPECTRAL_r8_s929",
+      "SPECTRAL_r8_s930"
+    ]
+  },
+  "DIRECT": {
+    "rank": 8,
+    "models": [
+      "DIRECT_r8_s928_EXTENDED",
+      "DIRECT_r8_s929_EXTENDED",
+      "DIRECT_r8_s930_EXTENDED"
+    ]
+  },
+  "SPECTRAL_FT": {
+    "rank": 8,
+    "models": [
+      "SPECTRAL_FT_r8_s928_EXTENDED",
+      "SPECTRAL_FT_r8_s929_EXTENDED",
+      "SPECTRAL_FT_r8_s930_EXTENDED"
+    ]
+  },
+  "GRU": {
+    "rank": 32,
+    "models": [
+      "GRU_r32_s928_EXTENDED",
+      "GRU_r32_s929_EXTENDED",
+      "GRU_r32_s930_EXTENDED"
+    ]
+  },
+  "NONLINEAR_STATE": {
+    "rank": 8,
+    "models": [
+      "NONLINEAR_STATE_r8_s928_EXTENDED",
+      "NONLINEAR_STATE_r8_s929_EXTENDED",
+      "NONLINEAR_STATE_r8_s930_EXTENDED"
+    ]
+  }
+}

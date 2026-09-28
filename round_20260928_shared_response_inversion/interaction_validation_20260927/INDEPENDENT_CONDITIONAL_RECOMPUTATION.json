@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "conditional_rows_recomputed": 160,
+  "all_hashes_match": true,
+  "first_step_full_latent_max_abs": 0.0,
+  "first_step_full_decoded_max_abs": 1.1116266250610352e-05,
+  "visual_mse": 0.013736460897836358,
+  "visual_mse_by_case": {
+    "T0": 0.007857512245851118,
+    "T1": 0.02307648574917953,
+    "L0": 0.005201209463210956,
+    "L1": 0.018810636133103832
+  },
+  "L1_fact_geometry": [
+    {
+      "step": 1,
+      "visible_centroid_error_px": 1.6511967849743587,
+      "gap": -0.17101080044565187
+    },
+    {
+      "step": 2,
+      "visible_centroid_error_px": 2.7301060529899437,
+      "gap": -0.20129566201664773
+    },
+    {
+      "step": 3,
+      "visible_centroid_error_px": 5.94145801186934,
+      "gap": -0.3187905499024062
+    },
+    {
+      "step": 4,
+      "visible_centroid_error_px": 8.580408871390098,
+      "gap": -0.6181309686726797
+    },
+    {
+      "step": 5,
+      "visible_centroid_error_px": 5.898880074379222,
+      "gap": -0.5162908696322477
+    }
+  ],
+  "model_calls": 0,
+  "training_steps": 0,
+  "environment_calls": 0,
+  "scope": "post hoc teacher-forced one-step diagnosis, not a method improvement",
+  "reviewer_assertion_correction": "Initial reviewer check additionally required bitwise decoder equality across batch sizes 6 and 1. It failed; separate decoder difference is now reported without inventing a zero-error claim. Latent parity remains strictly asserted zero."
+}

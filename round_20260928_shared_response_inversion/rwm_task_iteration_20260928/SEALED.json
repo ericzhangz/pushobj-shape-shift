@@ -1,0 +1,170 @@
+{
+  "status": "PREDICTIONS_SEALED_NO_MPC4_QUERY_OUTCOMES_READ",
+  "query_outcomes_read": false,
+  "old_development_cases_not_blind": true,
+  "environment_calls": 0,
+  "backbone_parameters_buffers_unchanged": true,
+  "outer_training": {
+    "SCALE_parameters": 1,
+    "METRIC_parameters": 5,
+    "METRIC_effective_parameters": 4,
+    "Adam_steps_per_arm": 100,
+    "total_Adam_steps": 200,
+    "learning_rate": 0.05,
+    "selection": "minimum meta train loss"
+  },
+  "online_fitting": "closed-form weighted ridge on two completed support steps",
+  "prior_train_samples": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "prior_alpha": 10.0,
+  "meta_train_episodes": [
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6",
+    "T7",
+    "T9",
+    "L2",
+    "L3",
+    "L5",
+    "L6",
+    "L7",
+    "L8",
+    "L9"
+  ],
+  "meta_evaluation_episodes": [
+    "T10",
+    "T11",
+    "L10",
+    "L11"
+  ],
+  "counts": {
+    "offline_H1_T": {
+      "forward_calls": 83,
+      "batch_transitions": 83,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    },
+    "offline_H1_L": {
+      "forward_calls": 78,
+      "batch_transitions": 78,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    },
+    "meta_cache_train_crossfit": {
+      "forward_calls": 70,
+      "batch_transitions": 70,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    },
+    "meta_cache_evaluation_only": {
+      "forward_calls": 20,
+      "batch_transitions": 20,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    },
+    "meta_native_equivalence": {
+      "forward_calls": 6,
+      "batch_transitions": 6,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    },
+    "T0_support": {
+      "forward_calls": 4,
+      "batch_transitions": 4,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    },
+    "T0_query": {
+      "forward_calls": 200,
+      "batch_transitions": 200,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    },
+    "T1_support": {
+      "forward_calls": 4,
+      "batch_transitions": 4,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    },
+    "T1_query": {
+      "forward_calls": 200,
+      "batch_transitions": 200,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    },
+    "L0_support": {
+      "forward_calls": 4,
+      "batch_transitions": 4,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    },
+    "L0_query": {
+      "forward_calls": 200,
+      "batch_transitions": 200,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    },
+    "L1_support": {
+      "forward_calls": 4,
+      "batch_transitions": 4,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    },
+    "L1_query": {
+      "forward_calls": 200,
+      "batch_transitions": 200,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    }
+  },
+  "predictor_calls": 1073,
+  "sample_transitions": 1073,
+  "legacy_prediction_sha256": "cde2f91c9ae733b5cab3d7c01a67580d9e19d9ff43472b7fdb10be6886d3a471",
+  "prepared_sha256": "3531d76cfe44ccf799e9850ab9808e4856af47f01607c72fc276f4ff0d63efd8",
+  "formation_sha256": "d0e4312a2ec4ab8d055c5a35ad95f84d159f01c439f6791858175aca1eadf8e0",
+  "runner_sha256": "117158d9c12549372f75481c626c52857df8c93094c6876f33961d1585dde349",
+  "protocol_sha256": "0831213cb44bdea5bb1cbfdcdda21d3925cff35e7ece03fd594ba511153940b9",
+  "prediction_sha256": "a1d41bb374be529c7603cdd8ec9f915923d122cfe8d4b0f11cf8b8c816550509",
+  "artifact_sha256": {
+    "L0_SHARED_PRIOR.pt": "19e87ac17cdc3b42722bd6b060e4e514867564bee9147f8ceb02af12b5c842c5",
+    "L0_SHARED_RIDGE_FIXED.pt": "c74c3a24f1ffc138dd67b95e174c386b6220036c447e268e7908765fa18e50fe",
+    "L0_SHARED_RIDGE_METRIC.pt": "b02d88c5d05a86471a615ff20c9cc86f501bc128fa1c303ecf5b17aaed04b84e",
+    "L0_SHARED_RIDGE_METRIC_SCALE_ONLY.pt": "28438f83f88308e4ea313aa2e9882697130633b8e69f11aff8f8df40d5f38d1b",
+    "L0_SHARED_RIDGE_SCALE.pt": "c01e34348b643f827fafaf21db1f4c66beb4b05fa1b0e431eb786638486d44eb",
+    "L0_SUPPORT.pt": "18a06be87b06ac04341007f5bfbf5b5919406d92eaef01b43f35352dbf9bfd26",
+    "L1_SHARED_PRIOR.pt": "19e87ac17cdc3b42722bd6b060e4e514867564bee9147f8ceb02af12b5c842c5",
+    "L1_SHARED_RIDGE_FIXED.pt": "8ee1e39135ad68a0e3267041160d7879e14a0ee94e466eafd039d75df13d9ace",
+    "L1_SHARED_RIDGE_METRIC.pt": "a159e9a615a891bea944ef6eda4a0ea653d1dfd25a8e210b993b19fcfdef9569",
+    "L1_SHARED_RIDGE_METRIC_SCALE_ONLY.pt": "13874d5c5be8393d947fe71f2204a803c37fef2186b2b3290ec47da8f96a0574",
+    "L1_SHARED_RIDGE_SCALE.pt": "b74d05c6af10ec3a934e5ed110db4bc68cdf15f6556aa2fad0653c6bc12ac9bf",
+    "L1_SUPPORT.pt": "6cdb1e3100e6afe65213a7ed8a2f6f3623fd88b02257dbb6c482aa1ccd309efd",
+    "META_CACHE.pt": "51372bf3d6a21f8530bdd02efb84a20006e3171d80faefb21c72056ad46dfbd4",
+    "OFFLINE_H1.pt": "0f72c82874fe29a421516c24946ad1e9378c7dfbb8aaad7bce56754ed3aca960",
+    "PREDICTIONS.pt": "a1d41bb374be529c7603cdd8ec9f915923d122cfe8d4b0f11cf8b8c816550509",
+    "SHARED_PRIOR_L.pt": "19e87ac17cdc3b42722bd6b060e4e514867564bee9147f8ceb02af12b5c842c5",
+    "SHARED_PRIOR_T.pt": "4d658f4135b869b345a7a2213ca357df8ae68a6a3ac8f93116475eff758a2337",
+    "T0_SHARED_PRIOR.pt": "4d658f4135b869b345a7a2213ca357df8ae68a6a3ac8f93116475eff758a2337",
+    "T0_SHARED_RIDGE_FIXED.pt": "52672e45d6416c0b2cda4171af47492c3846a26b1f4429e85b7e26be67d8f285",
+    "T0_SHARED_RIDGE_METRIC.pt": "7f43b071f77e0463eff36f4d41453c99e759fa32afcf54a9f06a014260afda51",
+    "T0_SHARED_RIDGE_METRIC_SCALE_ONLY.pt": "35d8ae7e13019be1f49a3165271cb79cdac068ce6b8899b8fe3df8874e961a0f",
+    "T0_SHARED_RIDGE_SCALE.pt": "3fcc69491e858d1904648e5fc97106f652c06d1bd7c7ddc11cf7cf4c70ac27a3",
+    "T0_SUPPORT.pt": "1736efeec3f3d42006a3fff179f6a3dc22ab5dafe72619daa862d9971ee9b77d",
+    "T1_SHARED_PRIOR.pt": "4d658f4135b869b345a7a2213ca357df8ae68a6a3ac8f93116475eff758a2337",
+    "T1_SHARED_RIDGE_FIXED.pt": "f0bf8d7901c79ccf5dfe0cac4745965704da501c1b55e087496848a52516b7c5",
+    "T1_SHARED_RIDGE_METRIC.pt": "c532a7839ac982ab408c3ab5d100c01a0adc77485b21d74fae5365f58e4b3994",
+    "T1_SHARED_RIDGE_METRIC_SCALE_ONLY.pt": "eb2b230c2ba9bef1eb67324889395bd26d6b66014d1183276b0e98df380916be",
+    "T1_SHARED_RIDGE_SCALE.pt": "c206dbe4534fc7a23edc5ec4f4d8203b399f583a79b3c0569e4dd8d86446e869",
+    "T1_SUPPORT.pt": "a021a52bc0f2a81dfdf058a98f976cec3dd1557b539a163cfc90e713200a1455"
+  },
+  "seconds": 11.424419100000001
+}

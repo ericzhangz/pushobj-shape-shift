@@ -1,0 +1,86 @@
+{
+  "status": "COMPLETE",
+  "cases": 4,
+  "candidates": 32,
+  "arms": 2,
+  "predictor_calls": 0,
+  "truth_encoder_forwards": 32,
+  "truth_encoder_frames": 192,
+  "truth_decoder_forwards": 32,
+  "truth_decoder_frames": 192,
+  "proprio_norm": "LayerNorm",
+  "physical_proprio_inverse": "not_performed: checkpoint violates Identity-norm assumption",
+  "max_recorded_cost_replay_abs": 8.392333984375e-05,
+  "wall_seconds": 27.551618299999998,
+  "selection": [
+    {
+      "case": "T0",
+      "arm": "SINGLE",
+      "selected": "g99_after",
+      "best": "g24_after",
+      "regret": 0.0031131096184253693,
+      "selected_recorded_success": "False"
+    },
+    {
+      "case": "T0",
+      "arm": "FULL",
+      "selected": "fact_matched_return",
+      "best": "g24_after",
+      "regret": 0.011898238211870193,
+      "selected_recorded_success": "False"
+    },
+    {
+      "case": "T1",
+      "arm": "SINGLE",
+      "selected": "g99_after",
+      "best": "official_pred_return",
+      "regret": 0.0010123923420906067,
+      "selected_recorded_success": "False"
+    },
+    {
+      "case": "T1",
+      "arm": "FULL",
+      "selected": "g99_after",
+      "best": "official_pred_return",
+      "regret": 0.0010123923420906067,
+      "selected_recorded_success": "False"
+    },
+    {
+      "case": "L0",
+      "arm": "SINGLE",
+      "selected": "g99_after",
+      "best": "g24_after",
+      "regret": 0.0024939533323049545,
+      "selected_recorded_success": "True"
+    },
+    {
+      "case": "L0",
+      "arm": "FULL",
+      "selected": "g99_after",
+      "best": "g24_after",
+      "regret": 0.0024939533323049545,
+      "selected_recorded_success": "True"
+    },
+    {
+      "case": "L1",
+      "arm": "SINGLE",
+      "selected": "fact_matched_return",
+      "best": "g99_after",
+      "regret": 1.31810849532485,
+      "selected_recorded_success": "False"
+    },
+    {
+      "case": "L1",
+      "arm": "FULL",
+      "selected": "fact_matched_return",
+      "best": "g99_after",
+      "regret": 1.31810849532485,
+      "selected_recorded_success": "False"
+    }
+  ],
+  "hidden_state_read": false,
+  "training_steps": 0,
+  "environment_calls": 0,
+  "all_bound_actions_equal": true,
+  "all_anchors_equal": true
+}

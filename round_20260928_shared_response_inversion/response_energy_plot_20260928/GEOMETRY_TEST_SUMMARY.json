@@ -1,0 +1,613 @@
+{
+  "scope": "H5 complete pool; all validation-selected seeds; secondary diagnostic.",
+  "raw": {
+    "valid": 794,
+    "total": 800,
+    "valid_fraction": 0.9925,
+    "failure_counts": {
+      "pusher not visible in RGB": 6
+    }
+  },
+  "models": {
+    "RECON_REAL": {
+      "arm": "RECON_REAL",
+      "valid": 788,
+      "total": 800,
+      "valid_fraction": 0.985,
+      "failure_counts": {
+        "pusher not visible in RGB": 11,
+        "insufficient visible pusher pixels": 1
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 1.4956808816438618,
+          "episode_macro_common_valid_mae_px": 1.5469515661395488,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 1.4430395520950705,
+          "episode_macro_common_valid_mae_px": 1.6500906749428885,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.016426030373086736
+    },
+    "NATIVE": {
+      "arm": "NATIVE",
+      "valid": 788,
+      "total": 800,
+      "valid_fraction": 0.985,
+      "failure_counts": {
+        "pusher not visible in RGB": 7,
+        "insufficient visible pusher pixels": 5
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 3.5705769593594923,
+          "episode_macro_common_valid_mae_px": 3.779192880835946,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 6.051636104727848,
+          "episode_macro_common_valid_mae_px": 8.755592552350953,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.01657018129517432
+    },
+    "SPECTRAL_r8_s928": {
+      "arm": "SPECTRAL",
+      "valid": 638,
+      "total": 800,
+      "valid_fraction": 0.7975,
+      "failure_counts": {
+        "pusher not visible in RGB": 150,
+        "insufficient visible pusher pixels": 12
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 21.166718865794753,
+          "episode_macro_common_valid_mae_px": 19.726623164636727,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 21.681816174782533,
+          "episode_macro_common_valid_mae_px": 17.77231924424277,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.011882058487457483
+    },
+    "SPECTRAL_r8_s929": {
+      "arm": "SPECTRAL",
+      "valid": 667,
+      "total": 800,
+      "valid_fraction": 0.83375,
+      "failure_counts": {
+        "pusher not visible in RGB": 130,
+        "insufficient visible pusher pixels": 3
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 20.996178677036927,
+          "episode_macro_common_valid_mae_px": 19.08630152870047,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 21.98154155244731,
+          "episode_macro_common_valid_mae_px": 18.4824090536696,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.011982230880633504
+    },
+    "SPECTRAL_r8_s930": {
+      "arm": "SPECTRAL",
+      "valid": 709,
+      "total": 800,
+      "valid_fraction": 0.88625,
+      "failure_counts": {
+        "pusher not visible in RGB": 83,
+        "insufficient visible pusher pixels": 8
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 21.546763962289067,
+          "episode_macro_common_valid_mae_px": 15.75486014587724,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 22.757470580460478,
+          "episode_macro_common_valid_mae_px": 14.374265158108635,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.012296125969919218
+    },
+    "DIRECT_r8_s928_EXTENDED": {
+      "arm": "DIRECT",
+      "valid": 726,
+      "total": 800,
+      "valid_fraction": 0.9075,
+      "failure_counts": {
+        "pusher not visible in RGB": 51,
+        "insufficient visible pusher pixels": 23
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 23.331467427270862,
+          "episode_macro_common_valid_mae_px": 18.374781257652064,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 23.999244094320485,
+          "episode_macro_common_valid_mae_px": 21.667877902710714,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.013050819448873301
+    },
+    "DIRECT_r8_s929_EXTENDED": {
+      "arm": "DIRECT",
+      "valid": 607,
+      "total": 800,
+      "valid_fraction": 0.75875,
+      "failure_counts": {
+        "insufficient visible pusher pixels": 3,
+        "pusher not visible in RGB": 190
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 22.73959138376862,
+          "episode_macro_common_valid_mae_px": 20.28328140971498,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 25.224260030815866,
+          "episode_macro_common_valid_mae_px": 16.909671445575643,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.012876607674319729
+    },
+    "DIRECT_r8_s930_EXTENDED": {
+      "arm": "DIRECT",
+      "valid": 596,
+      "total": 800,
+      "valid_fraction": 0.745,
+      "failure_counts": {
+        "pusher not visible in RGB": 193,
+        "insufficient visible pusher pixels": 9,
+        "insufficient visible object pixels": 1,
+        "object not visible in RGB": 1
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 21.49161124734945,
+          "episode_macro_common_valid_mae_px": 15.924327543432833,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 23.105220113847906,
+          "episode_macro_common_valid_mae_px": 16.17307357046412,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.013044043300914116
+    },
+    "SPECTRAL_FT_r8_s928_EXTENDED": {
+      "arm": "SPECTRAL_FT",
+      "valid": 638,
+      "total": 800,
+      "valid_fraction": 0.7975,
+      "failure_counts": {
+        "pusher not visible in RGB": 150,
+        "insufficient visible pusher pixels": 12
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 21.166729717983298,
+          "episode_macro_common_valid_mae_px": 19.726623164636727,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 21.681816174782533,
+          "episode_macro_common_valid_mae_px": 17.77231924424277,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.011882100007971939
+    },
+    "SPECTRAL_FT_r8_s929_EXTENDED": {
+      "arm": "SPECTRAL_FT",
+      "valid": 667,
+      "total": 800,
+      "valid_fraction": 0.83375,
+      "failure_counts": {
+        "pusher not visible in RGB": 130,
+        "insufficient visible pusher pixels": 3
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 20.996178677036927,
+          "episode_macro_common_valid_mae_px": 19.08630152870047,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 21.98154155244731,
+          "episode_macro_common_valid_mae_px": 18.4824090536696,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.01198221427242772
+    },
+    "SPECTRAL_FT_r8_s930_EXTENDED": {
+      "arm": "SPECTRAL_FT",
+      "valid": 647,
+      "total": 800,
+      "valid_fraction": 0.80875,
+      "failure_counts": {
+        "pusher not visible in RGB": 144,
+        "insufficient visible pusher pixels": 9
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 21.104530028756557,
+          "episode_macro_common_valid_mae_px": 16.662865115027753,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 22.33105558211166,
+          "episode_macro_common_valid_mae_px": 18.40224557545995,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.012754080636160714
+    },
+    "GRU_r32_s928_EXTENDED": {
+      "arm": "GRU",
+      "valid": 549,
+      "total": 800,
+      "valid_fraction": 0.68625,
+      "failure_counts": {
+        "pusher not visible in RGB": 246,
+        "insufficient visible pusher pixels": 5
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 24.424045390817604,
+          "episode_macro_common_valid_mae_px": 17.06879438191293,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 24.96256881771673,
+          "episode_macro_common_valid_mae_px": 20.16237432789208,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.012704272627019559
+    },
+    "GRU_r32_s929_EXTENDED": {
+      "arm": "GRU",
+      "valid": 597,
+      "total": 800,
+      "valid_fraction": 0.74625,
+      "failure_counts": {
+        "insufficient visible pusher pixels": 15,
+        "pusher not visible in RGB": 187,
+        "object not visible in RGB": 1
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 27.601033282607283,
+          "episode_macro_common_valid_mae_px": 19.39748428447196,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 30.98556814180689,
+          "episode_macro_common_valid_mae_px": 16.922308581320646,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.012490915311437076
+    },
+    "GRU_r32_s930_EXTENDED": {
+      "arm": "GRU",
+      "valid": 476,
+      "total": 800,
+      "valid_fraction": 0.595,
+      "failure_counts": {
+        "pusher not visible in RGB": 301,
+        "insufficient visible object pixels": 7,
+        "insufficient visible pusher pixels": 14,
+        "object not visible in RGB": 2
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 21.61742568197608,
+          "episode_macro_common_valid_mae_px": 20.361491812162054,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 24.783900831452904,
+          "episode_macro_common_valid_mae_px": 14.211091159289465,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.013000762316645407
+    },
+    "NONLINEAR_STATE_r8_s928_EXTENDED": {
+      "arm": "NONLINEAR_STATE",
+      "valid": 575,
+      "total": 800,
+      "valid_fraction": 0.71875,
+      "failure_counts": {
+        "pusher not visible in RGB": 206,
+        "insufficient visible pusher pixels": 17,
+        "object not visible in RGB": 2
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 20.370284249515876,
+          "episode_macro_common_valid_mae_px": 20.4139018472784,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 22.07886010527558,
+          "episode_macro_common_valid_mae_px": 18.0673573519513,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.012840493130846089
+    },
+    "NONLINEAR_STATE_r8_s929_EXTENDED": {
+      "arm": "NONLINEAR_STATE",
+      "valid": 559,
+      "total": 800,
+      "valid_fraction": 0.69875,
+      "failure_counts": {
+        "pusher not visible in RGB": 221,
+        "insufficient visible pusher pixels": 20
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 26.788795233971456,
+          "episode_macro_common_valid_mae_px": 16.98869774569412,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 27.629934397388034,
+          "episode_macro_common_valid_mae_px": 20.31545612066251,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.012138514097045068
+    },
+    "NONLINEAR_STATE_r8_s930_EXTENDED": {
+      "arm": "NONLINEAR_STATE",
+      "valid": 655,
+      "total": 800,
+      "valid_fraction": 0.81875,
+      "failure_counts": {
+        "pusher not visible in RGB": 134,
+        "insufficient visible pusher pixels": 11
+      },
+      "windows": {
+        "all_five_steps": {
+          "episode_macro_own_valid_mae_px": 19.531512209330746,
+          "episode_macro_common_valid_mae_px": 18.059632436455903,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 3
+        },
+        "endpoint": {
+          "episode_macro_own_valid_mae_px": 20.630892509490106,
+          "episode_macro_common_valid_mae_px": 15.836161180390913,
+          "episodes_with_own_support": 4,
+          "episodes_with_common_support": 2
+        }
+      },
+      "decoder_out_of_range_fraction_mean": 0.01241964119632228
+    }
+  },
+  "common_valid": 196,
+  "total": 800,
+  "common_endpoint_valid": 28,
+  "endpoint_total": 160,
+  "decoder_calls": 850,
+  "decoder_frames": 13600,
+  "unique_rgb_readouts": 11410,
+  "training_calls": 0,
+  "environment_calls": 0,
+  "wall_s": 342.7588429,
+  "interpretation": "Errors only on explicitly reported readable support. Common mask includes every selected seed, native, real reconstruction and raw RGB. Visible silhouette centroids are not rigid-body state or proof of contact dynamics.",
+  "final_seal_sha256": "d286ceea4529ce7ff05b38465067528eb13b136afb25fc73458c7db026449d5f",
+  "native_seal_sha256": "892319138ca47ec83a6a2a0eeb6da407705a61a5754247a3fec306c0bb8e96a0",
+  "code_sha256": "344cee835e83b2631381a68af7de25851bcfa24e9c412a2f03b6bcdfd06d0684",
+  "true_object_motion_by_root": [
+    {
+      "root_id": "T10_m2",
+      "episode_id": "T10",
+      "anchor_valid": true,
+      "anchor_error": "",
+      "valid_future_points": 98,
+      "total_future_points": 100,
+      "allstep_displacement_mean_px": 4.4545433621801855,
+      "allstep_displacement_median_px": 0.4765770468824656,
+      "allstep_displacement_max_px": 48.26714762394887,
+      "endpoint_displacement_mean_px": 6.588473601176827,
+      "endpoint_displacement_median_px": 0.7162495564376907,
+      "endpoint_displacement_max_px": 48.26714762394887,
+      "valid_endpoint_pairs": 171,
+      "total_endpoint_pairs": 190,
+      "endpoint_pair_gap_mean_px": 9.786756544092055,
+      "endpoint_pair_gap_median_px": 8.795454109391184,
+      "endpoint_pair_gap_max_px": 48.191056911821846
+    },
+    {
+      "root_id": "T10_m4",
+      "episode_id": "T10",
+      "anchor_valid": true,
+      "anchor_error": "",
+      "valid_future_points": 97,
+      "total_future_points": 100,
+      "allstep_displacement_mean_px": 4.044163229261982,
+      "allstep_displacement_median_px": 1.1107116612999692,
+      "allstep_displacement_max_px": 30.69132960295076,
+      "endpoint_displacement_mean_px": 5.80607906095729,
+      "endpoint_displacement_median_px": 4.5181071348551045,
+      "endpoint_displacement_max_px": 30.69132960295076,
+      "valid_endpoint_pairs": 171,
+      "total_endpoint_pairs": 190,
+      "endpoint_pair_gap_mean_px": 7.567253637143502,
+      "endpoint_pair_gap_median_px": 6.006725657499939,
+      "endpoint_pair_gap_max_px": 30.76697190138312
+    },
+    {
+      "root_id": "T11_m2",
+      "episode_id": "T11",
+      "anchor_valid": true,
+      "anchor_error": "",
+      "valid_future_points": 100,
+      "total_future_points": 100,
+      "allstep_displacement_mean_px": 8.655212780267892,
+      "allstep_displacement_median_px": 9.409483610505223,
+      "allstep_displacement_max_px": 38.34620436387403,
+      "endpoint_displacement_mean_px": 11.6058652377699,
+      "endpoint_displacement_median_px": 9.468064532521048,
+      "endpoint_displacement_max_px": 38.34620436387403,
+      "valid_endpoint_pairs": 190,
+      "total_endpoint_pairs": 190,
+      "endpoint_pair_gap_mean_px": 13.753644968299694,
+      "endpoint_pair_gap_median_px": 9.710260696056952,
+      "endpoint_pair_gap_max_px": 37.845677925028404
+    },
+    {
+      "root_id": "T11_m4",
+      "episode_id": "T11",
+      "anchor_valid": true,
+      "anchor_error": "",
+      "valid_future_points": 100,
+      "total_future_points": 100,
+      "allstep_displacement_mean_px": 7.324177887934759,
+      "allstep_displacement_median_px": 7.594580406459999,
+      "allstep_displacement_max_px": 48.23701184166323,
+      "endpoint_displacement_mean_px": 10.357911702828812,
+      "endpoint_displacement_median_px": 7.912668096658089,
+      "endpoint_displacement_max_px": 48.23701184166323,
+      "valid_endpoint_pairs": 190,
+      "total_endpoint_pairs": 190,
+      "endpoint_pair_gap_mean_px": 14.027120602775003,
+      "endpoint_pair_gap_median_px": 9.155406216917518,
+      "endpoint_pair_gap_max_px": 48.13392661886675
+    },
+    {
+      "root_id": "L10_m2",
+      "episode_id": "L10",
+      "anchor_valid": true,
+      "anchor_error": "",
+      "valid_future_points": 99,
+      "total_future_points": 100,
+      "allstep_displacement_mean_px": 5.295328595336034,
+      "allstep_displacement_median_px": 5.535663917958058,
+      "allstep_displacement_max_px": 22.623719966501135,
+      "endpoint_displacement_mean_px": 7.517460052528336,
+      "endpoint_displacement_median_px": 5.624369130306919,
+      "endpoint_displacement_max_px": 22.623719966501135,
+      "valid_endpoint_pairs": 171,
+      "total_endpoint_pairs": 190,
+      "endpoint_pair_gap_mean_px": 8.114255063791214,
+      "endpoint_pair_gap_median_px": 7.0684212743084185,
+      "endpoint_pair_gap_max_px": 22.703324316302744
+    },
+    {
+      "root_id": "L10_m4",
+      "episode_id": "L10",
+      "anchor_valid": true,
+      "anchor_error": "",
+      "valid_future_points": 100,
+      "total_future_points": 100,
+      "allstep_displacement_mean_px": 0.46436314879994756,
+      "allstep_displacement_median_px": 0.0,
+      "allstep_displacement_max_px": 21.047147431968988,
+      "endpoint_displacement_mean_px": 1.3381489559082556,
+      "endpoint_displacement_median_px": 0.0,
+      "endpoint_displacement_max_px": 21.047147431968988,
+      "valid_endpoint_pairs": 190,
+      "total_endpoint_pairs": 190,
+      "endpoint_pair_gap_mean_px": 2.616135600111777,
+      "endpoint_pair_gap_median_px": 0.0,
+      "endpoint_pair_gap_max_px": 21.047147431968988
+    },
+    {
+      "root_id": "L11_m2",
+      "episode_id": "L11",
+      "anchor_valid": true,
+      "anchor_error": "",
+      "valid_future_points": 100,
+      "total_future_points": 100,
+      "allstep_displacement_mean_px": 1.8197833439873856,
+      "allstep_displacement_median_px": 0.0,
+      "allstep_displacement_max_px": 26.1238861470207,
+      "endpoint_displacement_mean_px": 3.1837870277576195,
+      "endpoint_displacement_median_px": 0.29824394306063756,
+      "endpoint_displacement_max_px": 26.1238861470207,
+      "valid_endpoint_pairs": 190,
+      "total_endpoint_pairs": 190,
+      "endpoint_pair_gap_mean_px": 5.166336829828479,
+      "endpoint_pair_gap_median_px": 1.4494987792361536,
+      "endpoint_pair_gap_max_px": 26.1238861470207
+    },
+    {
+      "root_id": "L11_m4",
+      "episode_id": "L11",
+      "anchor_valid": true,
+      "anchor_error": "",
+      "valid_future_points": 100,
+      "total_future_points": 100,
+      "allstep_displacement_mean_px": 6.734718449043374,
+      "allstep_displacement_median_px": 7.868589801635417,
+      "allstep_displacement_max_px": 24.439967684510876,
+      "endpoint_displacement_mean_px": 8.832103462946312,
+      "endpoint_displacement_median_px": 7.937885250900007,
+      "endpoint_displacement_max_px": 24.426203154359598,
+      "valid_endpoint_pairs": 190,
+      "total_endpoint_pairs": 190,
+      "endpoint_pair_gap_mean_px": 8.896695343333462,
+      "endpoint_pair_gap_median_px": 7.639013143156358,
+      "endpoint_pair_gap_max_px": 23.920741905693802
+    }
+  ],
+  "true_motion_note": "All eight roots retained. Displacement is visible silhouette-centroid motion, so occlusion and rotation can move the centroid without equal rigid-body translation. No movement threshold used to select cases."
+}
