@@ -1,0 +1,21 @@
+{
+  "sha256": "3531d76cfe44ccf799e9850ab9808e4856af47f01607c72fc276f4ff0d63efd8",
+  "native_path_checks": {
+    "cache_visual": 2.2649765014648438e-06,
+    "cache_proprio": 1.7881393432617188e-07,
+    "zero_visual": 0.0,
+    "zero_proprio": 0.0
+  },
+  "counts": {
+    "prepare": {
+      "forward_calls": 6,
+      "batch_transitions": 6,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    }
+  },
+  "environment_calls": 0,
+  "query_outcomes_read": false,
+  "publication_note": "Raw scene input-path manifest omitted.",
+  "source_execution_sha256": "f2b0335e409f0bdfb6c4a2e544dbcfed8f29e879f20a65e9baabcbe1002119aa"
+}

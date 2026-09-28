@@ -1,0 +1,15 @@
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.mp4
+*.gif
+__pycache__/
+*.pyc
+sources/
+GEOMETRY.csv

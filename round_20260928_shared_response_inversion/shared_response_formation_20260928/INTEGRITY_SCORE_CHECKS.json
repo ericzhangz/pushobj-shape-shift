@@ -1,0 +1,37 @@
+{
+  "status": "AGGREGATES_PASS_REFERENCE_COST_DRIFT",
+  "truth_replay_gate_2e_5_passed": false,
+  "truth_replay_rows_exceeding_2e_5": 4,
+  "scalar_checks": 4460,
+  "cases": 4,
+  "arms": [
+    "NATIVE",
+    "PRIOR",
+    "STEP_RIDGE",
+    "DIRECT",
+    "SOURCE_MU1",
+    "SOURCE_MU10"
+  ],
+  "row_counts": {
+    "errors": 960,
+    "pairs": 672,
+    "geometry": 1536,
+    "replay": 224
+  },
+  "max_truth_cost_replay_abs": 6.121397018432617e-05,
+  "max_prediction_cost_replay_abs": 4.76837158203125e-07,
+  "max_latent_anchor_abs": 2.1457672119140625e-06,
+  "step2_and_step4_terminal_equivalent_at_horizon6": true,
+  "summary_and_selection_recomputed": true,
+  "outcome_npz_opened": false,
+  "gpu_calls": 0,
+  "source_hashes": {
+    "ERRORS.csv": "5efe3694c98683508639d68a062279ac667edc9536e73e656c1663cceaed1503",
+    "GEOMETRY.csv": "87fb2675c8d43d8a511c553ff4693b2dc9186f7929f237f4425d01535de1dd17",
+    "PAIRS.csv": "30ffda3c16ad77b1dcf1071de0f9ee5bdfbf7a5a606215ca24c69cad678a845b",
+    "REPLAY.csv": "11116ad37ecd80d4d38f1085aee580b54199940bcb613499dfe7b93682c49b3e",
+    "SELECTION.csv": "8811af3d940c6165175fac071ec660849a0a4240e8232c5f0841190e3352eb63",
+    "SUMMARY.csv": "b6a38e3ee0a958f8c2dcc7f94a1a3d1a666b3c7f46bfd3c075d62e063fc65d23",
+    "RESULTS.json": "57d8049628f8b4b5d04fec82e6a1f711fa488d77cb713db8cd606c565ec6cd05"
+  }
+}

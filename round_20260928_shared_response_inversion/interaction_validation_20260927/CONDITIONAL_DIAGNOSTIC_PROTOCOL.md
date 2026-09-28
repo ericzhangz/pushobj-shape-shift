@@ -1,0 +1,9 @@
+# Conditional native diagnostic, registered after initial branch scoring
+
+The sealed original 64 forecasts show a specific ambiguity: in L1/fact, decoded object-position error grows before the visible separation becomes large. Thus early separation may be a consequence of accumulated trajectory error rather than a wrong event boundary. A new diagnostic is justified to distinguish a locally wrong response from drift along the predicted prefix. This is a follow-up, not a preregistered part of the initial 320-call result.
+
+For **all four cases, all eight candidates, all five macro transitions**, give the same frozen native predictor the last three **actual observed** model-time frames ending immediately before that transition, with aligned historical/candidate actions. Predict precisely the next block once, decode, and compare with its actual outcome. Expected 160 predictor calls, no fitting or environment actions. Each input contains only that transition's past; previous branch outcomes are privileged relative to the original query and therefore this is a teacher-forced diagnostic, not a deployable whole-plan forecast or adaptation method.
+
+Use the same RGB observer, adjacency bands and decoder. Report per-step visual error, pusher/visible-object position error and gap. Do not call it an event oracle: it replaces the full state evidence and cannot uniquely isolate timing, strength or shape. If errors collapse after refresh, accumulated prediction-state error is implicated; if the same large local error remains on real histories, it supports a local action-response problem. Neither result alone validates the shared-boundary inverse-speed law. No new performance claim or candidate selection score is generated from these mixed actual/predicted prefixes.
+
+All initial results are retained. Input hashes and parameter versions checked; outputs are separate diagnostic artifacts on the same native operator.

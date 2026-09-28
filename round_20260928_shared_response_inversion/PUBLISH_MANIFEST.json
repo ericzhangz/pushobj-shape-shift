@@ -1,0 +1,1104 @@
+{
+  "base_commit": "94fb16376261f204320fcc0aff5028e9dfff8e93",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "generated_for_publication": true,
+      "adaptations": [],
+      "published_sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": ".gitignore",
+      "generated_for_publication": true,
+      "adaptations": [],
+      "published_sha256": "04cec410f8062ca7f5178705d4e87b0c1f2dd0565236cc95ed5d67795ea9a8e1",
+      "bytes": 108
+    },
+    {
+      "path": "DEPENDENCIES.json",
+      "generated_for_publication": true,
+      "adaptations": [],
+      "published_sha256": "b28765d4c3be460c66fef7eaa5a1251689046ad383fc0f1dd394a9028785c832",
+      "bytes": 4164
+    },
+    {
+      "path": "README.md",
+      "generated_for_publication": true,
+      "adaptations": [],
+      "published_sha256": "78ca02dc59b7e0c27146f9b27cd92ac10eb941d492a5ba712aa1888554f7327a",
+      "bytes": 5438
+    },
+    {
+      "path": "cvpr_oral_reframe_20260927/DECISION_REPORT.md",
+      "source_execution_sha256": "88609819977356426f02cdf897b908d56a7f5538e753d6b30120c8d5f1447411",
+      "published_sha256": "88609819977356426f02cdf897b908d56a7f5538e753d6b30120c8d5f1447411",
+      "bytes": 11642,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "cvpr_oral_reframe_20260927/EXECUTION_AMENDMENT.md",
+      "source_execution_sha256": "d1d208607ef5d6deb1e38f4ef54dcaa6d70d5a026a83d6bacaf3388547b40c3f",
+      "published_sha256": "d1d208607ef5d6deb1e38f4ef54dcaa6d70d5a026a83d6bacaf3388547b40c3f",
+      "bytes": 1779,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "cvpr_oral_reframe_20260927/INDEPENDENT_REVIEW.md",
+      "source_execution_sha256": "26b641a9b5e9346a4f218bc5a03851682f5da8677801111c117d3563db6e1ffb",
+      "published_sha256": "26b641a9b5e9346a4f218bc5a03851682f5da8677801111c117d3563db6e1ffb",
+      "bytes": 12168,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "cvpr_oral_reframe_20260927/LITERATURE_BOUNDARY.md",
+      "source_execution_sha256": "ff4ddf6adfeb5930bc1554b2d965b107ae5dfd37f8553c417fa8339c4f7e9976",
+      "published_sha256": "a5dc6efe648e41f269231b3e504d037250ab47da1aeb6776844b30af014dbe44",
+      "bytes": 11646,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "trailing whitespace and final blank lines normalized in public copy"
+      ]
+    },
+    {
+      "path": "cvpr_oral_reframe_20260927/MATH_PROBE.md",
+      "source_execution_sha256": "da41a4a72cf0b793eb12ba85a2f980469738ee02c8fb5c51c7f0a6697d538485",
+      "published_sha256": "2579e4c26f4334cfd332630d7dbca9564234038b9f895a670b9b12e87a9a709b",
+      "bytes": 2721,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "cvpr_oral_reframe_20260927/MECHANISM_CANDIDATES.md",
+      "source_execution_sha256": "3146dc25c9e0c232e2baf10832214aef19dd830f0528663459e379e7c019ac74",
+      "published_sha256": "3146dc25c9e0c232e2baf10832214aef19dd830f0528663459e379e7c019ac74",
+      "bytes": 18335,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "cvpr_oral_reframe_20260927/NATIVE_ASSET_AUDIT.md",
+      "source_execution_sha256": "d876b7ae07f381daad9739c959a6f951335576eea26d1de4a9418c8b1ffd311d",
+      "published_sha256": "9184736a39a7a2e0f6b332192ea82ade4fcb6fa6df9c898fa70ec04eafa9a013",
+      "bytes": 15892,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "cvpr_oral_reframe_20260927/PROBE_REVIEW.md",
+      "source_execution_sha256": "88c9e4424190d13d54d1a2acab3654e558d6d1d1910db15c42ce943edc43a846",
+      "published_sha256": "ff7d0cbcebd78d108f106569e70c90a784fbcd5eedaf5c5e0779060c6b3b59d0",
+      "bytes": 12663,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "cvpr_oral_reframe_20260927/PROBLEM_ANCHOR.md",
+      "source_execution_sha256": "df8c9ccfe7e7126d9859921cbd6216c4d981b11b4f74fc9a52cdf17a20be1d9f",
+      "published_sha256": "df8c9ccfe7e7126d9859921cbd6216c4d981b11b4f74fc9a52cdf17a20be1d9f",
+      "bytes": 2555,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "interaction_validation_20260927/ASSET_AUDIT.md",
+      "source_execution_sha256": "bd3df47006c104d313d0f503619e8c60f29198319b4266fbc521b87fcfa96335",
+      "published_sha256": "d16ac7491d198b16b4760f53c12460f981add71d2b1c77a2dc4b23bd07e2af51",
+      "bytes": 10292,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "interaction_validation_20260927/CONDITIONAL_DIAGNOSTIC_PROTOCOL.md",
+      "source_execution_sha256": "52dc0c12ce760eb409dafe20a9ac7673f669d9651cd450bc4c10d8d6daa827a9",
+      "published_sha256": "52dc0c12ce760eb409dafe20a9ac7673f669d9651cd450bc4c10d8d6daa827a9",
+      "bytes": 1930,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "interaction_validation_20260927/EVALUATION_AMENDMENT.md",
+      "source_execution_sha256": "9391a461d478af6e5cbfbe32c875a6c38ab0ff408a18adbf3a10e4cd083e1fe5",
+      "published_sha256": "9391a461d478af6e5cbfbe32c875a6c38ab0ff408a18adbf3a10e4cd083e1fe5",
+      "bytes": 1143,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "interaction_validation_20260927/FINAL_REVIEW.md",
+      "source_execution_sha256": "bdd95fd2859f524e9989fc5a77dcb84724791fe2b7d35854b890dd2548ace4f7",
+      "published_sha256": "6fbb3ad8f7117e5537ee915d44a82d7e3b99b4cccd05121465c4b4d24d36af84",
+      "bytes": 7454,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "interaction_validation_20260927/PROPRIO_READOUT_NOTE.md",
+      "source_execution_sha256": "bbe1c9f3e6f005e766c2b665c2ee98673559e567e674fe79b52f8a9eae2e0a47",
+      "published_sha256": "bbe1c9f3e6f005e766c2b665c2ee98673559e567e674fe79b52f8a9eae2e0a47",
+      "bytes": 1479,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "interaction_validation_20260927/QUERY_READOUT_REVIEW.md",
+      "source_execution_sha256": "6d7afd12e31449d529e7d93ef67f19fbb21dbf38e54a4b5a0733b2fc1880b115",
+      "published_sha256": "6d7afd12e31449d529e7d93ef67f19fbb21dbf38e54a4b5a0733b2fc1880b115",
+      "bytes": 7365,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "interaction_validation_20260927/READOUT_AUDIT.md",
+      "source_execution_sha256": "1d53d518b2a2737a7a346c6c8596afc4e31ae85f6d6a14bb9911968f7ef9f32f",
+      "published_sha256": "97b1801046ede549cdca4c80d42c43b4190a326055adf32eaf5299ad49436e5d",
+      "bytes": 11060,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "interaction_validation_20260927/REPORT.md",
+      "source_execution_sha256": "ee29d3600c66d462178b235f5fb8d921c57a60593a465753e2eb9fd8b762c00a",
+      "published_sha256": "7026f7b6adbe6876b8cac721cb87638fa70e1cfbdd56ae958d18c4b455b02253",
+      "bytes": 10742,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "interaction_validation_20260927/REVIEW_CONTRACT.md",
+      "source_execution_sha256": "18cc81416cdadc34542476396639d8adbf69e5641f25c24901759d6bfeee1fd1",
+      "published_sha256": "18cc81416cdadc34542476396639d8adbf69e5641f25c24901759d6bfeee1fd1",
+      "bytes": 5921,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "interaction_validation_20260927/RUNNER_REVIEW.md",
+      "source_execution_sha256": "853cbe5116f40ae9d72e27255b58ab852a0fb923071a4cce557d57fa1286bc39",
+      "published_sha256": "853cbe5116f40ae9d72e27255b58ab852a0fb923071a4cce557d57fa1286bc39",
+      "bytes": 1893,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "interaction_validation_20260927/RUN_PROTOCOL.md",
+      "source_execution_sha256": "c08ecefaefc297701e6f997a1d6c39b48f7bd13796fb70106f555d9c66259198",
+      "published_sha256": "02f4b6d90042d31e76b63c170f7057824f914ca8074996684f8f23ab02d20769",
+      "bytes": 4074,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "interaction_validation_20260927/native_interaction_probe.py",
+      "source_execution_sha256": "05e7e1b99e21867f27b6b2e45b7b075850b6ca46126230b7cd664717a54ea41f",
+      "published_sha256": "05e7e1b99e21867f27b6b2e45b7b075850b6ca46126230b7cd664717a54ea41f",
+      "bytes": 8010,
+      "adaptations": []
+    },
+    {
+      "path": "mathematical_reconstruction_20260927/CYCLE_PROTOCOL.md",
+      "source_execution_sha256": "52d1a0917ddb1ea554d42affaa2c5ed7badd946f05ed5868e4edbedc66f5e22e",
+      "published_sha256": "52d1a0917ddb1ea554d42affaa2c5ed7badd946f05ed5868e4edbedc66f5e22e",
+      "bytes": 2526,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "mathematical_reconstruction_20260927/CYCLE_REVIEW.md",
+      "source_execution_sha256": "b154c6bce3ed9b8e4b5c8c3d3051c6a02e2c8ada9d076dd1e162723475671f2d",
+      "published_sha256": "93090b6336fc1e61ee3e4a9ea40e3a9b7326ff94e269aefc8970dd3038a92722",
+      "bytes": 7794,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "mathematical_reconstruction_20260927/FINAL_CHECK.md",
+      "source_execution_sha256": "7bb3e056ccb9ac49ae9708abf45c897f38a5178254825724fae5f19433a52b78",
+      "published_sha256": "6970aef06c9adeb4aee13967b3b235b6c8e71eab1e94ca91bbcfc77f4f8b64ab",
+      "bytes": 3080,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "mathematical_reconstruction_20260927/NATIVE_KERNEL_BOUND.md",
+      "source_execution_sha256": "f63514cd0564b5430bdcc07c721775ee079b47e12eca10f71e1ec92708eb9879",
+      "published_sha256": "0e388604803643956566ae481e197b112d0b1c30f0163540e8778aee0b3a11be",
+      "bytes": 4519,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "mathematical_reconstruction_20260927/OPERATOR_BRIDGE.md",
+      "source_execution_sha256": "d1a7f391f5c11a78720d33ebb244bf024ef3a145088c3b11272df68a82bdd001",
+      "published_sha256": "48926e64c849cf657858f0cb3c0316bb5b44c753226b12851dc60cf40dd2cc59",
+      "bytes": 14023,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "mathematical_reconstruction_20260927/PRIOR_ART.md",
+      "source_execution_sha256": "217d0554b87afff24b25987c74eb1027a66ff65942a0e80b1da08b0c382b09a1",
+      "published_sha256": "217d0554b87afff24b25987c74eb1027a66ff65942a0e80b1da08b0c382b09a1",
+      "bytes": 12753,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "mathematical_reconstruction_20260927/PRIOR_ART_ADDENDUM.md",
+      "source_execution_sha256": "1208df1197b52fd52b10622e0b2276bc881db1bd236e3734d456c5503340db7a",
+      "published_sha256": "1208df1197b52fd52b10622e0b2276bc881db1bd236e3734d456c5503340db7a",
+      "bytes": 6777,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "mathematical_reconstruction_20260927/REPORT.md",
+      "source_execution_sha256": "f8e9c9025e5511302f5c0aababba5f15ada193ca4668e05e23bc990703e95c3c",
+      "published_sha256": "e2338d3e80be6af1e6e7ff95e3c9153f54d84d050b86b98bcbb34df5b64dbf01",
+      "bytes": 13281,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "mathematical_reconstruction_20260927/SELECTIVITY_AUDIT_PROTOCOL.md",
+      "source_execution_sha256": "cd1dfc95c77c78814c72b13fcc0d31b3709f4f325f9b5a124e21aceb0f304216",
+      "published_sha256": "cd1dfc95c77c78814c72b13fcc0d31b3709f4f325f9b5a124e21aceb0f304216",
+      "bytes": 1551,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "mathematical_reconstruction_20260927/THEORY_CANDIDATE.md",
+      "source_execution_sha256": "78d3c94cf9387ec725c22dcebb3b4fff11df460212cd74c8922b8241abc3627a",
+      "published_sha256": "c4a111df3f5fc5e3dae251e67b62bd94ce321a0790b2df0b29d79f41587c0c42",
+      "bytes": 8653,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "mathematical_reconstruction_20260927/THEORY_SELECTIVITY.md",
+      "source_execution_sha256": "68adf6cfbeebd94e5a6aca4289d2f82154c1ad756b267eeade30c2efe85505f3",
+      "published_sha256": "68adf6cfbeebd94e5a6aca4289d2f82154c1ad756b267eeade30c2efe85505f3",
+      "bytes": 8817,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "object_response_constraints_20260927/ASSETS.md",
+      "source_execution_sha256": "d964f30a120b3dd424dfd1e2e36aff5b9dc9807f20cd5aa611dc808861b2c1e9",
+      "published_sha256": "8420c8025a1d69a53a9822f448b0e5728288e58f3a0ad878efb24fb15e2e733e",
+      "bytes": 7572,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "object_response_constraints_20260927/BEHAVIOR_RESPONSE_REVIEW.md",
+      "source_execution_sha256": "591073b4dc5fa90d7b36d54d9512c465fa43936ca78385df114b7cd2eb472319",
+      "published_sha256": "6fbe072f9d4c2861a6afb9117520f06789ff61d7b1372525148e98d3bc3f5b6f",
+      "bytes": 7833,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "object_response_constraints_20260927/BEHAVIOR_RESPONSE_SUPPORT.md",
+      "source_execution_sha256": "71e2406bc1cf89dcad679d45f4b841af3b3d6af24718ece1f8a51e50160e7aa3",
+      "published_sha256": "d6d3b649327347f8a9c912f43497cdd03a2e6f971a769da1ea783e33878d5c7c",
+      "bytes": 5022,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "object_response_constraints_20260927/BEHAVIOR_SUPPORT.md",
+      "source_execution_sha256": "2668a510ecf928cf55c2b118a9c0981e4c21950cfa035ae9d9239dd15b3394fc",
+      "published_sha256": "6d536be3cfd5258e252aea27093f5518851f30fcaed131f7ab9c323ab9cd5a6f",
+      "bytes": 5241,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "object_response_constraints_20260927/FINAL_REVIEW.md",
+      "source_execution_sha256": "ed1b65a6d6621227bdc2e06132fb65a0c8572c0221ef55e9add1938aca534bc7",
+      "published_sha256": "ed1b65a6d6621227bdc2e06132fb65a0c8572c0221ef55e9add1938aca534bc7",
+      "bytes": 1965,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "object_response_constraints_20260927/GEOMETRY_PROTOCOL.md",
+      "source_execution_sha256": "1a1aa9160752a8d4b144e059b781fa58791a6465bb175b0bc2ff80971e3534a8",
+      "published_sha256": "1a1aa9160752a8d4b144e059b781fa58791a6465bb175b0bc2ff80971e3534a8",
+      "bytes": 2549,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "object_response_constraints_20260927/GEOMETRY_REVIEW.md",
+      "source_execution_sha256": "d774ff77e4e2a2c4bae938729ed9231171b6478df08a80723de6cf355668d411",
+      "published_sha256": "d774ff77e4e2a2c4bae938729ed9231171b6478df08a80723de6cf355668d411",
+      "bytes": 6826,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "object_response_constraints_20260927/PRIOR_ART.md",
+      "source_execution_sha256": "43de02d6b5c9b9548c0a046b1d4f0c4ca4402d336b8e46639c4b75db4da90d64",
+      "published_sha256": "43de02d6b5c9b9548c0a046b1d4f0c4ca4402d336b8e46639c4b75db4da90d64",
+      "bytes": 8762,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "object_response_constraints_20260927/REPORT.md",
+      "source_execution_sha256": "a4a77c8db07b4c7c309d24c6530a613b1a21f0ba4224089e7d831a16e765356b",
+      "published_sha256": "09e4a20aca8af121311ca7de860c968a4136ec31cee75218c09f5a76a478748c",
+      "bytes": 13500,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "object_response_constraints_20260927/RESPONSE_MATH.md",
+      "source_execution_sha256": "3f5682dbf3a199be287d0c92ea02bc568f35dc0746102ee2a3f01d7e6124ec40",
+      "published_sha256": "607a3f71d9b36e828a9debc5bd0eade5833657913e1e35133177bc1a9a91c621",
+      "bytes": 12047,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "research_direction_20260927/CLAIM_REVIEW.md",
+      "source_execution_sha256": "05549a8de1ef117b1ab6b8f64a50aacf2b44614a817423ea3934dbd579ab1992",
+      "published_sha256": "e1791673b52c2adb6db3befa97b1d633c1f1b37f815e44415913d24063cf80ee",
+      "bytes": 8283,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "trailing whitespace and final blank lines normalized in public copy"
+      ]
+    },
+    {
+      "path": "research_direction_20260927/EXECUTION_NOTES.md",
+      "source_execution_sha256": "83a313e7a00bd8d4adc2e821ce235518449daf9a838adfab9ebf0822afa449fd",
+      "published_sha256": "55fdceb647137f8e1595d9f6d8996d565b0cad8538fff7bba298d118ef818632",
+      "bytes": 2536,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "research_direction_20260927/RESEARCH_DIRECTION.md",
+      "source_execution_sha256": "be045e3e189b59f01ee238400d0d91947411e79bce15a623b13c81a469a5532e",
+      "published_sha256": "61bbab283f88ad7f47adf868e965e32df1f6dccdf8be4c5b2f713e14a0783c15",
+      "bytes": 10095,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "research_direction_20260927/findings.md",
+      "source_execution_sha256": "d904b62768e0fe1712be3775bd9056c166384a805887bf74fd07acf027706524",
+      "published_sha256": "d904b62768e0fe1712be3775bd9056c166384a805887bf74fd07acf027706524",
+      "bytes": 1365,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "research_discussion_20260927/CHORDEDIT_VERIFICATION.md",
+      "source_execution_sha256": "703e7f813e21cfc82aa9ba5938e3ab481bf07e395425d3d06513b4deee6116bf",
+      "published_sha256": "ae2d2ca2f8af724565d3a7a809df2b68385406f2429e7c969caac237c2f03ab1",
+      "bytes": 5887,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "research_discussion_20260927/OPEN_RESEARCH_QUESTION.md",
+      "source_execution_sha256": "d768224e5394486ee2a88405b3767370925dcc7d078acf7a4f86288e35b4c5d5",
+      "published_sha256": "bc1582c8aed93ba477616d02c0f89f8e52a43bca2aca0cf08c94a4476c65762d",
+      "bytes": 25230,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "research_progress_20260922/EXECUTION_NOTES.md",
+      "source_execution_sha256": "156c8f0fac60b14fc831ec993e623f0467b25ef4078cd899437b44e65e56bc10",
+      "published_sha256": "156c8f0fac60b14fc831ec993e623f0467b25ef4078cd899437b44e65e56bc10",
+      "bytes": 1559,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "research_progress_20260922/MATHEMATICAL_BRIDGE.md",
+      "source_execution_sha256": "c0c3688fb66eeab8b41873e58f029affe032d41e0603f0d522b3e029eb9b3be8",
+      "published_sha256": "b1b07b50a71fbe51fd4d8d53a314e864b4843eeeecadea177f001e69c17fc9ec",
+      "bytes": 8672,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "research_progress_20260922/RESEARCH_POSITION.md",
+      "source_execution_sha256": "c2dd6423aa1adf41cdb6b2e7fb2e9820cf11e48ee356c96dc5e3cf6b55fa20d0",
+      "published_sha256": "da6000de4af2282a36f40d8857d4c1bb7bdc3c4ca3f1a4e7ef78441c29d1a879",
+      "bytes": 10537,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "research_synthesis_20260927/CHORDEDIT_LOGIC.md",
+      "source_execution_sha256": "fd0fabcd8fe346dcfba4e9df02b15caa5866b34767bb0e1790386e9923cc0d86",
+      "published_sha256": "58bd150cbac2a29f91b75009ec2a0920cf466cf04cc1adff61f113018f1c890a",
+      "bytes": 11103,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "research_synthesis_20260927/DECISION_FRONTIER.md",
+      "source_execution_sha256": "f4b8799b34e7fa74eea77a51010630d9096e85a751f5452e67aac3709074251b",
+      "published_sha256": "652a40742abd056aacc91ad9fe0974b46ce4dc267a5b5355d7198486c5deff9b",
+      "bytes": 10510,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "research_synthesis_20260927/HISTORY_AND_INTENT.md",
+      "source_execution_sha256": "8fdba0625d9d966f67d2112f7826e54747267a74a84abb9c601b9b400f42560f",
+      "published_sha256": "4d5dc532747999088fc3bee264eb9944bfa9f17d1a84eab26c1abf5f527b5206",
+      "bytes": 12141,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "trailing whitespace and final blank lines normalized in public copy"
+      ]
+    },
+    {
+      "path": "research_synthesis_20260927/MAINLINE_PROPOSAL.md",
+      "source_execution_sha256": "b7179a8ff6698feaeb493e56fd80266f865c84c96a2707e758b6fa726481c286",
+      "published_sha256": "20792e71ab571a73ac9eeb596bb098f5aa736c0e0a370f656f895f6bce7cd355",
+      "bytes": 16326,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "research_synthesis_20260927/MECHANISM_RECONSTRUCTION.md",
+      "source_execution_sha256": "34845197f8a73c9cf34d593323bf87e680ecc555d4b1ec12fab4845fd3cf0b47",
+      "published_sha256": "34845197f8a73c9cf34d593323bf87e680ecc555d4b1ec12fab4845fd3cf0b47",
+      "bytes": 11122,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "research_synthesis_20260927/SCOPE.md",
+      "source_execution_sha256": "329f1c910ca636669d4c27bc14450f56b5caad225dbf2ce12fea037376becb53",
+      "published_sha256": "329f1c910ca636669d4c27bc14450f56b5caad225dbf2ce12fea037376becb53",
+      "bytes": 1013,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "research_synthesis_20260927/SYNTHESIS_REVIEW.md",
+      "source_execution_sha256": "1d31238cccd471f13a10be44c2b3bdaf2ab084ee1d406052768c3f31e5689a90",
+      "published_sha256": "1d31238cccd471f13a10be44c2b3bdaf2ab084ee1d406052768c3f31e5689a90",
+      "bytes": 4233,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "runtime_snapshot/models/visual_world_model.py",
+      "source_execution_sha256": "0eb63f58be02a319921a1ecb9e57b40c23e40c43fa4b45d16457233ad8b9e812",
+      "published_sha256": "69ce598bae2b248afcb4eebcfeedf74b5cfc694d172728f514d7bf0f9cfbc462",
+      "bytes": 23410,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized",
+        "trailing whitespace and final blank lines normalized in public copy"
+      ]
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/action_fiber_probe.py",
+      "source_execution_sha256": "02103a5c0f1e77e1e1d26a07b6da8b953d1789a225f3f07c00ff9e58da20dde9",
+      "published_sha256": "02103a5c0f1e77e1e1d26a07b6da8b953d1789a225f3f07c00ff9e58da20dde9",
+      "bytes": 5972,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/action_input_revision.py",
+      "source_execution_sha256": "d47de12029e7e5a26a4e94bf4bb8e32ce7abb05813500da4d2bad5b5a2500794",
+      "published_sha256": "d47de12029e7e5a26a4e94bf4bb8e32ce7abb05813500da4d2bad5b5a2500794",
+      "bytes": 9494,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/actuator_controls.py",
+      "source_execution_sha256": "74de5bbc24987b5610bb3c810e66dbaeb8c9acded3957c7f0d3340d9d1a3d6dc",
+      "published_sha256": "74de5bbc24987b5610bb3c810e66dbaeb8c9acded3957c7f0d3340d9d1a3d6dc",
+      "bytes": 22420,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/actuator_response.py",
+      "source_execution_sha256": "166dd4018c1c4bc4ddbf2cc8e424bb7f7f68f2c2b43afc70b5961e431267978e",
+      "published_sha256": "166dd4018c1c4bc4ddbf2cc8e424bb7f7f68f2c2b43afc70b5961e431267978e",
+      "bytes": 8268,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/common_continuation.py",
+      "source_execution_sha256": "e25ede93a34edc3807153bf0e1ac5e8debe344995f58d3a118e61ffaafd071b1",
+      "published_sha256": "ac4f0d665f5565768e0c2dccaab54527ad6fb296cb3291b5961f1bf63d3d74e7",
+      "bytes": 29372,
+      "adaptations": [
+        "trailing whitespace and final blank lines normalized in public copy"
+      ]
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/completed_phase_evidence.py",
+      "source_execution_sha256": "5dd10192beee7c621e47969fbef04e65497bdadf62261e30de6616d87af6397f",
+      "published_sha256": "5dd10192beee7c621e47969fbef04e65497bdadf62261e30de6616d87af6397f",
+      "bytes": 4767,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/contact_kinematic_reference.py",
+      "source_execution_sha256": "678c69e42e76e74794ad40592ca632f53275934782280aee2ea56bab848d41ef",
+      "published_sha256": "678c69e42e76e74794ad40592ca632f53275934782280aee2ea56bab848d41ef",
+      "bytes": 23248,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/endpoint_matched_actions.py",
+      "source_execution_sha256": "90afcf4c89849b0b381ef79db73b10367e2d0fafbb3d732b3786be6bbfa02c32",
+      "published_sha256": "90afcf4c89849b0b381ef79db73b10367e2d0fafbb3d732b3786be6bbfa02c32",
+      "bytes": 10609,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/finite_task_reference.py",
+      "source_execution_sha256": "769ddf651161e9c502cb651e4ef0f2c0fb66a0fb35cae889f02444d59e052159",
+      "published_sha256": "769ddf651161e9c502cb651e4ef0f2c0fb66a0fb35cae889f02444d59e052159",
+      "bytes": 9633,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/increment_response.py",
+      "source_execution_sha256": "b32914328f212a89436900815511aabdc52b4dd6babc99a9575cc6f66243432c",
+      "published_sha256": "b32914328f212a89436900815511aabdc52b4dd6babc99a9575cc6f66243432c",
+      "bytes": 10195,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/increment_response_evaluation.py",
+      "source_execution_sha256": "f7de49ff28c02094ddb21488888760e80f01169eba2c7d1039e637e4a36953e8",
+      "published_sha256": "f7de49ff28c02094ddb21488888760e80f01169eba2c7d1039e637e4a36953e8",
+      "bytes": 4813,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/matched_feedback_forecast.py",
+      "source_execution_sha256": "2a16fbcba37dad3ee4239b8e698f33b9cf58b2bd1d48e84f4139be390d60ffda",
+      "published_sha256": "2a16fbcba37dad3ee4239b8e698f33b9cf58b2bd1d48e84f4139be390d60ffda",
+      "bytes": 36682,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/rgb_geometry_probe.py",
+      "source_execution_sha256": "53de735f5b41a38638495e586784de900d9e770fd0d01049a9bd3bd3e5d7c051",
+      "published_sha256": "53de735f5b41a38638495e586784de900d9e770fd0d01049a9bd3bd3e5d7c051",
+      "bytes": 16024,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/rgb_rigid_observer.py",
+      "source_execution_sha256": "4a127633442a664e10089fc7bfd0172fc72828a2ed3cdf74400641f40bd3e70c",
+      "published_sha256": "4a127633442a664e10089fc7bfd0172fc72828a2ed3cdf74400641f40bd3e70c",
+      "bytes": 27486,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/round6_reference.py",
+      "source_execution_sha256": "b3d9730e66f17f6a60cd74bfb1462d0763af730bc020a5ebddac5b0c04600699",
+      "published_sha256": "b3d9730e66f17f6a60cd74bfb1462d0763af730bc020a5ebddac5b0c04600699",
+      "bytes": 35545,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/shadow_selection_audit.py",
+      "source_execution_sha256": "9b6294bbde2bcff0cfd8f03023ea2ae54c1427173c5de4aeb34905625b205ff0",
+      "published_sha256": "9b6294bbde2bcff0cfd8f03023ea2ae54c1427173c5de4aeb34905625b205ff0",
+      "bytes": 42773,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/reframe_v3/visual_innovation.py",
+      "source_execution_sha256": "16c23ea07757752ea5cfba37c6b3376e01a32878aec9360dfd4b6cbd6f272458",
+      "published_sha256": "16c23ea07757752ea5cfba37c6b3376e01a32878aec9360dfd4b6cbd6f272458",
+      "bytes": 11493,
+      "adaptations": []
+    },
+    {
+      "path": "runtime_snapshot/research/replay_oracle.py",
+      "source_execution_sha256": "c9c29079a0195b510c771329dbf93ea137d041d1fae4ad2f624f394c30b1a991",
+      "published_sha256": "c9c29079a0195b510c771329dbf93ea137d041d1fae4ad2f624f394c30b1a991",
+      "bytes": 13019,
+      "adaptations": []
+    },
+    {
+      "path": "shared_response_formation_20260928/CHECKS.json",
+      "source_execution_sha256": "88f19da1dfc49f521738a76fd8dfb5ab7cdfd387eae3a143292c9ac284c4426e",
+      "published_sha256": "0df3d58c0f857ff7542c84a6a50354bae85ec0f42382b491bde8cf1cae19af25",
+      "bytes": 1075,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/COST_DRIFT_SENSITIVITY.json",
+      "source_execution_sha256": "019762ebddbe9f31006065ecf02236e3fdb0813a191225431a6f0b21c1d1257d",
+      "published_sha256": "e55fc9acfeeb889184dcca39ae3c452a88d203494c707709e36390792c48cb55",
+      "bytes": 59252,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/DATA_AUDIT.json",
+      "source_execution_sha256": "07eab258efe56e0af277800e87abf782ed2fd75c8f4a14c24af0f7cb19943b7f",
+      "published_sha256": "5f1296541c0bae2800e4c27fe8deb91363db6bcaea09d83474bc5fe60c3f2ba7",
+      "bytes": 690,
+      "adaptations": [
+        "raw scene paths, headers and sample hashes omitted"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/DATA_AUDIT.md",
+      "source_execution_sha256": "4b41cb879d7429996f08e2c1cb760f6d16cc2b16892841152ea5ea3873170843",
+      "published_sha256": "d87f42ad09b5d920235f28021c694d327820078f709164d1bc1121166cced5f7",
+      "bytes": 1017,
+      "adaptations": [
+        "public aggregate-only summary"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/FINAL_METRICS.json",
+      "source_execution_sha256": "683d6fc02ef6e92e831f138c722bf17bcc07c90eea2c64ce09ca0f4d8fadae31",
+      "published_sha256": "696568a8b35b723f797e3435f30a8ffbc020e43e30781f9056fbfe4e7af781bd",
+      "bytes": 24644,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/FIT_INFO.json",
+      "source_execution_sha256": "58d7577c8169dbabe19a03c1252e91e8376b4698a43988d6531f51f2a2a719b5",
+      "published_sha256": "28a249ab45e612ec5223c9f753411f6a1c905dc97fd8d07a0ec9aee6ce525b62",
+      "bytes": 1571,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/INTEGRITY_COUNTS.json",
+      "source_execution_sha256": "7cb448fb3495eb61e6fb2c88544eeef2ebef867e5a702a89948bae99cb1db297",
+      "published_sha256": "2209be724016a7ab561edf73c6d6433650ca0009f30c5dc6f19a9ffbbf28b67c",
+      "bytes": 3894,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/INTEGRITY_REVIEW.md",
+      "source_execution_sha256": "b4c4e9ac7e9952312a6f4b2611a63fe7e50549cecbb9b43aaa68d7339cfe1fa1",
+      "published_sha256": "d0bf42958dae0ba06c13a19efb056a7e9f5eab995259e5ec22f9aeb87cfe8b02",
+      "bytes": 11182,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/INTEGRITY_SCORE_CHECKS.json",
+      "source_execution_sha256": "d80a28b7f93d3adac425137ce997304b50162795746c01735b27a15dde19f8f9",
+      "published_sha256": "f752abff9a180fe18e99849bc705cb5fb1116c9fff38b3cb8f197938809ee5a1",
+      "bytes": 1337,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/OPERATOR_CHECKS.json",
+      "source_execution_sha256": "f65845e6a43797caff2292205bbb9571fbf622a7558f75663d2fe3f149e719ad",
+      "published_sha256": "ce482657114e4169a2270c9a2733c62d2d05c937c862dd50b8c75ae3db51f35d",
+      "bytes": 4398,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/PREPARE.json",
+      "source_execution_sha256": "f2b0335e409f0bdfb6c4a2e544dbcfed8f29e879f20a65e9baabcbe1002119aa",
+      "published_sha256": "ed0fd29009744b9f76ba21ef8bca9c78152fb56da77150907abffb3248347f35",
+      "bytes": 622,
+      "adaptations": [
+        "input manifest omitted"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/PRIORS.json",
+      "source_execution_sha256": "b681e299566d69510623d3b4a0fc21af2e3c3c599ab7281c2bc97e704afe7ebc",
+      "published_sha256": "609c5e8b610eb93733d98e2afb41bf94dc522ade5e4adac33d7aaf1e3ec17572",
+      "bytes": 2933,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/PROTOCOL_REVIEW.md",
+      "source_execution_sha256": "1714c2103ee26ff4b76a5fb1e4f0404cc1f4c05b31be4bb4ffc6d4c84111e03e",
+      "published_sha256": "6dd207dcf3a429af820d8a26aaeb844f0a30b98cea3758816519f198a67b370b",
+      "bytes": 17494,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/REPORT.md",
+      "source_execution_sha256": "c881c1e0411617cd2f26b07ca234d7b1bcb82d1330908d0a0caaadcc525426f9",
+      "published_sha256": "e5aa2ff1f755644393c3a3dbe14e44ee8c8b938e747d264cb7ba52b201876fa1",
+      "bytes": 14304,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/RUN_PROTOCOL.md",
+      "source_execution_sha256": "bf8a0daf93ca416ae80d958536f745749ec7d5c5266c0de67e0554c6644ee880",
+      "published_sha256": "bf8a0daf93ca416ae80d958536f745749ec7d5c5266c0de67e0554c6644ee880",
+      "bytes": 4250,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/SEALED.json",
+      "source_execution_sha256": "f1b23145e42e8d5f6a62d67beb2e4cd6cb4d7a414faac76dcb0942194cd58a8c",
+      "published_sha256": "ab60950c6b2cde197f658e0f18f388f8aab7312084d1507d1c00238ddee4fe44",
+      "bytes": 9634,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/TRAINING.json",
+      "source_execution_sha256": "4b95fa87a92ae46ef4554403b5bf138b7e9045f47379b7bf0688526a289f639e",
+      "published_sha256": "6919ff175c9321e773d196fdfc2667df6d9a48b4cdf618511a3e06497058dc82",
+      "bytes": 36331,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/audit_data.py",
+      "source_execution_sha256": "c26c9a2bb6e30df7acf11b0f28e641926f56fce31d1d5812b97566c4de8d561d",
+      "published_sha256": "c26c9a2bb6e30df7acf11b0f28e641926f56fce31d1d5812b97566c4de8d561d",
+      "bytes": 4961,
+      "adaptations": []
+    },
+    {
+      "path": "shared_response_formation_20260928/formation.py",
+      "source_execution_sha256": "d0e4312a2ec4ab8d055c5a35ad95f84d159f01c439f6791858175aca1eadf8e0",
+      "published_sha256": "d0e4312a2ec4ab8d055c5a35ad95f84d159f01c439f6791858175aca1eadf8e0",
+      "bytes": 23350,
+      "adaptations": []
+    },
+    {
+      "path": "shared_response_formation_20260928/review_cost_drift_cpu.py",
+      "source_execution_sha256": "eec9ee4d102f1e55ad8d54856fecfd64c71f13d228a1c2c92c3311c24c69d95b",
+      "published_sha256": "eec9ee4d102f1e55ad8d54856fecfd64c71f13d228a1c2c92c3311c24c69d95b",
+      "bytes": 5237,
+      "adaptations": []
+    },
+    {
+      "path": "shared_response_formation_20260928/review_prepared_cpu.py",
+      "source_execution_sha256": "9f652564af4ee5836f061053da3173e762c38fe1eb917b302c844bee1787ec09",
+      "published_sha256": "9f652564af4ee5836f061053da3173e762c38fe1eb917b302c844bee1787ec09",
+      "bytes": 2281,
+      "adaptations": []
+    },
+    {
+      "path": "shared_response_formation_20260928/review_score_cpu.py",
+      "source_execution_sha256": "4ed849b5cb4b227bd3533a183013f2a57814915bdb8ff2de60da8a92b052c980",
+      "published_sha256": "4ed849b5cb4b227bd3533a183013f2a57814915bdb8ff2de60da8a92b052c980",
+      "bytes": 6651,
+      "adaptations": []
+    },
+    {
+      "path": "shared_response_formation_20260928/score_formation.py",
+      "source_execution_sha256": "4e8cb3ab2627468593c9d0f09fb72ca8780195681ee7bdce15ba08314a5a0f55",
+      "published_sha256": "4e8cb3ab2627468593c9d0f09fb72ca8780195681ee7bdce15ba08314a5a0f55",
+      "bytes": 16539,
+      "adaptations": []
+    },
+    {
+      "path": "shared_response_formation_20260928/score_formation_executed.py",
+      "source_execution_sha256": "60dc7417f7ea0aad9dc5fa26a1066a75ca759d44c04e44cc15374d0363cbc78c",
+      "published_sha256": "60dc7417f7ea0aad9dc5fa26a1066a75ca759d44c04e44cc15374d0363cbc78c",
+      "bytes": 16119,
+      "adaptations": []
+    },
+    {
+      "path": "shared_response_formation_20260928/scored/ERRORS.csv",
+      "source_execution_sha256": "5efe3694c98683508639d68a062279ac667edc9536e73e656c1663cceaed1503",
+      "published_sha256": "732e26dff2f0a0197013c21a2f5ca00d65d3b3ecb6ba55b446b1dabc9b683a45",
+      "bytes": 87101,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored/PAIRS.csv",
+      "source_execution_sha256": "30ffda3c16ad77b1dcf1071de0f9ee5bdfbf7a5a606215ca24c69cad678a845b",
+      "published_sha256": "f4faf43d06f97d3a32b94a07afa2b8c980b4b14130f702e5a46cfd28b4e3bd6d",
+      "bytes": 104831,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored/PROVENANCE.json",
+      "source_execution_sha256": "9dae37bd54cac766b7c3cc61c66cfb439027f7b519192edc785d6bd42f583439",
+      "published_sha256": "4eb40cb95d0ceff82acdd7f505584a2c072049a96b87f7f31dd47de4b8662435",
+      "bytes": 281,
+      "adaptations": [
+        "raw scene provenance omitted"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored/REPLAY.csv",
+      "source_execution_sha256": "11116ad37ecd80d4d38f1085aee580b54199940bcb613499dfe7b93682c49b3e",
+      "published_sha256": "1c64a41499a71a5ff42a1f15bc35917ebedbd0e8d68b9ae9c4de7fb040831b0d",
+      "bytes": 15082,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored/RESULTS.json",
+      "source_execution_sha256": "57d8049628f8b4b5d04fec82e6a1f711fa488d77cb713db8cd606c565ec6cd05",
+      "published_sha256": "61605d390b07e6c53e57d895bc934ea6ce72b9203c2a3c32c618192103fae007",
+      "bytes": 25452,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored/SELECTION.csv",
+      "source_execution_sha256": "8811af3d940c6165175fac071ec660849a0a4240e8232c5f0841190e3352eb63",
+      "published_sha256": "34d09da3f14bb766196bcb851ae30c33f41894c60ccacd4a86e5bd7a5a7bf13b",
+      "bytes": 2918,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored/SUMMARY.csv",
+      "source_execution_sha256": "b6a38e3ee0a958f8c2dcc7f94a1a3d1a666b3c7f46bfd3c075d62e063fc65d23",
+      "published_sha256": "be5db1262cc219cb3f15fbf9779a5a2a8ec1509c07565f54aa6ae7e5ae6f02e0",
+      "bytes": 7184,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored_verified/ERRORS.csv",
+      "source_execution_sha256": "d18e3ff3e63507e5080bf0e64b923c58a8ff84a98bdafbb882ed092a5efce0f2",
+      "published_sha256": "13b83bb402c696b83c278c7cdf66315f02d7f2e3f8e201593cb5e00c8ebdc258",
+      "bytes": 87100,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored_verified/PAIRS.csv",
+      "source_execution_sha256": "30ffda3c16ad77b1dcf1071de0f9ee5bdfbf7a5a606215ca24c69cad678a845b",
+      "published_sha256": "f4faf43d06f97d3a32b94a07afa2b8c980b4b14130f702e5a46cfd28b4e3bd6d",
+      "bytes": 104831,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored_verified/PROVENANCE.json",
+      "source_execution_sha256": "9e9ab652a7477f0efa860970f7a8c1d83a222f10ee9f5db44024842bac926a6c",
+      "published_sha256": "9d935144385f9f6ab2708521f72517aee061996735042a3350e6519ce55356b9",
+      "bytes": 281,
+      "adaptations": [
+        "raw scene provenance omitted"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored_verified/REPLAY.csv",
+      "source_execution_sha256": "11116ad37ecd80d4d38f1085aee580b54199940bcb613499dfe7b93682c49b3e",
+      "published_sha256": "1c64a41499a71a5ff42a1f15bc35917ebedbd0e8d68b9ae9c4de7fb040831b0d",
+      "bytes": 15082,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored_verified/RESULTS.json",
+      "source_execution_sha256": "45829a0dab5cdbb7b8cf69a9ff216df8897e691d60a8efb25c4d9820f17ad03a",
+      "published_sha256": "b65258d0658c164c81663c61e547bccf75a400f76e2b0d0f397f655806b8cb42",
+      "bytes": 25461,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored_verified/SELECTION.csv",
+      "source_execution_sha256": "8811af3d940c6165175fac071ec660849a0a4240e8232c5f0841190e3352eb63",
+      "published_sha256": "34d09da3f14bb766196bcb851ae30c33f41894c60ccacd4a86e5bd7a5a7bf13b",
+      "bytes": 2918,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/scored_verified/SUMMARY.csv",
+      "source_execution_sha256": "8e5c36e90867530ca428ec5dd60f76f6a9f255c31ad8a111e24fb8df82cb3c57",
+      "published_sha256": "868e8b4d549e1977aa19e4ec98c5cf7649d77f8bf3c2e1eeff68f8c692b5ce8f",
+      "bytes": 7183,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_formation_20260928/summarize.py",
+      "source_execution_sha256": "375bad94eb5bf1b7f6abbe7eaa796db939d1c887902445c32aeb0eaec9f8043e",
+      "published_sha256": "375bad94eb5bf1b7f6abbe7eaa796db939d1c887902445c32aeb0eaec9f8043e",
+      "bytes": 7460,
+      "adaptations": []
+    },
+    {
+      "path": "shared_response_formation_20260928/verify_operator.py",
+      "source_execution_sha256": "f03bed76eec0ec7b694db7131e3f0a75b1c4659abff019b7658fef21ea6c4b82",
+      "published_sha256": "f03bed76eec0ec7b694db7131e3f0a75b1c4659abff019b7658fef21ea6c4b82",
+      "bytes": 3623,
+      "adaptations": []
+    },
+    {
+      "path": "shared_response_inverse_analysis_20260928/MATH_CHECK.json",
+      "source_execution_sha256": "d27270c40298adda1e2bc3c5f3ee7e7cab1925e379211ccbc55dbbb260edf7d3",
+      "published_sha256": "c06c3888e232e7e6d7f81282357878563b4a506b287aa5cc8584ec7cbf11bdd2",
+      "bytes": 3287,
+      "adaptations": [
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_inverse_analysis_20260928/MATH_REVIEW.md",
+      "source_execution_sha256": "9273999807d00e98987d7ea939db1f4c329237d26bf6ae17c88e0164568a766f",
+      "published_sha256": "b69160ed55222e1db138f66b3d6ee1ac73497e43a7a4477d7bfc8c845f5141da",
+      "bytes": 9827,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "shared_response_inverse_analysis_20260928/PRIOR_REVIEW.md",
+      "source_execution_sha256": "b356f3491e52c8c8fcacff3bed84a0a29bc008a080d305df2287eb3848cf67e5",
+      "published_sha256": "03dd608527250104aa1720e33512b3d590b9289a0e99393effc3287dabb7b09c",
+      "bytes": 9758,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked",
+        "public links, environment paths, scope notes and/or LF line endings finalized"
+      ]
+    },
+    {
+      "path": "shared_response_inverse_analysis_20260928/REPORT.md",
+      "source_execution_sha256": "6add87e7a6d312a5f80ad5f25235e0cf9026a2195e91d69714ffcec171760982",
+      "published_sha256": "c55056afc6a0e91d6786b8898f85a8870a8f1e2f58654509b9e52719b358d533",
+      "bytes": 18593,
+      "adaptations": [
+        "local links adapted; unavailable artifacts explicitly marked"
+      ]
+    },
+    {
+      "path": "shared_response_inverse_analysis_20260928/math_check.py",
+      "source_execution_sha256": "51582294d31245e9e70072a9da51b0ca2a89a222053357863492c04590c5174a",
+      "published_sha256": "51582294d31245e9e70072a9da51b0ca2a89a222053357863492c04590c5174a",
+      "bytes": 5192,
+      "adaptations": []
+    }
+  ],
+  "excluded": [
+    "all weights and tensor caches",
+    "all images and PDFs",
+    "raw scenes and trajectories",
+    "GEOMETRY.csv coordinate trajectories",
+    "third-party paper full text",
+    "logs and Python caches"
+  ],
+  "hash_note": "Execution-source and publication-copy SHA256 are separate. Historical report hashes describe original executions, not rewritten public copies."
+}

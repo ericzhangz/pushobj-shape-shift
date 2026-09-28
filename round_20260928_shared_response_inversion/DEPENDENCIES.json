@@ -1,0 +1,111 @@
+{
+  "base_commit": "94fb16376261f204320fcc0aff5028e9dfff8e93",
+  "dependencies": [
+    {
+      "path": "models/visual_world_model.py",
+      "source_sha256": "0eb63f58be02a319921a1ecb9e57b40c23e40c43fa4b45d16457233ad8b9e812",
+      "same_as_base": false
+    },
+    {
+      "path": "planning/adajepa.py",
+      "source_sha256": "2cd837bd9dda13da717a7dbe38ccb1ea01fa30c332dd6697bece5aa812d0a206",
+      "same_as_base": true
+    },
+    {
+      "path": "research/contrast_probe.py",
+      "source_sha256": "78cd22aa2d0eef4bccb3c380ae04eeddd3685b91a8e59832f95ed7770ab6940f",
+      "same_as_base": true
+    },
+    {
+      "path": "research/reframe_v3/action_fiber_probe.py",
+      "source_sha256": "02103a5c0f1e77e1e1d26a07b6da8b953d1789a225f3f07c00ff9e58da20dde9",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/action_input_revision.py",
+      "source_sha256": "d47de12029e7e5a26a4e94bf4bb8e32ce7abb05813500da4d2bad5b5a2500794",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/actuator_controls.py",
+      "source_sha256": "74de5bbc24987b5610bb3c810e66dbaeb8c9acded3957c7f0d3340d9d1a3d6dc",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/actuator_response.py",
+      "source_sha256": "166dd4018c1c4bc4ddbf2cc8e424bb7f7f68f2c2b43afc70b5961e431267978e",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/common_continuation.py",
+      "source_sha256": "e25ede93a34edc3807153bf0e1ac5e8debe344995f58d3a118e61ffaafd071b1",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/completed_phase_evidence.py",
+      "source_sha256": "5dd10192beee7c621e47969fbef04e65497bdadf62261e30de6616d87af6397f",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/contact_kinematic_reference.py",
+      "source_sha256": "678c69e42e76e74794ad40592ca632f53275934782280aee2ea56bab848d41ef",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/endpoint_matched_actions.py",
+      "source_sha256": "90afcf4c89849b0b381ef79db73b10367e2d0fafbb3d732b3786be6bbfa02c32",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/finite_task_reference.py",
+      "source_sha256": "769ddf651161e9c502cb651e4ef0f2c0fb66a0fb35cae889f02444d59e052159",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/increment_response.py",
+      "source_sha256": "b32914328f212a89436900815511aabdc52b4dd6babc99a9575cc6f66243432c",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/increment_response_evaluation.py",
+      "source_sha256": "f7de49ff28c02094ddb21488888760e80f01169eba2c7d1039e637e4a36953e8",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/matched_feedback_forecast.py",
+      "source_sha256": "2a16fbcba37dad3ee4239b8e698f33b9cf58b2bd1d48e84f4139be390d60ffda",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/rgb_geometry_probe.py",
+      "source_sha256": "53de735f5b41a38638495e586784de900d9e770fd0d01049a9bd3bd3e5d7c051",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/rgb_rigid_observer.py",
+      "source_sha256": "4a127633442a664e10089fc7bfd0172fc72828a2ed3cdf74400641f40bd3e70c",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/round6_reference.py",
+      "source_sha256": "b3d9730e66f17f6a60cd74bfb1462d0763af730bc020a5ebddac5b0c04600699",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/shadow_selection_audit.py",
+      "source_sha256": "9b6294bbde2bcff0cfd8f03023ea2ae54c1427173c5de4aeb34905625b205ff0",
+      "same_as_base": false
+    },
+    {
+      "path": "research/reframe_v3/visual_innovation.py",
+      "source_sha256": "16c23ea07757752ea5cfba37c6b3376e01a32878aec9360dfd4b6cbd6f272458",
+      "same_as_base": false
+    },
+    {
+      "path": "research/replay_oracle.py",
+      "source_sha256": "c9c29079a0195b510c771329dbf93ea137d041d1fae4ad2f624f394c30b1a991",
+      "same_as_base": false
+    }
+  ],
+  "snapshot_policy": "Only differing/new source files; no environment/scenario assets."
+}

@@ -1,0 +1,166 @@
+{
+  "checks": [
+    {
+      "case": "T0",
+      "feedback_jac_relative_error": 1.0002247563534183e-06,
+      "ridge_joint_before": 4.615276336669922,
+      "ridge_joint_after": 3.1637914180755615,
+      "prefix_max_abs": {
+        "PRIOR": 0.0,
+        "STEP_RIDGE": 0.0,
+        "DIRECT": 0.0,
+        "SOURCE_MU1": 0.0,
+        "SOURCE_MU10": 0.0
+      },
+      "support": {
+        "PRIOR": {
+          "hard_objective": 7.7652974128723145,
+          "mse": 0.010111064339677492
+        },
+        "STEP_RIDGE": {
+          "hard_objective": 4.184086799621582,
+          "mse": 0.004342457590003808
+        },
+        "DIRECT": {
+          "hard_objective": 3.2697017192840576,
+          "mse": 0.0027030600855747857
+        },
+        "SOURCE_MU1": {
+          "hard_objective": 4.526179313659668,
+          "mse": 0.0053976792842149734
+        },
+        "SOURCE_MU10": {
+          "hard_objective": 3.423953056335449,
+          "mse": 0.00346504058688879
+        },
+        "NATIVE": {
+          "mse": 0.006061241030693054
+        }
+      }
+    },
+    {
+      "case": "T1",
+      "feedback_jac_relative_error": 8.932419177654083e-07,
+      "ridge_joint_before": 23.986709594726562,
+      "ridge_joint_after": 18.416786193847656,
+      "prefix_max_abs": {
+        "PRIOR": 0.0,
+        "STEP_RIDGE": 0.0,
+        "DIRECT": 0.0,
+        "SOURCE_MU1": 0.0,
+        "SOURCE_MU10": 0.0
+      },
+      "support": {
+        "PRIOR": {
+          "hard_objective": 30.04585075378418,
+          "mse": 0.03912220150232315
+        },
+        "STEP_RIDGE": {
+          "hard_objective": 18.739999771118164,
+          "mse": 0.019980601966381073
+        },
+        "DIRECT": {
+          "hard_objective": 16.17237091064453,
+          "mse": 0.014414074520270029
+        },
+        "SOURCE_MU1": {
+          "hard_objective": 19.237672805786133,
+          "mse": 0.022871673107147217
+        },
+        "SOURCE_MU10": {
+          "hard_objective": 16.673925399780273,
+          "mse": 0.01754538466533025
+        },
+        "NATIVE": {
+          "mse": 0.04599799960851669
+        }
+      }
+    },
+    {
+      "case": "L0",
+      "feedback_jac_relative_error": 1.2271915466044447e-06,
+      "ridge_joint_before": 2.6482608318328857,
+      "ridge_joint_after": 2.0185775756835938,
+      "prefix_max_abs": {
+        "PRIOR": 0.0,
+        "STEP_RIDGE": 0.0,
+        "DIRECT": 0.0,
+        "SOURCE_MU1": 0.0,
+        "SOURCE_MU10": 0.0
+      },
+      "support": {
+        "PRIOR": {
+          "hard_objective": 2.7057106494903564,
+          "mse": 0.0035230607415239015
+        },
+        "STEP_RIDGE": {
+          "hard_objective": 1.956998348236084,
+          "mse": 0.0020248517394065857
+        },
+        "DIRECT": {
+          "hard_objective": 1.9207468032836914,
+          "mse": 0.001889128548403581
+        },
+        "SOURCE_MU1": {
+          "hard_objective": 2.059828996658325,
+          "mse": 0.002469115580121676
+        },
+        "SOURCE_MU10": {
+          "hard_objective": 1.9461450576782227,
+          "mse": 0.0021227579563856125
+        },
+        "NATIVE": {
+          "mse": 0.005142921581864357
+        }
+      }
+    },
+    {
+      "case": "L1",
+      "feedback_jac_relative_error": 1.6956880699581234e-06,
+      "ridge_joint_before": 14.442532539367676,
+      "ridge_joint_after": 8.703985214233398,
+      "prefix_max_abs": {
+        "PRIOR": 0.0,
+        "STEP_RIDGE": 0.0,
+        "DIRECT": 0.0,
+        "SOURCE_MU1": 0.0,
+        "SOURCE_MU10": 0.0
+      },
+      "support": {
+        "PRIOR": {
+          "hard_objective": 52.97254180908203,
+          "mse": 0.06897466381390889
+        },
+        "STEP_RIDGE": {
+          "hard_objective": 19.83804702758789,
+          "mse": 0.021821603178977966
+        },
+        "DIRECT": {
+          "hard_objective": 9.36766242980957,
+          "mse": 0.005969124535719554
+        },
+        "SOURCE_MU1": {
+          "hard_objective": 23.53285789489746,
+          "mse": 0.02907137821118037
+        },
+        "SOURCE_MU10": {
+          "hard_objective": 10.496196746826172,
+          "mse": 0.009763342638810476
+        },
+        "NATIVE": {
+          "mse": 0.05282990261912346
+        }
+      }
+    }
+  ],
+  "counts": {
+    "post_run_operator_checks": {
+      "forward_calls": 184,
+      "batch_transitions": 184,
+      "vjp_seed_vectors": 0,
+      "backward_calls": 0
+    }
+  },
+  "new_training_steps": 0,
+  "environment_calls": 0
+}

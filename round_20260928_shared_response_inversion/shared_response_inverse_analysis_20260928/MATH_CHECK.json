@@ -1,0 +1,141 @@
+{
+  "seed": 20260928,
+  "model_calls": 0,
+  "environment_calls": 0,
+  "profile_identity_trials": 128,
+  "max_profile_identity_absolute_error": 7.37188088351104e-14,
+  "scalar_relaxation": [
+    {
+      "mu": 0.01,
+      "w_aux": 0.9901960784313725,
+      "theta_deploy": 0.00980392156862745,
+      "auxiliary_data_mse": 9.611687812380003e-05,
+      "deployed_data_mse": 0.980488273740869,
+      "penalized_objective": 0.00980392156862745
+    },
+    {
+      "mu": 0.1,
+      "w_aux": 0.9166666666666665,
+      "theta_deploy": 0.08333333333333333,
+      "auxiliary_data_mse": 0.006944444444444469,
+      "deployed_data_mse": 0.8402777777777777,
+      "penalized_objective": 0.08333333333333333
+    },
+    {
+      "mu": 1.0,
+      "w_aux": 0.6666666666666666,
+      "theta_deploy": 0.3333333333333333,
+      "auxiliary_data_mse": 0.11111111111111113,
+      "deployed_data_mse": 0.44444444444444453,
+      "penalized_objective": 0.33333333333333337
+    },
+    {
+      "mu": 10.0,
+      "w_aux": 0.5238095238095241,
+      "theta_deploy": 0.47619047619047644,
+      "auxiliary_data_mse": 0.22675736961451223,
+      "deployed_data_mse": 0.27437641723355977,
+      "penalized_objective": 0.47619047619047616
+    },
+    {
+      "mu": 100.0,
+      "w_aux": 0.5024875621890554,
+      "theta_deploy": 0.49751243781094595,
+      "auxiliary_data_mse": 0.24751862577658898,
+      "deployed_data_mse": 0.2524937501546985,
+      "penalized_objective": 0.4975124378109453
+    }
+  ],
+  "hard_deployment_scalar_optimum": {
+    "theta": 0.5,
+    "deployed_data_mse": 0.25,
+    "objective": 0.5
+  },
+  "homogeneous_response_counterexample": [
+    {
+      "theta": 0.0,
+      "w_aux": [
+        0.0,
+        0.5
+      ],
+      "w_deploy": [
+        0.0,
+        0.0
+      ],
+      "profile_loss": 0.5,
+      "deployed_data_mse": 1.0,
+      "condition_number_A": 1.0
+    },
+    {
+      "theta": 1.0,
+      "w_aux": [
+        0.19999999999999998,
+        0.6
+      ],
+      "w_deploy": [
+        0.0,
+        0.0
+      ],
+      "profile_loss": 0.4,
+      "deployed_data_mse": 1.0,
+      "condition_number_A": 2.6180339887498953
+    },
+    {
+      "theta": 10.0,
+      "w_aux": [
+        0.09615384615384616,
+        0.9807692307692308
+      ],
+      "w_deploy": [
+        0.0,
+        0.0
+      ],
+      "profile_loss": 0.019230769230769232,
+      "deployed_data_mse": 1.0,
+      "condition_number_A": 101.99019513592789
+    },
+    {
+      "theta": 100.0,
+      "w_aux": [
+        0.009996001599360255,
+        0.9998000799680127
+      ],
+      "w_deploy": [
+        0.0,
+        0.0
+      ],
+      "profile_loss": 0.00019992003198720512,
+      "deployed_data_mse": 1.0,
+      "condition_number_A": 10001.999900020146
+    }
+  ],
+  "unit_triangular_inversion_trials": 32,
+  "max_source_recovery_error": 1.1102230246251565e-15,
+  "nonlinear_identifiability_counterexample": {
+    "support_map": "F_D(theta)=theta[0]",
+    "query_map": "F_U(theta)=theta[0]+theta[1]^2",
+    "reference_theta": [
+      0.0,
+      0.0
+    ],
+    "S_D": [
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "L_U": [
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "theta_alternative": [
+      0.0,
+      0.1
+    ],
+    "same_support_output": 0.0,
+    "different_query_output": 0.01,
+    "first_order_kernel_inclusion": true
+  }
+}

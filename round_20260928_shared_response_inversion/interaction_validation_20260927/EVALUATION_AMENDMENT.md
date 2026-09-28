@@ -1,0 +1,5 @@
+# Evaluation entrance failure and correction
+
+The first scoring attempt failed on `assert isinstance(model.proprio_encoder.norm, nn.Identity)` before opening ORACLE_COSTS or branch outcomes. The checkpoint contains a non-Identity norm despite hydra.yaml specifying false. Thus the optional affine physical-proprio inverse proposed in PROPRIO_READOUT_NOTE.md is not justified. The original script and log are retained as `score_interaction_probe_initial.py` / `score_initial.log`; the empty `evaluation/` is retained.
+
+Remove that optional inverse and all quantities derived from it. Do not manufacture physical coordinates from normalized embeddings. Continue the original RGB/decoder geometry diagnostic and native latent cost evaluation, in `evaluation_scored/`. This is an explicit reduction of an unsupported auxiliary diagnostic, not a replacement readout claimed to pass. All native predictions and their manifest remain unchanged. No scoring result or query truth was consulted before this correction. Self-motion geometric errors, where measurable, come from the pre-existing RGB pusher readout with its measured reconstruction error.

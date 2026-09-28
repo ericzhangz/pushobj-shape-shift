@@ -9,8 +9,11 @@
 | [Round 4](round_4_effect_geometry/) | 作用几何及处理接口实验 |
 | [Round 5](round_5_b1_task_error_attribution/) | B1 factual 更新与任务选择误差归因 |
 | [2026-09-26：共同作用形成参照](round_20260926_controlled_generator_formation/) | F0 粗边界匹配、前半经历修订与留后、零训练归因 |
+| [2026-09-28：共享响应规律反演](round_20260928_shared_response_inversion/) | 前期过程记录、数学分析、原生形成验证、核心代码与数值审计；不含图、权重和场景 |
 
-本轮的两个独立入口：
+最新发布：[共享响应规律反演总览](round_20260928_shared_response_inversion/README.md)。
+
+2026-09-26 的两个独立入口：
 
 - [实验结果与原始数值](round_20260926_controlled_generator_formation/results/README.md)
 - [实验分析与研究裁定](round_20260926_controlled_generator_formation/reports/REPORT.md)

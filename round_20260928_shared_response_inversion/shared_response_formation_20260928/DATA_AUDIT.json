@@ -1,0 +1,25 @@
+{
+  "publication": "Aggregate audit only; raw scene inventory omitted.",
+  "contract": {
+    "model_calls": 0,
+    "environment_calls": 0,
+    "training_steps": 0,
+    "outcome_payload_read": false,
+    "query_anchor": "mpc4, frame20, 2s",
+    "legal_support": "sample0/1 executed chunks0..3 only"
+  },
+  "offline_episodes": 20,
+  "offline_chunks": 97,
+  "offline_frames": 505,
+  "full_history_windows": {
+    "H1": 205,
+    "H2": 109,
+    "H3": 18
+  },
+  "online_cases": 4,
+  "support_frames": 84,
+  "support_micro_transitions": 80,
+  "support_targets_per_case": 2,
+  "query_candidates": 32,
+  "source_execution_sha256": "07eab258efe56e0af277800e87abf782ed2fd75c8f4a14c24af0f7cb19943b7f"
+}
